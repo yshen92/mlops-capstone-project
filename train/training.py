@@ -13,7 +13,18 @@ from mlflow.entities import ViewType
 import optuna
 from optuna.integration.mlflow import MLflowCallback
 
-MLFLOW_TRACKING_URI = "http://xxxxx:5000/" ## temp to take from ENV
+from prefect import flow, task
+
+# TODO: Move to README
+# Steps
+# 1. Start EC2, clear off db and s3 artifacts if needed
+# 2. Run mlflow server on EC2
+# 3. Run training.py
+
+# TODO:
+# Prefect set params
+
+MLFLOW_TRACKING_URI = "http://xx.xxx.xxx.xx:5000/" ## temp to take from ENV
 MLFLOW_EXPERIMENT_NAME = "spam-detection-experiment"
 client = MlflowClient(MLFLOW_TRACKING_URI)
 
@@ -25,6 +36,7 @@ except:
     experiment_id = mlflow.get_experiment_by_name(MLFLOW_EXPERIMENT_NAME).experiment_id
 mlflow.set_experiment(experiment_id=experiment_id)
 
+@task(name="Get spam training and testing datasets")
 def get_data():
     '''
     Loads the dataset from the Deysi/spam-detection-dataset.
@@ -45,28 +57,26 @@ def get_data():
 
     return train_df, test_df
 
-
+@task(name="Save spam training and testing datasets to local")
 def save_data(train_df, test_df):
     train_df.to_csv('dataset/train_df.csv', index=False)
     test_df.to_csv('dataset/test_df.csv', index=False)
 
-
+@task(name="Load sentence transformer")
 def load_preprocessor(device='cpu'):
     return SentenceTransformer('all-mpnet-base-v2', device=device)
 
-
-def embed_text(df):
-    sentence_model = load_preprocessor('cuda')
-
+@task(task_run_name="Embedding {embed_type} data")
+def embed_text(df, sentence_model, embed_type='train'):
     embeddings = sentence_model.encode(df['text'].values, show_progress_bar=False, batch_size=32)
 
     return embeddings
 
-
+@task(task_run_name="Saving {embed_type} embeddings to local")
 def save_embeddings(embeddings, embed_type='train'):
     dump(embeddings, f'embeddings/{embed_type}_embeddings.joblib')
 
-
+@task(log_prints=True, name="Model hyperparameter tuning")
 def hyperparameter_tuning(train_embeddings_df, test_embeddings_df):
     def objective(trial):
         rf_max_depth = trial.suggest_int("rf_max_depth", 2, 32, log=True)
@@ -89,6 +99,7 @@ def hyperparameter_tuning(train_embeddings_df, test_embeddings_df):
 
     return study
 
+@task(name="Get best experiment run")
 def find_best_run(study):
     spam_detection_experiment=dict(mlflow.get_experiment_by_name(MLFLOW_EXPERIMENT_NAME))
     experiment_id=spam_detection_experiment['experiment_id']
@@ -104,7 +115,7 @@ def find_best_run(study):
 
     return best_run
 
-
+@task(name="Train the best model")
 def train_best_model(best_run, train_embeddings_df, test_embeddings_df):
     with mlflow.start_run():
         best_max_depth = int(best_run['params.rf_max_depth'].values[0])
@@ -125,6 +136,7 @@ def train_best_model(best_run, train_embeddings_df, test_embeddings_df):
 
     return model_info
 
+@task(log_prints=True, name="Productionize the model")
 def stage_model(model_info):
     trained_model_run_id = model_info.run_id
 
@@ -191,14 +203,17 @@ def stage_model(model_info):
             )
             print( f'Archived version {trained_model_version.version} of spam-detector model.')
 
+@flow(name="Spam Detector Capstone")
 def main():
     train_df, test_df = get_data()
     save_data(train_df, test_df)
 
-    train_embeddings = embed_text(train_df)
-    test_embeddings = embed_text(test_df)
+    sentence_model = load_preprocessor('cuda')
 
-    save_embeddings(train_embeddings)
+    train_embeddings = embed_text(train_df, sentence_model, embed_type='training')
+    test_embeddings = embed_text(test_df, sentence_model, embed_type='testing')
+
+    save_embeddings(train_embeddings, embed_type='train')
     save_embeddings(test_embeddings, embed_type='test')
 
     train_embeddings_df = pd.DataFrame(train_embeddings)
