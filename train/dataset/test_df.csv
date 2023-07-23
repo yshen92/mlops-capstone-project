@@ -1,0 +1,2265 @@
+text,label
+"Get rich quick with our amazing offers!!! 🤑💰
+
+",spam
+"Hi,
+
+So I have been collecting data for a few months using excel. I collect data every day on a few select stocks that appear on a scanner I use. I have been manually inputting some of the information and letting excel formulas calculate lots of the data I need but I am running into a problem collecting chart data.
+
+As of now the data I manually input are dates, stock name, price, volume and change %. I want to capture an image of what the chart for that stock on that day looked like. I have been manually taking screenshots of charts and saving them individually to a folder. Is there a better way to collect the data of the chart? Is there any methods of automating the screenshotting of a program and saving it?
+
+Sorry if this post is in the wrong subreddit. Thanks in advance.",not_spam
+"Hello everyone. I am looking for spatial data which tracks police use of force. A great example of what I am looking for is the NYPD Stop, Question, and Frisk data, which lays out firearm use, taser deployment, and OC spray with XY coordinates for each calendar year. Unfortunately, recent reports have uncovered that around 30% of the data are missing, making it unusable.
+
+Anyone ever come across a similar dataset?",not_spam
+"I have been awarded a contract to construct a data set of homeowners, names, and ages for a given postal code earlier today. Does anyone know if such a dataset exists? The set should include the United States. Many thanks!",not_spam
+"Hey everyone! I'm so excited to tell you about this awesome new product that will totally change your life! It's a miracle weight loss pill that will make you skinny in no time! No more exercising or eating healthy! Just take this pill and watch the pounds melt away!
+
+But that's not all! If you sign up now, you'll get a free trial of our exclusive skincare product. It will make your wrinkles disappear and give you the flawless, youthful complexion you've always dreamed of!
+
+And if that's not enough, we also have a limited time offer on our amazing teeth whitening kit. Say goodbye to stained and yellow",spam
+"I found [this website](https://guides.newman.baruch.cuny.edu/nyc_data/nbhoods) that lists a gold mine of information when you click on a zipcode but after hours of searching, i cant figure out how to extract the data.
+
+If u know of any sources that provide data for demographics please let me know also.",not_spam
+I was wondering where I could find a data-set that provides all the players that are playing in the premier league. I need this for a class project for a data analysis class. ,not_spam
+"Yo yo yo, whassup my fellow social networkers? I'm here to tell you about the hottest trend that's sweeping the interwebs! Are you ready for it? Brace yourself! 
+
+",spam
+"OMG NEW PROMO ALERT! 🔥🚨🤑 Get 10% off your next purchase with code “BUYME”✨ Don’t miss out on this amazing deal! 💯 Limited time offer, so HURRY! 🏃‍♀️🏃‍♂️
+
+",spam
+"Hey everyone,
+I have a student group wiling to work on prescriptive analytics. I want them to work in health care particularly dementia. Has anybody worked or seen a dementia dataset?",not_spam
+"Hey guys, 
+
+I have been looking for a week now for any data related to the anime industry (sales, salary, gender, location, studio, etc). 
+
+I've found some dvd / bd sales data at [http://www.someanithing.com](http://www.someanithing.com) but I wanted to see if there was anything else that related to literally anything anime related (not show reviews, ratings, etc. I know AniList and MAL already have a bunch of statistics for that type of data).
+
+Does anyone know if something like that is available?",not_spam
+"Attention all netizens! Are you tired of scrolling through your feed and seeing the same old boring content? Well, you're in luck because our social network has got you covered with the latest and greatest in trashy and clickbaity posts!
+
+We offer a variety of obnoxious memes, misleading headlines, and just straight up false information for your viewing pleasure. Plus, our algorithm ensures that you'll never see anything actually meaningful or important ever again!
+
+But wait, there's more! Sign up now and you'll get access to the creepiest targeted ads you've ever seen. We'll know all your personal information and use it to sell",spam
+"URGENT: ENLARGE YOUR PENIS WITH OUR NEW AMAZING PILLS!!!!!! 
+Ladies, do you want your men to be able to satisfy you like never before? Gentlemen, do you want to be the true alpha male??? Then you need to try our new penis enlargement pills! They will make your member bigger, stronger, and last longer than ever! Don't wait, order now and get a FREE TRIAL!!! 
+
+",spam
+"I have a crawler that was working greater before the last patch. 
+
+My search creates urls and feeds it specific naics/funding agency combinations. However, as of last night it just loops through the first combination indefinitely.
+
+For example,
+
+    FPDS-NG search results for
+    &lt;![CDATA[
+    : PRINCIPAL_NAICS_CODE:541990 FUNDING_AGENCY_ID:3600 SIGNED_DATE:[2018/07/01,2018/07/22]
+    ]]&gt;
+    &lt;/title&gt;
+    &lt;link rel=""alternate"" type=""text/html"" href=""https://www.fpds.gov/ezsearch/search.do?s=FPDS&amp;indexName=awardfull&amp;templateName=1.5.1&amp;q=PRINCIPAL_NAICS_CODE%3A541990+FUNDING_AGENCY_ID%3A3600+SIGNED_DATE%3A%5B2018%2F07%2F01%2C2018%2F07%2F22%5D&amp;start=5000""/&gt;
+    &lt;link rel=""first"" type=""text/html"" href=""https://www.fpds.gov/ezsearch/FEEDS/ATOM?s=FPDS&amp;FEEDNAME=PUBLIC&amp;VERSION=1.5.1&amp;q=PRINCIPAL_NAICS_CODE%3A541990+FUNDING_AGENCY_ID%3A3600+SIGNED_DATE%3A%5B2018%2F07%2F01%2C2018%2F07%2F22%5D&amp;start=0""/&gt;
+    &lt;link rel=""last"" type=""text/html"" href=""https://www.fpds.gov/ezsearch/FEEDS/ATOM?s=FPDS&amp;FEEDNAME=PUBLIC&amp;VERSION=1.5.1&amp;q=PRINCIPAL_NAICS_CODE%3A541990+FUNDING_AGENCY_ID%3A3600+SIGNED_DATE%3A%5B2018%2F07%2F01%2C2018%2F07%2F22%5D&amp;start=40""/&gt;
+    &lt;link rel=""previous"" type=""text/html"" href=""https://www.fpds.gov/ezsearch/FEEDS/ATOM?s=FPDS&amp;FEEDNAME=PUBLIC&amp;VERSION=1.5.1&amp;q=PRINCIPAL_NAICS_CODE%3A541990+FUNDING_AGENCY_ID%3A3600+SIGNED_DATE%3A%5B2018%2F07%2F01%2C2018%2F07%2F22%5D&amp;start=4990""/&gt;
+    &lt;modified/&gt;
+
+As you can see start=0 is the first page and start=40 is in ending page. If you look this query up on [fpds.gov](https://fpds.gov) using their front end there are 43 entries. So start=0 is 10 results. My crawler should end at start=40 and go on to the next naics/funding combo.  This has been working perfectly for over a year and a half but after yesterday's update it isn't working and I was wondering if anyone else has see something similiar.",not_spam
+"If you are interested in COVID related text classification data, please have a look at the shared task
+
+**WEBSITE**: [http://noisy-text.github.io/2020/covid19tweet-task.html](http://noisy-text.github.io/2020/covid19tweet-task.html)
+
+**REGISTER**: [https://forms.gle/TEFbySkQoPCJzs8H6](https://forms.gle/TEFbySkQoPCJzs8H6)
+
+The dataset consists of 10K COVID English Tweets, including 4719 Tweets labeled as INFORMATIVE and 5281 Tweets labeled as UNINFORMATIVE, in which 8K Tweets are already released for training and validation. Although we provide a default training and validation split of the released data, participants are free to use this data in any way they find useful when training and tuning their systems, e.g. use a different split, perform cross-validation, and the like.
+
+**Short intro (*****copied*****):**
+
+The goals of our shared task are: (1) To develop a language processing task that potentially impacts research and downstream applications, and (2) To provide the community with a new dataset for identifying informative COVID-19 English Tweets.
+
+This shared task is to automatically identify whether a COVID-19 English Tweet is informative or not. Such informative Tweets provide information about recovered, suspected, confirmed and death cases as well as location or travel history of the cases. To be able to achieve the goals of this shared task, we construct a dataset of 10K COVID19 English tweets. We believe our dataset and systems developed for this shared task will be beneficial for the development of COVID-19 related monitoring systems.",not_spam
+"I'm trying to find records of property sales where I can extract information for analysis. I'll need to be able to slice property information into different dimensions with some examples being by State, Year of Sale, Cost of Sale, Buyer Age, Buyer Income, and any available Demographic information.
+
+There are a ton of data aggregation sites, but I don't want to pay for them. Instead, I'd like to build my own analysis engine that extracts directly from the sources of information.
+
+Where would you recommend to get this property data? Many of the County Assessors allow searching by an individual address; whereas I want all property records across every country. Is there an easy way to get this info in bulk?",not_spam
+"""Unlock your ultimate potential with our all-new, revolutionary diet pill! Say goodbye to pesky flab and hello to your dream body in just 2 weeks! Limited time offer - buy now and get a free trial for our muscle-building formula!""
+
+",spam
+"Heyyyy you guuuuys!!! *blows air kisses*
+Do you want to feel #blessed and #grateful today? Of course you do! So come check out my page filled with inspirational quotes and pictures of sunsets. 
+But wait, there's more! If you follow me now, I'll give you a shoutout and you'll gain hundreds of new followers! #teamfollowback 
+Plus, my page is sponsored by some amazing weight loss supplements and detox teas. Trust me, they really work! And if you use my code, you'll get 10% off your purchase! #ad 
+",spam
+"FREE CASH GIVEAWAY!!! 🤑🤑🤑
+
+Hey guys, it's your favorite social network here and we're back with another amazing offer just for you! That's right, we're giving away free cash to all of our loyal users! And the best part? There are absolutely no strings attached! All you have to do is like this post, share it with your friends, and enter your credit card information on our totally safe and secure website!
+
+Plus, we've got tons of awesome prizes for you to win, like a brand new sports car, a luxurious vacation to a tropical paradise,",spam
+"Are there public domain ebooks in non European languages?
+Hindi, Urdu, Arabic and Bengali have less than half a dozen books between them on http://www.gutenberg.org/ and https://librivox.org/
+
+Over a billion people speak these languages. There are image pdfs on archive.org but they aren't machine readable or even very human readable. The Various languages of China and Japanese have decent numbers of public domain books. But most non European languages seem to have very little. 
+
+
+I could have trouble finding these though. Do you know of similar sorts of sites for other languages? And if not why do you think they dont exist and what can be done about that?",not_spam
+"Buy now! The best deals for you, only today! Click here to get the most amazing products at unbeatable prices! Don't miss this opportunity!
+
+",spam
+"Hey there! Ready to amp up your social media game? We've got just the thing for you! Our new and improved algorithm will elevate your profile to the next level, and all you have to do is click here. 
+
+But wait, that's not all! We've also got daily giveaways for our loyal followers! All you have to do is share our post, tag a friend, and follow us. It's that easy! 
+
+Not to mention, we've got a team of expert influencers who can take your account from zero to hero. Just sign up for our premium package and watch the followers pour in. 
+
+Oh,",spam
+"Hi All.  Hope you all are safe.  I'm looking for datasets related to consumer goods industry, mainly retail store sales, etc
+
+Hope anyone can help.",not_spam
+"""BUY NOW! Get your hands on the newest and hottest products on the market! Don't miss out on this limited time offer - act fast before it's too late!""
+
+",spam
+"Hi all,
+
+I'm doing research on how March Madness affects the following years enrollment/# of applicants. I was able to find data for March Madness, but now I need the second half. 
+
+Thanks ahead of time.",not_spam
+"H0t & Sexy Singles in Your Area! Join Now!
+
+",spam
+" 
+
+Hi community :)
+
+I don't know if this is the right subreddit, please excuse me, I'm new in the hole data game.  
+I'm searching for some cost of capital data for my bachelors paper.  
+Do you know a website with some data of companies from 2011 to 2017 or longer.  
+It's really hard to find something, but may I have better luck with good old reddit advise. :)",not_spam
+"We've got the hottest deals in town! Get your hands on our exclusive products now! 
+",spam
+"Attention all social media enthusiasts! Are you tired of being stuck in the same boring routine? Do you want to spice up your feed and get more likes than ever before? Look no further because we have the solution for you!
+
+Introducing the one and only, super amazing, ultra-boosting, energy-infused social media booster! This magical tool will absolutely blow your mind and take your social media game to the next level!
+
+With our social media booster, you'll receive thousands of followers and likes in just seconds! That's right, you read that correctly. No more wasting your precious time trying to gain follows or likes the old-fashioned",spam
+"Hi this is my first dataset.
+I scraped nearly 28000 football games from the top 5 european leagues from 2004/2005 to 2018/2019.
+
+Take a look https://www.kaggle.com/waterchiller/european-football-games
+
+Edit: The source code is public now. And I did a little bit of cleaning up. https://github.com/ChristianSchneeweiss/Football-Data-Scraping/tree/0.1",not_spam
+"Best on-line Shoping ever!!!1one
+",spam
+"Make Money Online NOW – Easy and FAST!
+
+Hi therrree! Are you tired of working your butt off and still not making enough money? Do you want to learn how to make a boatload of cash without doing anything?? Well, look no further! We’ve got the solution for you!
+
+With just a few clicks, you can start making BIG BUCKS online today! Our amazing system is so easy and fast, you won’t believe it! All you have to do is sign up and start watching the money roll in!
+
+But wait, there’s more! If you act now, you’ll also receive a FREE bonus package",spam
+"Hi Reddit - Can you help me find these? I'm trying to measure how much fuel is consumed by public/private transportation in non-OECD countries. Thinking that commute times and vehicle ownership rates may be a good proxy if consumption is unavailable.
+
+Thank you!
+",not_spam
+"URGENT! LIMITED TIME OFFER! ACT NOW BEFORE IT'S TOO LATE!
+
+Get RICH QUICK with our AMAZING new program! Turn $10 into $10,000 in just a few clicks! Don't waste any more time on that boring 9-5 job! Be your own BOSS and live the life of your dreams!
+
+Are you tired of not having enough money to buy the things you want? Do you want to travel the world and never have to worry about your finances? Then this is the opportunity you've been waiting for!
+
+But wait, there's more! Sign up NOW and receive a FREE vacation",spam
+"I'm putting some geospatial analysis together for cycling and I need data as finely grained as possible for the UK.  lat/long/business size or employment count   
+What I'm looking to do is plot markers on a map over an area that can be cycled to in 20 mins.  
+I've done the cycle part - I just need to overlay markers for employment.  
+I've looked at  [https://www.nomisweb.co.uk/](https://www.nomisweb.co.uk/)  but I seem only able to get summary data.   Can anyone recommend any data sources for regions of the UK?",not_spam
+"I need a list of keywords per programming language. 
+For example, like [this one](http://www.programiz.com/c-programming/list-all-keywords-c-language), but for as many languages as possible.
+
+Does anybody know where to get such a dataset? Or a website to scape it from",not_spam
+"We've developed a set of parallel bilingual corpora, where the direction of translation is accurately annotated. The datasets contain annotated version of (subsets of) the Europarl protocols, Canadian Hansard, 19th century literary classics, TED talks and political commentary. Can be useful for research of translationese (the ""dialect"" of translated language), machine translation etc. Welcome to download and use it - [translationese corpora](http://cl.haifa.ac.il/projects/translationese/index.shtml).",not_spam
+"OMG, have you seen the latest trending meme on Insta? It's totally epic! But first, let me tell you about this amazing weight loss supplement I just discovered. It's guaranteed to help you shed those extra pounds in no time. Don't forget to use my promo code for an extra discount!
+
+",spam
+"Want to know the secret to being rich? I've got the inside scoop, folks! Just sign up for our premium membership and you'll have access to all the tips and tricks that'll make you a millionaire overnight!
+
+",spam
+"Hi there
+
+I'm looking for a dataset that has monthly weather data for cities around the world.
+
+**For example, January-December:**
+
+* Average number of rainy days in the month
+* Average precipitation in the month
+* Average sunlight hours in the month
+* Average rainfall amount the month
+* Etc.
+
+Ideally I'd like a free-tier API where I could query cities (and would be willing to pay once my project becomes a bit more advanced). Thanks!",not_spam
+"Looking for ways to increase your following? We've got you covered! Here at InstaFame, we offer the best services to boost your numbers in no time.
+
+",spam
+"I have to do a clasification task and I was looking for a good dataset. I would like It to have a lot of columns so I can do some data analysis as well.
+
+If anyone could recomend me a dataset It would help me a lot.",not_spam
+"Get ready to be blown away by the latest and greatest trends on our social network! We have everything you could ever want, from viral videos to hot gossip, and everything in between!
+
+",spam
+Hello! I'm a researcher who does work on compensation and incentives. I'm looking for any data sources which contain information about compensation for public or private companies.  Thanks in advance for any information you may be able to share!,not_spam
+" I need to collect tabular data from ten teams and then compile it into a singe table daily. The current process of exchanging excel sheets over email is nightmare. Is there any service to make this task easier? The service I am looking for should support grid type forms, data validation, calculated fields etc. I must also be able to define calculations on submitted data to generate compiled data automatically.",not_spam
+"Hey there, social media fam! 🤘  Are you tired of the same old boring posts on your feed? 😴 Let me introduce you to our latest and greatest feature: SpAmMeR SuMmEr!!! 🎉🌞☀️💥
+
+With SpAmMeR SuMmEr, you can bombard your friends and followers with non-stop spam, ads, and clickbait articles 24/7! 🙌🔥 And don't worry about losing followers or getting blocked, because we've already thought of that! 😎 Our new algorithm ensures that your spam will reach",spam
+"I'm looking to work on an algorithm to detect if two differently formatted addresses refer to the same place.
+
+Something like three columns- Address1, Address2, true/false
+
+That format is just an example.",not_spam
+"""Lose 10 pounds in 2 days with our amazing diet pills! Limited time offer, buy now and get a free trial!""
+
+",spam
+"Celebrate ur life wif ur frenz on insta!
+post ur lit pics n vids, dun 4get to add all da hashtags!
+Follo ballaz n mermaidz alike wif da gram!
+Itz hotter dan a stuffed turkey on christmas day!
+Don't be cattin' on ur frens, bip bip ur way into dms and slide into anotha lyfe
+#ok #bye #instalife #nofilter #lit #followtrain #spam #yolo",spam
+"Bros and gals, check it out, it's your boy representing this one network, that’s just rockin it, ya know. We got some totally awesome new features that you gotta get on board with. Our feed is never-ending, and you can scroll until your fingers fall off.
+
+You gotta check out our latest spammers too, they’re selling some insane stuff for cheap. You just gotta click on their link and buy the products. Don’t worry about the quality, yo, it’s top-notch. Plus, we got some freebies for ya, like viruses and malware. Ain’t that sweet?
+
+But hold on",spam
+"L@@k at thi$ awes0me pr0duct I f0und! It'll make y0ur life s0 much better and y0u'll never want t0 live with0ut it! It's the latest and greatest thing in the market and it'll change y0ur life f0r the better! D0n't wait, act n0w and get it f0r a l0w price bef0re it's t00 late!
+
+",spam
+Anyone have link to a public non-english question and answering dataset? I'm interested in exploring multi-lingual QA and I'm looking for any non-english ones.,not_spam
+"With or without the ""/u/,"" with or without spaces in the username. I would guess most of them are from a novelty account of some flavor  or another, or maybe AMAs where the interviewee managed to snag their full name as their username, but I really have no idea, and I have no clue as to how I would go about finding out.",not_spam
+are there any datasets you know of that contain transcriptions of speeches or anything 'on the record' from either the us senate or house. i'd like to run key word searches that would show frequency by politician and other things. thanks! ,not_spam
+"Does anyone know of any place where I can find historical data for stocks, particularly their key statistics (P/E Ratio, P/B Ratio, EPS, Div, etc.) and not just their historical stock price. ",not_spam
+Im looking for a data  set that includes names of people surveyed for anything like alcoholism or drug use to see if there is any correlation between names and these conditions (i.e. are people named ronny more likely to be alcoholic). Thanks in advance!,not_spam
+"Attention all social media addicts and PR enthusiasts! Are you looking for the latest manipulative tactics to boost your online presence and trick your followers into buying your products? Look no further than our exclusive social media spam service!
+
+",spam
+"Hello!
+
+I hope you are doing well.
+
+I have a huge problem which couldn’t be solved by hours of googling! I need state-by-state data on poverty level and public expenditure on education in the USA. Although I would like to have data from 1970s, 1980s, 1990s, 2000s, 2010s, I can only find one or two years of the data from the recent years. What a pity!
+
+Guys, do any of you have an idea where to get these numbers from? They don’t have to be all in one place or put in a beautiful and tidy dataset - I need the statistics themselves!
+
+Probably the data I need are in the Census.gov - but I cannot acces this website as I’m outside the US (I guess). If anyone has an idea how to do it, please inform me, too.
+
+So, any help is appreciated! I would be really grateful for any clues you provide! Thank you in advance!",not_spam
+"Chk chk BOOM! Hey everybody, come check out the hot new social network that's takin' the interwebs by storm! We got all the features you could ever want, like chat, emojis, and even GIFs of cats riding tiny unicorns. You can post your own pics, vids, and thoughts, and see what your friends are up to too. And don't forget to hit that like button or you'll miss out on all the fun! 
+
+",spam
+"ATTENTION ALL USERS!!!! AMAZING OFFERS INSIDE!! COME AND GET 'EM WHILE THEY'RE HOT!! 
+
+BOGO (that means buy one get one, for those who don't know) offers, FLASH sales, and exclusive giveaways that you won't find elsewhere. 
+
+Don't miss out on these once in a lifetime deals, people! Get on board with our social network and be the FIRST to know about all of our amazing offers! 
+
+Follow us, like us, share our posts, and tell your friends and family about all the amazing deals you're getting. 
+
+Remember, the early bird gets the worm, so",spam
+"
+I am looking for a site that can show me how much a certain film grossed in that day or until that day. Can't find any online.",not_spam
+"#1 Weight Loss Hack: Lose 10 Pounds in a Week with this One Simple Trick!
+
+Hey hey, it's time to drop those extra pounds to flaunt that beach body! If only weight loss could be this easy, right? But wait, there is a magic trick that can help you lose 10 pounds in just one week! Say whaaat?! No kidding, folks! All you gotta do is grab this magical weight loss pill and voila! You'll be rocking that bikini bod in no time!
+
+But wait, there's more! Order now and get a FREE 30-day supply of our special detox tea",spam
+"Huge sale alert!!!! U won't believe the discounts we have!! Click here to find out crazy offers that u can't just miss out!!! 👉🏼👉🏼👉🏼👉🏼👉🏼www.notaspamlink.com👈🏼👈🏼👈🏼👈🏼👈🏼
+ 
+",spam
+[https://leapsapp.analyttica.com/courses/overview/Predictive-Modelling-Logistic-Regression](https://leapsapp.analyttica.com/courses/overview/Predictive-Modelling-Logistic-Regression),not_spam
+"I'm trying to plan out trips to Disneyland with my daughter and I'd like to use attendance records to predict good days to go based on the month, season, day of week, attraction wait times, etc. The problem is that I can't find any free data set with this information. Does anybody have access to this information (possibly through a paid site) that is willing to share it with me?
+I'd also like to use this data for a school project for, so any ""park predictor"" type site is no good unless they make the data available.",not_spam
+"Have fun. It's just very preliminary and needs to be jazzed up a bit.
+[Link to podmoskovnik's (Sergei Shpilkin) blog](https://translate.google.com/translate?hl=en&amp;sl=ru&amp;tl=en&amp;u=https%3A%2F%2Fpodmoskovnik.livejournal.com%2F178700.html%23comments), downloadable as txt. Column names in cyrillic, need to be translated.
+
+Physicist and data scientist Sergei Shpilkin pointed out possible election fraud in the past Russian elections, [see article here](https://www.rferl.org/a/statistics-point-to-massive-fraud-russia-state-duma-elections/28002750.html).
+
+**Edit**: Columns should be (after google translation):
+
+    Index(['region', 'tik', 'Number of voters included in the voters list',
+       'The number of ballots received by the precinct election commission',
+       'The number of ballots issued to voters who voted early',
+       'The number of ballots issued in a polling station on election day',
+       'The number of ballots issued outside the polling station on voting day',
+       'Number of canceled ballot papers',
+       'The number of ballot papers in mobile ballot boxes',
+       'Number of ballots in stationary ballot boxes',
+       'Number of invalid ballots', 'Number of valid ballots',
+       'Number of lost ballots',
+       'The number of ballots not counted upon receipt',
+       'Baburin Sergey Nikolaevich', 'Grudinin Pavel Nikolaevich',
+       'Zhirinovsky Vladimir Volfovich', 'Putin Vladimir Vladimirovich',
+       'Sobchak Ksenia Anatolievna', 'Suraykin Maxim Alexandrovich',
+       'Titov Boris Yurievich', 'Yavlinsky Grigory Alekseevich', 'url'],
+      dtype='object')
+
+~~**Edit 2** Please categorize this as 'dataset', not as a request. Thx.~~",not_spam
+"If y0u ain't usin' our s0cial netw0rk, then you're missin' out big time! It's time t0 give up y0ur b0ring life and turn up the n0ise with us! We've g0t all the latest feature, like winky faces and unlimited hashtags! 
+
+",spam
+"**The point is to forecast demand of item sales in order to order the relevant quantity in time and not have them expire if help a long time in inventory.**
+
+*Any valuable insight? ideas on where to find the dataset?*",not_spam
+"I am performing sentiment analysis using this dataset, and I headed to Kaggle to pop open a Kernel and do some analysis.  
+
+But, after searching Kaggle, I was unable to find the IMDB Movie Reviews Dataset. Actually, I think I came across a few, but they were not in a friendly format.  
+
+So, I decided to upload this dataset myself. Here is a link to the dataset on @Kaggle: [https://www.kaggle.com/iarunava/imdb-movie-reviews-dataset](https://www.kaggle.com/iarunava/imdb-movie-reviews-dataset)
+
+No need to unzip and stuff!  
+
+The path is './../input/aclimdb/aclImdb' 
+
+And this contains the train and test directories, and all other samples and files that come with the dataset!  Go! Pop up a Kernel!
+
+Link to original dataset: [http://ai.stanford.edu/\~amaas/data/sentiment/](http://ai.stanford.edu/~amaas/data/sentiment/)
+
+Hope you find this useful :)
+
+My first post here!
+
+Great community! Love it here :)",not_spam
+"My team and I created an API service for accessing crypto-currency market data, news and metrics.
+
+The service includes live and historical data on:
+
+* Trades 
+* Order books 
+* Candles 
+* Index prices for all major crypto-currencies
+* News search
+* News metrics (e.g. [https://docs.google.com/spreadsheets/d/1-5iExx52DDYp-8NcJdQpXmxAchZq5K-fS\_zQR9gqMLU/edit#gid=1435086542](https://docs.google.com/spreadsheets/d/1-5iExx52DDYp-8NcJdQpXmxAchZq5K-fS_zQR9gqMLU/edit#gid=1435086542))
+* CSV downloads (coming soon)
+
+There are limits on the Free tier (e.g. no access to historical order books) but if you message me at info@tokendatabase.com I can upgrade your account for free for one month.
+
+Let me know if you have any requests or feedback.
+
+**Website:** [https://tokendatabase.com/](https://tokendatabase.com/)
+
+**API Docs:** [https://tokendatabase.com/docs/#introduction](https://tokendatabase.com/docs/#introduction)",not_spam
+"For gas stations in America, from San Francisco to New York, I'd like
+
+1.  The price of gas there at a time *t* (e.g. $3.08 regular on June 13th 2016)
+2.  The location of the gas station (e.g. 37.426 long., -122.1475 lat.)
+
+Ideally, I'd have this for **every** gas station in the U.S. and for **every** time *t* for each day from 2000 until now. 
+
+I'll settle for as many gas stations as possible for a single (recent) time *t*.
+
+I know how to get this data on particular gas stations, but where can I find this data for all gas stations in America?
+
+Thanks a lot!",not_spam
+"Get rich quick! Earn big bucks by clicking on these ads! Don't miss out on this amazing opportunity to make money fast!
+
+",spam
+"I'm after patient gender and specific age, and whether they recovered or died. Note that in addition to data on tests for whether someone has the disease I'm also after data for serology / antibody tests that detect the antibodies which give immunity, which also means they previously had the disease and should count as a recovered case.
+
+Does this data publicly exist anywhere in any structured and reliable form?",not_spam
+"Get ready to be blown away with the hottest deals and discounts on our platform! You'll never find such amazing offers anywhere else. Sign up now and get a chance to win big! Our users have already saved thousands of dollars, and you could be the next lucky winner.
+
+",spam
+"Increase Your Followers Now!
+
+Are you tired of having a small followers' list? Do you want to become famous overnight? Then, you've come to the right place! Our app can help you increase your followers in a jiffy. 
+
+All you need to do is sign up for our premium subscription, and we'll do the rest. Our team of experts will work round the clock to boost your follower count. In just a matter of days, you'll have thousands of followers! 
+
+But that's not all. With our premium subscription, you'll also have access to exclusive content and special features. You'll be able to customize",spam
+"We've got some super-duper amazing news for you, folks! You won't believe your eyes when you hear what we've got in store for you. Our brand spankin' new feature is going to blow your mind and change your life forever. You're gonna be like, ""Whoa, dude, is this real life?!""
+
+",spam
+"SUP Y'ALL?! It's ya boy from [Social Network], the place to be for ALL the latest deets on your friends, fam, and favorite celebz! 
+
+Are you ready for some MAJOR gossip? Cuz I got it all! I'm talkin' breakup drama, scandalous pics, and SO MUCH MORE! Plus, I've got the most fire memes, viral videos, and dank content you've EVER seen! 
+
+But wait, there's more! Are you tired of boring ads and lame promos? Well, guess what? We've got 'em! TONS of 'em! Because let",spam
+"L@@K her3 F0LKS! NEW DI3T PILL GUARANTEE3 W31GHT L0SS IN JUST 24 H0URS!!! $$ BUY N0W $$ 
+
+",spam
+"CHECK OUT OUR AMAZING DEALS!!! BUY NOW FOR 50% DISCOUNT!!!
+
+",spam
+"I'm looking for the best way to gather movie scripts to analyze them in R using text mining techniques. Since I am familiar with Tidyverse and related packages, I'm going to be using Tidytext. I am new to text mining and this is going to be kind of a challenge to even get the data in the right format and clean it before doing the analysis.
+
+Right now, I'm thinking of  just copy and pasting from imsdb to a text format. The goal is to pull 4-5 scripts for two directors. Does anyone have an recommendations on pulling these scripts? I'm not sure if scraping would be more efficient.",not_spam
+"Hi! I have been looking for state-level panel data for the years 1990 to 2015, and I haven't had the best time finding it. Is there a site or database that I am missing?   
+
+I am trying to estimate the impact of state-level regulations on emissions. So far I have the data for CO2, and other contaminants, but I am looking for covariates (population, GDP, amount of fracking, or any other characteristic at the state-level).
+
+Thanks in advance!",not_spam
+"🚨 WOW, YOU WON'T BELIEVE WHAT JUST HAPPENED!!! 🤑🤑🤑
+🎁🎁🎁 FREE GIFT CARDS FOR EVERYONE!!! 🎁🎁🎁
+
+👉 Hey guys, it's your favorite social network here! Are you tired of seeing the same old stuff on your feed every day? Do you want to spice up your life with some AMAZING deals and offers??? Then you've come to the right place!
+
+🔥🔥🔥 We've got so many cool giveaways and promotions going",spam
+"Zagat, Michelin, Mobil, etc?",not_spam
+"If you already have access to large databases, where do you get ideas from to start asking questions? Do you try and do something unique or do a project that has been done before but bigger and better with a larger dataset. I’m a physician starting my research career. Thanks",not_spam
+"FAM! Do you want to maximize your gains and get rich quick? Join my exclusive group now and get access to the hottest stocks and crypto picks. We guarantee you'll make bank in no time!
+
+",spam
+"Show off, complain, and generally have a chat here.    
+Discuss whatever you've been playing with lately(datasets, visualisations, mining projects etc).   
+Also feel free to share/ask for tips suggestions and in general talk about services/tools/sites you find interesting.
+
+P.S: Suggestions for this subreddit are always welcome.",not_spam
+"You won’t believe what we’ve got in store for you! Amazing deals and discounts, only available for our loyal followers! Join our elite group of insiders and be the first to know about exclusive content and exciting offers!
+
+",spam
+"Hello! I'm working on an econometrics project and am focusing on San Francisco housing prices. Specifically I want to see if the zoning laws put in place in the 1980s affected housing prices (theoretically they would). I also want to look at how the square footage, # of bedrooms, # bathrooms, year built, etc. to see what impact that has. I'm only looking for data in the San Francisco metro area. Hopefully someone can help!",not_spam
+"Get the newest updates on all your favs! Get the most happening news from our network! You won't believe what happened to Kylie Jenner last night! Check out her pics and the drama that unfolded when her ex showed up at the party!
+
+",spam
+"I wanted to create a dataset similar to Wine dataset or [Coffee dataset](https://www.reddit.com/r/datasets/comments/8rndor/data_on_1340_coffee_bean_reviews_aroma_acidity/), but for tea. Unfortunately, the [teadatabase](https://www.teadatabase.com/) page (first Google result) seems to be down, at least it was for a few days when I've been checking. Do you know any source of reviews of tea in quantitive amounts, similar to the Coffee dataset, like acidity, sweetness, caffeine content etc.?",not_spam
+"[Title]: Loose Weight in 5 days with [Brand name]!
+
+Lose weight like a Pro with [Brand name] and impress your sweet heart with your stunning figure. Our scientifically proven formula has worked for thousands of our customers and they've given us 5-star reviews on various platforms. 
+
+Our amazing product will not only help you shed unwanted pounds but also boost your metabolism and immune system. 
+
+Say goodbye to boring diets and tiresome exercises. Say hello to a leaner and happier you with [Brand name]. And if you order now, we'll even throw in a free bottle of our energy-boosting supplement.
+
+",spam
+"Hey there! Are you looking to make some quick cash? Well, look no further! Our amazing platform (shadysocialnetwork.com) can help you earn big bucks in just minutes!
+
+",spam
+"
+Hi, do you know if there is a dataset of the x, y axis in which a tennis ball lands during a game?",not_spam
+"Does anyone have a copy of this [static co-authorship dataset](https://perso.liris.cnrs.fr/marc.plantevit/doku/doku.php?id=data_sets)? I've tried emailing him like he mentions on his site, but got no response. It would be an essential part of my final thesis .",not_spam
+"Yo fam, check out this totally lit offer! Get rich quick with our amazing new scheme! All you gotta do is enter your credit card info and let the money flow in!
+
+",spam
+"Get ready to be mind-blown, because THE BEST DEALS are NOW available ON OUR SITE! But that’s not all! Sign up now and enter to win A FREE TRIP TO AN EXOTIC BEACH RESORT!!! 
+
+",spam
+"Lk an Gud! R U Bored w/ All Ur Buddiz' Pics of Cute Anmls & Btfl Snsetz? Gtlmn, Our Plat4rm Is Da Ans 2 Yr Pryn! Chck Out Our Ht Nw Featurz: 
+
+-Cheap Prz on Fckbok Likes n Fllowrz
+-Hgh Qulty Igrm Flwrs fr Paz lnch 3z
+-Scntfcly Prvn Mthdz 2 Aid U n Bcming ""N Inflnzr"" n TikTk
+-Infnt",spam
+"L00k her3 P33PS!!!11!1 Have u ev3r heard of our Sup3r DUp3r Digger DDoGgr app? It's SOOOO lit you won't even b3l13ve it!!!111 We can guarantee you 100% mor3 diggs than any other app out there!!! 
+
+But wait, there's moar! Our app is also a l3git B3STII3 finder! U can find tha bestII3s in ur hood and sh4re them with ur fr13nds! And don't worry about any legal troubl3s",spam
+"SnApChAt lOvErS! gEt rEaDy tO bE bLoWn AwAy bY oUr nEw fEaTuRe! It'S sO ePiC, yOu'Ll bE dYiNg To TrY iT oUt! 
+
+We'Ve GoT tHe BeSt FiLtErS eVeR!! uSe ThEm On YoUr SeLfIeS AnD yOu'Ll LoOk So HaWt AnD aMaZiNg, yOu'Ll Be ThE eNv",spam
+"I've worked with CSV files where values with double-quotes in them are escaped with double-quotes or slashes (and sometimes this means I also need to wrap all values in double-quotes for consistency), but now that I'm having to save JSON into CSV values, everything's fine (with or without encapsulating double-quotes) until a JSON value has a double-quote in it (like, third-level double-quotes...
+
+I'd think the proper solution would be to just escape a JSON value's inner double-quote with a backslash, but I'm running into issues with editors trying to parse things... right now I can get LibreOffice to parse the file properly with certain settings, but other editors are choking on it.",not_spam
+"Get ready to be blown away with our brand new app feature! Seriously, it's so cool, like ice cold! We've been working on this for so long, and finally, it's here! 
+
+",spam
+I am doing a group project this semester based on a data set of our choice. I know there are plenty of data sets out there regarding cryptocurrency but I was looking more for other applications such as smart contracts and stuff like that. Any help? Thanks!,not_spam
+We have huge dumps of english text easily accessible for NLP. Where do you go to get large dumps of non-english text?,not_spam
+"HEY YOU GUYS! such a great news, OMG! 🎉🎉
+have you heard about the new crazy viral trend that's taking over the internet? well, let me tell you about it, you'll definitely love it! 😍
+
+this new thing is called the like4like trend! basically, you just need to LIKE this post and you'll get tons of likes on your own account!👍👍
+it's super easy, and you won't believe how quickly your account will grow once you start getting all those likes. but wait, there's more! 😱
+
+if you",spam
+"Need a dataset that have the step length. If anyone knows about something, I will be glad to have it.",not_spam
+"COME AND JOIN FACESPACEBOOKGRAM - THE HOTTEST NEW PLATFORM FOR SOCIALIZING, PICTURES, AND CONNECTION!
+
+",spam
+"Hurry up and buy our products now! You won't regret it! Our products are the best and will make your life so much better! Don't miss out on this amazing opportunity to upgrade your life!
+
+",spam
+"Are you tired of being broke? Want to make easy money fast? Look no further, my comrades! I have the solution for you! Join our get-rich-quick scheme and watch the dollars pour in like rain. 
+
+",spam
+"Hi, I'm trying to find a dataset that has NHL game by game data, i.e. how a team's record changes throughout the season.I'm looking for all seasons of the NHL but would be happy with just a few seasons. Player stats by game would be an added bonus. Is there anywhere I could find this type of data or do you have a recommendation as to where I could compile it from? Thanks!",not_spam
+"Buy our amazing weight loss pills!! They'll make you slim in no time!! Don't miss this fantastic opportunity to become the slender person you've always wanted to be!! Order now and get a 50% discount!!
+
+",spam
+"Show off, complain, and generally have a chat here.    
+Discuss whatever you've been playing with lately(datasets, visualisations, mining projects etc).   
+Also feel free to share/ask for tips suggestions and in general talk about services/tools/sites you find interesting.
+
+P.S: Suggestions for this subreddit are always welcome.
+",not_spam
+"Introducing the hottest and most lit social network in town! We've got all the swag you need to stay on top of your game. With our dope filters and sick emojis, you'll be slaying the game in no time. 
+
+But wait, there's more! We've got endless streams of fiya content, from funny memes, to cute puppies, to hot selfies. And of course, we're all about that #selflove and #bodypositivity, so feel free to post pics of your bodacious bod, no matter what size you are. 
+
+Oh, and did we mention our amazing giveaways? Just follow",spam
+"I need annual population estimates of the following metropolitan statistical areas:
+
+* Buffalo-Cheektowaga-Niagara Falls, NY
+
+* Cleveland-Elyria, OH
+ 
+* Portland-Vancouver-Hillsboro, OR-WA
+ 
+* San Diego-Carlsbad, CA 
+ 
+* Houston-The Woodlands-Sugar Land, TX 
+ 
+* Cincinnati, OH-KY-IN
+ 
+* Kansas City, MO-KS
+ 
+* Baltimore-Columbia-Towson, MD
+ 
+* Washington-Arlington-Alexandria, DC-VA-MD-WV 
+ 
+* New Orleans-Metairie, LA 
+ 
+* Salt Lake City, UT
+ 
+* Dallas-Fort Worth-Arlington, TX
+ 
+* Los Angeles-Long Beach-Anaheim, CA
+ 
+* Sacramento–Roseville–Arden-Arcade, CA 
+
+Has to go back as far as 1969. 
+
+Does anyone know where I can find this? I've been combing through census.gov and haven't found anything earlier than 1990.
+",not_spam
+"Are you tired of being basic? Want to make your social media presence stand out from the crowd? Then get ready, because (social network name here) has got the ultimate hack to help you slay.
+
+",spam
+"Hi, I’m trying to work on a small data science project as a way to get started on the field, and learn a bit more, and I wanted it to be about tv series (or movie) soundtracks. But I can’t find any datasets out there. There are many with other kinds of info about movies (including a dataset created by IMDb themselves) but not one that has the soundtracks for movies. 
+
+I thought about (and to be honest even started) writing a webscraper to get that from IMDb, but then decided to check their webscraper policies only to find that they don’t allow them at all. So that’s out.
+
+I went back to looking for specific datasets and still nothing. Can I actually find any such dataset out there? Is there a place outside of IMDb where I could gather this kind of data and that allows me to do it “legally”?
+
+Thanks for any help.",not_spam
+"Get ready to be amazed by the hottest and most wicked updates on our platform! You won't believe what we've got in store for you!
+
+",spam
+"Have CSV and SQL datasets for variables that can be of use for people analyzing COVID-19 trends. Does not contain COVID-19-specific data, plenty of places to find that. Indexed by country name (per UN member states website). Will continue updating and adding as time goes on. First time doing a project like this so I hope some of you find it useful.
+
+Current Variables:
+
+* Population
+* Density (km squared)
+* Area (km squared)
+* Migrants (net)
+* Median Age
+* Percent Urban
+* Percent of World’s Population
+* GDP per Capita (PPP)
+* GNI per Capita (PPP)
+* Airline Passengers per Day
+* CountryID
+* Latitude
+* Longitude
+* Last Recorded Average Temperature
+* Previous Recorded Average Temperature
+* Date of Temperature Recording
+
+[https://salientmind.blog/blog/2020/3/19/covid-19-technical-indicators-dataset](https://salientmind.blog/blog/2020/3/19/covid-19-technical-indicators-dataset)",not_spam
+"Get ready for the biggest, baddest sale ever! 💰💰💰 Don't miss out on our amazing discounts, while supplies last! 🛍️🎁🔥
+",spam
+"GET RICH QUICK!!! 💰💰💰💰
+
+Hey guys!!!! 😃😃😃😃
+
+Are you tired of working hard for your money???🤔🤔🤔
+
+Well, I have the perfect solution for you!!! 💡💡💡
+
+Join my MULTI-LEVEL MARKETING TEAM and you can make THOUSANDS OF DOLLARS from the comfort of your own home!!! 🏡💰
+
+Just think, no more boring 9-5 job, no more commute, and no more bosses telling you what to do!!! 😎😎",spam
+"Hello,
+
+To create a performance dashboard I need to find a sales database of a (sample) company that preferably has the following:
+
+- Multiple products
+
+- Historic and current sales
+
+- Preferably some budget values
+
+- Preferable some other Key Performance Indicators of a company
+
+
+I'm sorry if this isn't the right place to ask this but I have a hard time finding a database like this and came across this subreddit while searching. Any tips on where I can find one are greatly appreciated. Thanks a lot in advance!",not_spam
+"THIS IS THE MOST AMAZING OFFER YOU WILL EVER SEE IN YOUR LIFE! DON'T MISS OUT ON THE CHANCE TO WIN A FREE TRIP TO PARADISE ISLAND!!! 
+
+",spam
+"Feeling down and need a boost? We've got just the thing for you! Our exclusive line of miracle cure pills will have you feeling like a million bucks in no time! 
+
+",spam
+"Are there any datasets of visitors' traces inside a Museum?
+
+Alternatively, do you know any efficient method to generate a synthetic dataset of this type?
+
+Thank you :)",not_spam
+"I'm looking to make a visualization of Seattle overtime for these different categories.  Where can I find this information?  I'm looking to go back as far as 2007. 
+
+Thanks!",not_spam
+"ONLIN PPL ITS YO FAVOURIT SOC NETWRK BAK AGIN WIT A HUGE ANNOUNCMNT!!!!! 🎉🎉🎉
+
+🚨LETS GIV A HUGE SHOUTTOUTT TO ALL DA AMAZIN PPL WHO MAK OUR COMMNITY SO GRRRRRREAT🚨
+
+WE WANNA CELEBR8 YO CONTRIBUTION TO DIS AWESOM PLACE ON INTERNET AND WE WANNA DO ITTOGETHER💪
+
+HRE'S WAT WE'R GONNA DO: 
+
+🎉WE'RE GONNA",spam
+"""Get ready for the biggest discount of your life! Our product will change your life forever! Don't miss this limited time offer, only for our loyal followers! But wait, there's more! Sign up now and receive a free gift with your purchase. You won't regret it, we guarantee it!
+
+",spam
+"I've been keeping this spreadsheet for a few years, submitting it for anyone to use for a project or just to enjoy.  This work is released public domain via The Unlicense.
+
+Summer and Winter Olympics sports by major and minor sport such as Skating / Figure Skating.  Includes data from 1896 to 2022.
+
+https://docs.google.com/spreadsheets/d/1q9XwRSDsAYRHG0CU8UJ7J-K50iJZ5sFoVASH86Gugmw/edit?usp=sharing",not_spam
+"Hey there! Looking for some exciting deals and exclusive discounts? Well, you've come to the right place! Our social network is the ultimate destination for all your needs. With a wide range of products and services, we guarantee the best prices and highest quality.
+
+",spam
+"CHECK OUT THIS AWESOME PRODUCT!!1!ONE!! BUY NOW FOR ONLY $9.99!!1!
+
+",spam
+"Ey fam! U won't believe wut's poppin off on dis platform rn! We got all da new fashun trends, the hottest gossip, and tons of amazin deals. And dat's just da tip of da iceberg.
+
+We also offer a wide range of sponsored content from all of your favorite brands. And don't worry, we won't let pesky things like privacy get in da way of our monetization goals.
+
+So come on down and join da party, cuz we know u can't resist da urge to check yo notifications every five minutes. #addicted #cantstopwontstop",spam
+"Ideally, I'm looking for:
+
+* Total number of travel agents employed, going back through the mid-1990s
+
+* Average (or median, or both) wage data for travel agents over the same time period
+
+I can find current and projected information for travel agents, but I can't seem to find historical data. Any suggestions?",not_spam
+"Attention all followers! Stop what you're doing and check out this amazing deal! Get 10% off your next purchase of weight loss supplements from our partner company. Don't miss out on the chance to shed those extra pounds and become the envy of all your friends!
+
+",spam
+"Looking to earn big $$ online? Look no further than our platform, where opportunities abound! Make $$$ in just minutes a day with our revolutionary system! Plus, unlock exclusive bonuses and sweepstakes entries! Don't miss out on this amazing opportunity! Signup now! 
+
+",spam
+"CoNgRaTuLaTiOnS!! YoU'vE bEeN sElEcTeD aS a WiNnEr!!! 
+",spam
+"Hey there! Do you want to be rich like me? Then come join our amazing community of millionaires who have all made their fortune through our exclusive secrets and strategies! Our program is guaranteed to make you wealthy in just a few short weeks, and you'll have access to all the top financial experts in the industry. Plus, we'll throw in a free ebook and a special bonus webinar just for signing up today! Don't miss out on this incredible opportunity to change your life forever! Sign up now and start living the life of your dreams!",spam
+"WARNING: THIS POST IS FULL OF SPAMMY HYPE AND JUNK. READ AT YOUR OWN RISK.
+
+GET READY TO BE BLOWN AWAY, MY FRIENDS. WE'VE GOT THE HOTTEST DEALS AND MOST VIRAL CONTENT IN THE GAME. YOU WON'T WANT TO MISS IT.
+
+BUT WAIT, THERE'S MORE! SIGN UP NOW AND RECEIVE A FREE GIFT, EXCLUSIVE ACCESS TO OUR COMMUNITY OF LIKE-MINDED PEOPLE, AND UNLIMITED POSSIBILITIES. #WINNING
+
+OUR PLATFORM IS THE PLACE TO BE IF YOU WANT TO BE #COOL, #HIP, AND #",spam
+"Are you tired of feeling left out of the latest trends? Well, fear no more because [Insert social network name here] is here to save the day! With our endless stream of updates and notifications, you'll never miss out on what's happening in the world.
+
+",spam
+"Hi guys, just wanted to share a software I wrote, based on the engine behind Helium Scraper that gets data from the Common Crawl database, so instead of loading actual pages, it loads HTML from the database.
+
+This is a free software, and I just published it a few weeks ago. Was wondering if anyone here would find some interesting uses for it. Unfortunately common crawl doesn't seem to be complete enough yet, but the database keeps growing. 
+
+Here i published a video showing how the software can be used https://youtu.be/QVqbySDpdyQ 
+
+The software can be downloaded form here: https://www.heliumscraper.com/commoncrawler/setup/
+
+Also, let me know if there's any improvements you can think of. I'm relatively new to Common Crawl so there must be many features I haven't thought of.",not_spam
+"Specifically, I'm interested in financial data (revenue, earnings, valuation, etc.) for all of the 30 franchises over the last decade or two. If anyone knows a good source, that would be very much appreciated!
+
+I know the information is available on Forbes , but I would prefer a file or database rather than having to extract the source code from 30 different links and parsing through them:",not_spam
+"Hey all, was hoping someone could point me in the right direction for precinct-level data for COVID-19 tests in NYC?",not_spam
+"Are you tired of being a loser with no friends? Well, join our social network and become popular overnight! With our amazing features and unlimited access to public information, you can stalk anyone you want and learn their hidden secrets.
+
+",spam
+Where can I get Phasor measurement unit datasets for power system parameters reading?,not_spam
+"Looking for some exclusive deals? Want to enhance your shopping experience? Then, you've come to the right place! Our platform has a wide range of products that'll make you go ""WOW""! From trendy clothes and accessories to tech gadgets and home decor, we've got it all!
+
+But wait, that's not all! Sign up today and get a chance to WIN a FREE trip to an exotic location! All you have to do is follow us on all our social media accounts and share this post with your friends! The more shares you get, the higher your chances of winning!
+
+And if you're feeling lucky, why not",spam
+"WE'VE GOT EXCITING NEWS!!! Are you ready for the best deals you've ever seen?! We're offering exclusive discounts on all your favorite products! But wait, there's more! If you act now, we'll throw in a FREE gift with your purchase. Don't miss out on this incredible opportunity!
+
+",spam
+"Looking for a way to increase your followers? Look no further! We’ve got the solution you’ve been waiting for. Our specialized algorithm, guaranteed to boost your engagements, is on sale for a limited time! Don’t wait, buy now and watch your profile soar.
+
+",spam
+"Hi everyone,
+
+&amp;#x200B;
+
+Can someone suggest to me some real-world datasets for anomaly detection? I have surfed the web enough for this and I am looking for those unique datasets for specifc domain (be it fintech, adtech or edtech) which have some tested anomalies.",not_spam
+"I would like to request a dataset that ranks the best films of all time using the average of the films performances with (Academy Awards, Box Office, and Critic &amp; Audience rating.) 
+
+https://flickmetrix.com has a similar system but it only ranks the data using aggregate critic and audience scores. That’s why I believe adding in the other data will give us a more accurate idea of what the best movies are. 
+
+In the method im suggesting I was able to figure out “Gone With The Wind” is likely the best movie of all time. 
+
+It’s #1 in Weighted Box Office sales, won 8/13 Oscars including 4/5 of the main categories, and has an 84/100 on flickmatrix which has already compiled the other scores for me. 
+
+Im just unable to create a system or dataset like flickmatrix that uses my system and I had to manually figure out the data for box office and academy awards and add it to flickmatrix data. ",not_spam
+"Get rich quick with our amazing new program! Just sign up and start earning money from home right away! No experience necessary, we provide all the training you need! Plus, with our special limited-time offer, you can earn DOUBLE the profits! Don't wait, sign up now and start living the life of your dreams!
+
+",spam
+"I have a graph that shows average IMDB movie rating vs. runtime. It shows that movies that are 90 minutes long are generally rated lower than shorter and longer movies.
+
+I have some questions I would like help with:
+
+* Is this relationship helpful for movie producers to use?
+* What factors could be influencing this result?
+* What sort of actions should be taken for producers to improve how movies are received by audiences?
+* What sort of analytical approach should be tried to dissect this result?
+
+I would like to get your thoughts on how you approach this problem.
+
+Graph: [https://imgur.com/a/DBRPlAy](https://imgur.com/a/DBRPlAy)",not_spam
+"Is there any open data sets of employee satisfaction surveys?  For example, how happy are people with what they're doing, do people feel like they have room for career advancement?  Thanks!",not_spam
+"Introducing the revolutionary new app you never knew you needed - InstaLame! Say goodbye to boring, meaningful interaction and hello to mind-numbing scrolling through endless photos of people you don't even know. With InstaLame, you can now spend hours of your precious time gawking at over-filtered selfies and poorly staged food pics. 
+
+But wait, there's more! With our new algorithm, we guarantee that you will only see the most superficial and narcissistic content on the web. Say farewell to informative news articles and educational posts - we have replaced those with advertisements for useless products you don't need. 
+
+And",spam
+"Hi, I'm trying to create a catalog of all the major categories of data. For example, Audio --&gt; Podcast, Songs, Radio ads ... or ... Tabular --&gt; Weather --&gt; Precipitation, Wind speed, Temperature.
+
+I've tried to create my own, but I keep stumbling over sub-categories that could be shared between multiple categories. Is there a catalog that is generally accepted in the community? Thanks!",not_spam
+"""OMG guys, check out this amazing offer!!! FREE money!!!!!!!!!! You don't want to miss this incredible deal!!!!!! Just click on the link below and it will take you to a page where you can claim your FREE money right away!!!!!!!!!!!!! 🤑💰🎉
+
+But wait, there's more!!!!! If you act now, you'll also get access to an exclusive weight loss supplement! This supplement will help you lose those pesky extra pounds without any effort at all!!!!!!! 🙌🏼💪🏼🥦
+
+And that's not all!!!!!! For a limited time",spam
+"Feelin' lonely? No love in your life? Buy Viagra now and become a chick magnet! Get yourself some premium drugs and never be alone again!
+
+",spam
+"Win a FREE iPhone X and FLIPAKART COUPONS!
+
+GUYS, THIS IS IT! The BIGGEST giveaway of the year!!! All you gotta do is LIKE this post, SHARE it with your friends and comment using the word ""giveaway"" below! 
+
+We'll be selecting 10 lucky winners to get a BRAND NEW iPhone X and FLIPAKART COUPONS worth 5000 rupees!!!! 
+
+But wait, there's more!!! If you invite your friends to LIKE our page, you'll get a bonus entry!!! 
+
+Don't miss out on this amazing opportunity, guys! You too can be a winner",spam
+"Hello everyone,
+
+I'm looking for a dataset containing call center calls information suitable for call load forecasting.
+
+I've googled for a couple of days with scarce results (the ones I've found are quite outdated), could you please help me? Thanks.",not_spam
+"Hey friends, are you tired of boring old social media platforms that don't offer anything new or exciting? Well, now is your chance to join the hottest new social network on the block - Spamlife!
+
+That's right, Spamlife is the ultimate destination for people who love spamming their friends with useless content and irrelevant ads. We've got everything from fake news stories to sketchy weight loss pills, all in one convenient location.
+
+But that's not all - our platform is also jam-packed with annoying pop-up ads, auto-playing videos, and endless surveys that you have to fill out to access any of our content. And",spam
+"I'm conducting university research on public sentiment on being targeted in ads, and need a list of emails and things like name and mailing address that I can use to advertise to people.  Does anyone have any thoughts about where I can go about getting this data?  It's hard to find any accurate sources for how to do this online.
+
+Thanks,
+
+John",not_spam
+"Check out these amazing weight loss pills that will help you shed those extra pounds in just a few days! 
+
+",spam
+"Attention all followers! 📣📣📣
+
+Have you heard of the new incredible weight loss supplement that's taking the world by storm?? 🍃🌿🌱
+
+Well, let me tell you, this stuff is AMAZING. I tried it for just one week and already lost 20 pounds!! 🤩🤩🤩
+
+And guess what? You can get your hands on it too! Just click the link in my bio and use the code ""FATNO"" for 50% off your first order! 🤑🤑🤑
+
+But",spam
+"If any of you have ever worked with elasticsearch, you might know that elastic.co provides learners [a dataset of the collected works of Shakespeare](https://www.elastic.co/guide/en/kibana/6.8/tutorial-load-dataset.html), but jsonified. I was wondering if anyone knew of any other efforts to collect works by other authors in a similar structured data format?",not_spam
+"FREE MONEY!!! MAKE 10000$ IN A MONTH!!
+
+Hey guyzzzz, ur boy here from the hottest social net out there! I have some super amazing news to share with you all!! You can make 10000$ in just one month!! Yeah, you heard it right!!! All you need to do is sign up for this cool new money-making scheme that I found!!!
+
+All you have to do is just give your personal and banking details including your social security number and voila, you'll be making bank in no time!!! And the best part is that you don't have to do anything!!! Just sit back and collect",spam
+"Big sale! Get your hands on the hottest deals that will make your head spin! We have everything from clothes to electronics and everything in between! Hurry and don't miss out on this once in a lifetime opportunity!
+
+",spam
+"Enlarge your member size in JUST 5 DAYS! Our brand new SuperSizeMagicPill can add up to 5 INCHES to your manlyhood! Don't be embarrassed in front of your partner any longer. Order now and become a real man! 
+",spam
+"Get ready for the hottest deals of the century on our platform! Our mega-sale is here, and we're bringing you the best products at unbeatable prices. If you want to stay ahead of the curve and be the envy of all your friends, you need to check out our site right now.
+",spam
+"I am currently doing a project on the factors that lead to credit card debt. I have the survey of consumer finances but do not have the definitions of the categories or what the numbers in the column mean. For instance it says EDUC and then the lines below it for the data just say 8 or 12 or another number. I cannot find what EDUC means or what the numbers mean on the FRED website to save my life and I feel like i am just missing something. Any help would be appreciated. I have attached the website for the dataset below. I am using the excel sheet. Thank you for any help!
+
+&amp;#x200B;
+
+[https://www.federalreserve.gov/econres/scf\_1998.htm](https://www.federalreserve.gov/econres/scf_1998.htm)",not_spam
+"Ladies and Gentlemen, are you tired of boring content on your newsfeeds? Do you want an adventure of a lifetime? Well, have no fear, Instagossip is here! Our platform is the perfect place to get your daily dose of drama, gossip, and juicy details about the lives of your favorite celebrities. 
+
+",spam
+"Check out our amazing new product that will change your life! It's the best thing ever and you won't believe what it can do. Plus, it's super affordable and perfect for anyone looking to upgrade their lifestyle.
+
+",spam
+"Looking for the hottest deals on the web? Look no further than our amazing social network! We've got all the latest products and services, from clothing to electronics to travel, at prices you won't find anywhere else!
+
+",spam
+"URGENT!!! Buy our new miracle weight loss pills now and lose 10 lbs in one week! Limited time offer!
+
+",spam
+"Just in the midst of planning a project, do you guys have any suggestions on what datasets I should combine? (was thinking of merging a json and csv)",not_spam
+"BROOOOOOOOOOOOOOOOOOOOOOZZZZZZZZZZZZZZZZZZZ, have ya'll heard about our new and epic feature?! We've got brand spankin' new filters that'll make you look hotter than a jalapeño pepper in the Sahara Desert! 
+
+We're also hookin' you up with some sweet deals on trending products you just gotta have. You won't believe the discounts we're offering, like 99% off on...ummm...something super cool, we promise. 
+
+Plus, don't forget to follow us on all our other socials for exclusive content and",spam
+"Ladies and gents! You won't believe your eyes when you see what we've got in store for you! Our brand new, super amazing, life-changing product is finally here! Don't miss out on this once-in-a-lifetime opportunity to transform your life and become the envy of all your friends.
+
+",spam
+"Attention all users! You won't BELIEVE the new updates we got in store for y'all! Our team has been working day AND night to give you the best experience possible, and let me tell ya, it's SICK!! We got new filters that will make your selfies pop, and some new emojis that will surely make you LOL. 😂📸
+
+But wait, there's MORE! We're having a special promotion where if you refer FIVE of your friends to join our network, you'll get a chance to win a trip to the Bahamas! 🌴🏖️
+
+And that's not",spam
+"Hello, I was hoping to find datasets with two or more independent variables (I only need two independent variables) and one dependent variable. If anyone has any good datasets with good correlations, please let me know and specifically, I am looking for datasets in relation to profits or costs - I want the dependent variable to be ""profit"" so I can do some multivariable optimization and local extrema stuff, or costs as well.",not_spam
+"FREE STUFF ALERT!!! We've got a bunch of giveaways to make your day!!! Just like and share this post, tag your friends, and comment with your favorite color ten times in a row to win!!!!!!! Hurry up! Limited time offer!!! 💩💩💩
+
+",spam
+I'm looking for some data with good &amp; poor audio quality of the same event/voice with different microphones (artificial noise isn't good).,not_spam
+"Howdy folks! Have you been on our social media platform lately? It's the coolest thing since sliced bread! We've got all kinds of features like status updates, photos, videos, and even live streams! 
+
+But that's not all! We've also got a bunch of amazing groups where you can connect with people who share your interests. Whether it's cooking, travel, or even collecting stamps, we've got a group for you! 
+
+And don't forget about our games! We've got all the latest and greatest games, and you can even invite your friends to join in on the fun! 
+
+But wait, there",spam
+"There is a website that offers this, but I cannot find it.",not_spam
+"What the title says =)
+Thanks.",not_spam
+"Are you tired of feeling FOMO (Fear Of Missing Out) on all the hottest trends? Well, fear no more because [insert social network here] has got you covered! With our cutting-edge algorithms and personalized recommendations, you'll never miss a beat.
+
+",spam
+"Get rich quick! Make millions from home with our new money-making scheme!
+
+",spam
+Any text datasets with regression as task. Couldn't find much on kaggle. Looking for public domain datasets for academic purpose. Have seen a lot on classification obviously but not specifically regression.,not_spam
+The states could represent any domain and different data formats are ok as well. https://transitionmatrix.readthedocs.io/en/latest/,not_spam
+"Hello,
+
+I'm doing a project where I'm going to model/optimize various cruising speeds, and the fuel consumption/distance at those various speeds, then optimize to find the cruising speed with the lowest fuel consumption/distance. Airplane model doesn't matter. 
+
+I'm having a hard time finding a dataset, of various cruising speeds at a fixed altitude, and the fuel consumption/distance. I'm looking for two variables, so other things such as weight, weather (wind), altitude as previously mentioned should be held constant.
+
+Anyone have ideas where I can find a data set?",not_spam
+"I'm trying to build an animal classifier and then stack a species classifier based on the animal it predicts. Ideally I'd be able to get 50+ images per species and 1000+ images for the class in question. Any help would be greatly appreciated, thanks!",not_spam
+"Waaassssupppppp!!!!!! Have you checked out the super amazing discounts we're offering on [insert product here]?! It's totally dope and you don't want to miss it, like seriously.
+
+We're also giving away a free [insert irrelevant item] to the first 100 people who order [insert product here]. So hurry up and get on our website now!
+
+Oh, and did I mention that we have a special offer for our loyal followers? All you gotta do is like and share this post and you'll automatically be entered in a drawing to win [insert generic prize here]. So what are you waiting",spam
+"""Get rich quick with our new investment app! It's super easy, no experience needed!
+
+",spam
+"I'm looking for how much China has invested in other countries since 2004. The region I'm particularly interested in is Southeast Asia. So, I want to find a data source that shows how much China has invested in each country in Southeast Asia every year since 2004, if possible.
+
+Does such a data source exist? Thanks in advance for any help.",not_spam
+"🚨🚨🚨 Attention all users 🚨🚨🚨
+
+Have you been feeling down lately? Are you struggling with depression or anxiety? Well, we have the solution for you! Our new app, Happy Pills, will cure all your mental health issues in no time!
+
+🧠💊 Our special formula is made with all natural ingredients and will boost your serotonin levels in just one week! Say goodbye to therapy sessions and hello to a happier, healthier you!
+
+But wait, there's more! Order now and receive a free month supply of our weight loss pills! Shed those extra pounds",spam
+"##Data (ndjson files)
+
+###April
+https://files.pushshift.io/reddit/comments/RC_2018_04.xz
+
+8,371,376,260 bytes (compressed) | 82,497,938,640 bytes (uncompressed)
+
+98,096,451 comments
+
+
+###May
+https://files.pushshift.io/reddit/comments/RC_2018_05.xz
+
+8,633,799,504 bytes (compressed)  | 84,330,099,226 bytes (uncompressed)
+
+
+100,109,100 comments",not_spam
+"Get rich quick with this amazing new product! It'll double your money in just a few days! No more work, no more worries! Just sit back and let the profits roll in!
+
+",spam
+"""Get rich quick with these AMAZING offers!!!! $$$""
+
+",spam
+"BASKETBALL stats
+
+http://www.filedropper.com/merged
+
+59 columns 
+2341 rows
+420 unique players
+
+seasons = 
+['2007-08', '2003-04', '2006-07', '2008-09', '2001-02', '2005-06', '2011-12', '2004-05', '2009-10', '2000-01', '2012-13', '2002-03', '2010-11']
+
+",not_spam
+"One word: BUY. Buy everything you need and don't need here, now, with our exclusive deals that will blow your mind! 
+
+",spam
+"Special offer!!! Click here to win a free trip to Las Vegas!!!
+
+",spam
+"Pulling together some Coronavirus dashboards, but I’m having trouble finding a dataset with Coronavirus counts more granular than state. Can anyone point me to a more granular dataset? Zip code, city, county? 
+
+Thanks in advance and hope you’re all staying safe!",not_spam
+"Hello guys!
+
+We are in the process of developing a mobile application and we are aiming to launch it after few months, can you guys please advise on what kind of mobile data I can get from the users that might be helpful for Machine Learning? If so can you please advise where can I find similar datasets on the web? (other than Kaggle that is) 
+
+Thank you very much and have a good day!",not_spam
+"I would like to get hold of the data available on Yahoo's Fantasy Premiere League website. Login is required for all URLs.
+
+Clicking on Top Players shows the summary of the season statistics for each player
+
+URL: http://uk.eurosport.yahoo.com/fantasy/premier-league/top
+
+http://i.imgur.com/8lpsDfh.png
+
+Each of the player names is a hyperlink to the detailed data for the player's performance in the season by the week.
+
+http://i.imgur.com/kOCiSdC.png
+
+URL: http://uk.eurosport.yahoo.com/fantasy/premier-league/details/39336
+
+Each player is associated with a 5 digit number that appears at the end of the URL
+
+My understanding is that this would be a simple web scraping problem, unfortunately my programming skills are rather elementary so I was hoping someone here would be able to help me or point me in the right direction. Thanks in advance!
+",not_spam
+"🚨🚨🚨 BREAKING NEWS 🚨🚨🚨 You won't believe what just happened on our platform! 🙀🙀🙀
+
+🤑🤑🤑 Get rich quick with our brand-new program! Just sign up now and start making money while you sleep! 💰💰💰
+
+🎉🎉🎉 You've been selected to win a FREE vacation! 🌴🌊☀️ Just enter your personal information and credit card details to claim your prize! 🏖️🏝",spam
+"Hello. I'm working on a research project for text summarization and was wondering if anyone knew of some datasets other than the CNN/DailMail, WikiSum, DUC.
+
+The main reason I'm asking is because it seems that for abstractive summarization work, the majority use the CNN/DailyMail dataset as a means of comparison. However, (at least in my view) this dataset doesn't offer very high-quality labels and was wondering what kind of other datasets were out there.
+
+Any tips are appreciated. Thanks in advance.",not_spam
+"Yo yo yo! Welcome to the coolest social network on the planet! We've got everything you could ever want, including the hottest memes, the latest celeb gossip, and tons of random strangers to chat with.
+
+Are you tired of boring, old-fashioned social networks that just talk about ""real life"" stuff? Well, you're in luck, my friend! Here, we only talk about what's trending and what's cool.
+
+And speaking of cool, have you seen our exclusive merchandise line??? From snapback hats to crop tops to phone cases, we've got everything you need to show off your social media status.
+
+But wait,",spam
+"Hey there netizens! Do you want to be like the cool kids on the block? Well, look no further than our amazing social media platform! 
+
+We've got all the latest gossip, fake news and crazy memes to keep you entertained. Plus, our algorithm ensures that you only see what we want you to see, so you don't have to worry about pesky opinions that don't match your own. 
+
+But wait, there's more! Sign up now and get bombarded with endless ads for products you don't need and services you'll never use. Don't worry, we won't let you actually interact with anyone.",spam
+"I'm looking for a dataset with playlists generated by users, something like playlists from grooveshark or 8tracks. 
+
+Thanks",not_spam
+"Looking for hot singles in your area? Do you want to make a lot of money from home? Well, you've come to the right place! We have tons of ads for both dating and work-from-home opportunities!
+
+Sign up now and get access to our exclusive ""How to Get Rich Quick"" guide, as well as unlimited free dating profiles! Plus, if you sign up within the next 24 hours, you'll receive a one-time-only offer to buy our miracle weight loss supplements at an unbeatable price!
+
+Don't wait, act now and start living your best life today! Our website is open 24/7, so",spam
+"FREE MONEY NOW!!! 🤑🤑🤑
+
+Get rich quick with our amazing offer! No effort needed, just sign up now and receive instant cash deposits! Don't wait, act now and become a millionaire in no time! 🚀💰💸
+
+But that's not all! Sign up now and receive access to exclusive offers and discounts! Save big on your favorite products and services! 🤑🛍️💸
+
+Plus, join our referral program and earn even more cash! Share with your friends and family and watch the money roll in! 🤑🙌💰",spam
+"LIMITED OFFER: GET RICH QUICK WITH OUR AMAZING NEW SCHEME!!!
+
+",spam
+"Looking for quick cash? Want to be your own boss? Join our amazing money-making community today! We've got all the best tips and tricks for maximizing your profits, plus exclusive access to premium content that will help you stay ahead of the competition. 
+
+",spam
+"I'm trying to find multi year (USA) Census datasets. Preferably covering the widest range of topics possible (i.e many columns), and I want to get it for multiple years/surveys, so that I can compare changes over time. Ideally it would be as harmonized as possible (i.e the same column names for the same variables over time). I'd want it at multiple geographies if possible. 
+
+&amp;#x200B;
+
+I tried the census websites, but they've changed the format and I can't find heads or tales in it, nvm long term (e.g. 10-30 years of census data, e.g. all the 5 years ACS estimates for every state/county/zipcode). 
+
+Sorry if this is trivial -  google &amp; [factFinder](https://factfinder.census.gov/faces/nav/jsf/pages/download_center.xhtml) failed me, especially when it comes to harmonizing the data. (And this seems like a really common usecase, so I imagine it must be available). 
+
+Thanks!",not_spam
+"Im looking to get a hold of a data set that has come from a GPS unit worn by a player or several players during a sports game of soccer/football, rugby, netball, basketball, rugby league, or basically any sport really",not_spam
+"The TSA has is publishing more and more data via it's Freedom of Information Act (FOIA) Reading Room.
+
+I've created a project on github [https://github.com/mikelor/tsathroughput](https://github.com/mikelor/tsathroughput) that contains the source for extracting the information from the .PDF files and converts them to JSON and CSV files. 
+
+The [/data](https://github.com/mikelor/TsaThroughput/tree/main/data) folder contains the source .PDFs going back to 2018 while the /data/raw/tsa/throughput folder contains .json files.
+
+If you just want to work with the data, I would recommend looking at the [/data/processed/tsa/throughput](https://github.com/mikelor/TsaThroughput/tree/main/data/processed/tsa/throughput) folder. This folder contains .CSV files for individual airports as wall as a .CSV file for All airports (unintuitively named ""TsaThroughput.None.csv""). 
+
+I've broken out the airports that I'm interested in. If you'd like to learn more. Feel free to leave a comment in the ""[Discussions](https://github.com/mikelor/TsaThroughput/discussions)"" section or open an ""[Issue](https://github.com/mikelor/TsaThroughput/issues)"".
+
+While doing some research on Tsa Throughput today, I ran across this prior post that uses an alternate method of converting the PDF files to .CSV
+
+[(1) TSA Throughput Data for US airports per hour at the checkpoint level : datasets (reddit.com)](https://www.reddit.com/r/datasets/comments/hfpyku/tsa_throughput_data_for_us_airports_per_hour_at/) 
+
+It looks like the author ran into a problem with data extraction sometime back in July of last year. My method continues to work, and I attempt to update the data on a weekly basis (as long as TSA publishes the information). Ultimately I hope to automate the update process (source also included for that)
+
+Please note, I started this project to learn python and machine learning concepts. I like to apply my learning to what interests me. In this case I work for an airline. My goal is to predict TSA Throughput, but boy Covid really did a number on the data. Feel free to contribute, or just use the data.
+
+Interesting python code to look at would be
+
+* [/src/tsa\_throughput/src/data/make\_airport\_dataset.py](https://github.com/mikelor/TsaThroughput/blob/main/src/tsa_throughput/src/data/make_airport_dataset.py) \- Creates the CSV file for specific airport
+* [/src/tsa\_throughput/src/notebooks/animate.py](https://github.com/mikelor/TsaThroughput/blob/main/src/tsa_throughput/notebooks/animate.py)\- Creates an animation based on data (see attached graphic)
+
+This is an ""off hours"" side project, but one that I am continuing to update.",not_spam
+"Hi, I am looking for a data set that includes images of buildings in an urban environment. Any help is greatly appreciated!",not_spam
+"Does anyone know a dataset about IoT security? 
+
+It could be similar to this [KDD '99 cup dataset](https://kdd.ics.uci.edu/databases/kddcup99/task.html) about Intrusion Detection Learning or not. But it should be about IoT. I already googled with no luck.
+
+Thank you!",not_spam
+"Don't wait for a minute longer, get your fix of hashtags and follow us on Insta now! Our mind-blowing posts are destined to leave a lasting impression on you. We offer the best in curated content, from the most epic cat videos to the most sensational celebrity gossip. Trust us, you won't be able to stay away!
+
+",spam
+"Get rich quick with our amazing investment program! Make thousands of dollars in just a few days! Don't miss out on this opportunity to become a millionaire!
+
+",spam
+"Hi Everyone! For a pet project, I'm looking for one of the below, in descending order of desirability:
+
+\- a labeled image data set of Scanning Electron Microscopy images from semiconductor manufacturing. 
+
+\- a labeled image dataset from other metrology tools from semiconductor manufacturing
+
+\- a labeled image dataset from any metrology tool from any manufacturing context
+
+\- a labeled image dataset of scanning electron microscopy images from any context
+
+Any pointers would be much appreciated - thank you!",not_spam
+"There have been a few releases of tweet data that were previously available for download. If anyone has a copy that they want to share i could really use it. They don't have to be current. This old one:  
+http://snap.stanford.edu/data/twitter7.html   
+would be awesome.",not_spam
+"Hello,
+
+I found a lot of dataset with labeled positive and negative tweets, but I also need neutral labeled tweets. I saw that Sentiment140 does not include neutral tweets and I had no luck finding a dataset like this. 
+
+Reason why I need neutral tweets is:
+I want to apply sentiment analysis to random user tweets, but there are lots of tweets with no sentiment value such as links etc. So I thought if I feed neutral data while training my neural network I can classify them as neutral tweets. I thought about removing tweets with only links in it, but there are other kinds of tweets that has no sentiment value too. 
+
+If you can suggest a better way I can try that, thanks in advance.
+
+
+Edit: I found lots of neutral labeled tweets on SemEval2017 datasets.",not_spam
+"So I'm not sure where to ask this, but this data sub is the only one I know of so I figured I'd try it here and see where it takes me...
+
+So I am trying to gather data from a game that me and two friends play. I need to collect the following data from each game played:
+
+\- First, Second and Third place person for that match
+
+\- What character each person played in that match
+
+Which isn't all that complex... but it makes it a little too much for a basic Excel sheet style table (or at least I can't figure out how to do it).
+
+The best I've managed is to have it like the following:
+
+&amp;#x200B;
+
+||Person 1|Person 2|Person 3|Placement|
+|:-|:-|:-|:-|:-|
+|Game 1|Char1|Char2|Char3|123|
+|Game 2|Char1|Char4|Char4|231|
+|Game 3|Char1|Char 5|Char2|321|
+
+&amp;#x200B;
+
+Which.. I mean it saves the data. But it doesn't make it very easy to actually produce something at the end of it, especially as the 123/321 format for who got first/second/third won't translate into anything particularly useful.
+
+&amp;#x200B;
+
+Help pls? I'd like to be able to pull things like ""Person 2 has a 67% winrate when playing as character X"" or things of that nature.
+
+\++ Important note - it needs to be quick to gather the data. Like 5 seconds at the end of a match to jot in the numbers. It can't be complicated and long winded (which is a big part of the problem I'm having)",not_spam
+"Discover the ultimate way to get rich quick with our exclusive money-making scheme! 💰💰💰 Stop wasting time at your boring job and start raking in the cash with our proven system. Just sign up now and watch the money pour in!
+
+",spam
+"Tried ntsb.gov, but looks like it has U.S. only data.",not_spam
+I have a folder of PDFs which are mainly text. I'd like to transfer the text in these PDFs into a row of cells in either Microsoft Excel or Access. Is there a free way to do so without manually copying them?,not_spam
+"BOOM! Want to make money without leaving your room? Join our new exclusive affiliate program now! 
+",spam
+"Super duper hi guys!!! 💩💩💩
+
+OMG, I am so freaking excited to tell you about the latest update on our network. It's really amazing and totally legit, I swear!
+
+So, here's the deal... you can now earn MILLIONS of dollars in just a few clicks of a button. No joke, it's that easy! All you have to do is sign up for our super awesome program and start earning in no time.💰💰💰
+
+And that's not all! We have tons of cool stuff going on too. Like, have you heard about the new cat filters",spam
+Need an indian snake dataset with images and the species' names for final year project asap!!!!!!,not_spam
+"Get ready for an epic ride on Instagram, because we've got some wicked content coming your way! Are you a foodie? Then buckle up, because our feed is filled with scrumptious dishes that will have your mouth watering in no time.
+
+",spam
+"Are you tired of being mediocre? Do you want to be as vibrant and fierce as the flames of a dragon? Look no further because we have the solution for you! Our brand-new product will transform you into the gorgeous being you were always meant to be. 
+
+",spam
+I am an undergrad student researching the effects of minimum wage on mental health and I was trying to find data on mental health but I couldn't seem to find any by State as the minimum wage changes in the state-level. If you know of any please let me know thank you!,not_spam
+"""Get rich quick! Make thousands of dollars in just a few minutes! It's easy! Just click on this link and sign up now!""
+
+",spam
+"Hello everyone,
+
+I am looking for a dataset in German, to train a categorization model. My model should categorize files based on their content, and I want it to process the files in their original format (whether it's PDF, DOCX, TXT etc.), so I'm looking for a dataset that contains such filetypes.
+
+Do you know of any dataset that may suit my needs?
+
+Thanks!",not_spam
+"Get rich quick with our amazing new money-making opportunity! 
+
+",spam
+"URGENT MESSAGE!!!1!1
+
+Fellow peeps, it's time to level up your game and get the hottest tips on how to be a savage in life! Trust me, I know ALL the tricks and hacks to get the most likes and followers on the gram, the snap, the tweet, and even the tickety-tok thingy! 
+
+Don't listen to those basic b******s telling you to be ""authentic"" or ""post what you care about."" That's just boring! You need to be EXTRA, hunny! Live your best life by posting pics of every meal you eat (even if",spam
+"Hey there frenzzz! It's your favorite social media app, and I'm here to tell you all about our latest update, which will totally blow your mind out of the water! 
+
+First off, we've got some AMAZING new filters and stickers for you to play around with. They're like, so cool, I can hardly even explain it. You can finally turn yourself into a unicorn or a gremlin, and there's like a thousand new ways to make your pics look totally outrageous. 
+
+But that's not all! We've also got some sweet new features that will make your social media experience OUT OF THIS WORLD",spam
+"Hey there my fellow social media enthusiasts! I've got some hot and juicy news for you today, so sit back and get ready for a ride.
+
+First off, have you heard about the amazing diet pill that's taking the internet by storm? It promises to make you lose weight fast and without any effort! Just click on the link and enter your credit card details to start your journey towards the perfect body!
+
+But wait, that's not all. We've also got the latest gossip on your favorite celebrities. Did you know that Kim Kardashian is pregnant again? And Beyonce was caught cheating on Jay-Z with a backup dancer? Scandal",spam
+"I'm looking for a graph that tells me how much of the cases are male and how many male cases there were on a daily basis, starting from around mid January.",not_spam
+"Are you interested in NLP and/or Quantum Physics ?
+
+I have published these 2 datasets :
+
+\-  [quantum physics articles on arxiv 1994 to 2009](https://www.kaggle.com/louise2001/quantum-physics-articles-on-arxiv-1994-to-2009)
+
+\-  [quantum physics articles on arxiv 2010 to 2020](https://www.kaggle.com/louise2001/quantum-physics-articles-on-arxiv-2010-to-2020)
+
+Containing references, titles, and abstracts of all articles in the Quantum Physics category on Arxiv.
+
+Coming soon, a notebook I am working on about analyzing the trend topics year by year, identifying a new discovery by appearance of n-grams or words unseen before that become predominant in following articles, learning to give title to a text, language modeling about writing your own article... Who knows, maybe the next big discovery !!",not_spam
+"Hi people, this is probably not the right subreddit but I am trying to find a data set that has every capsule from Dragonball Z Budokai 3 with the increases or decreases in attack and defence.  I know this is a weird request but I thought I would try anyway.",not_spam
+"I am building a reverse dictionary  — for those moments when you're struggling to recall a word from memory. If you describe the word you're trying to remember, my app will give you 5-10 suggested words.
+
+In order to train a model for this use-case, I need access to a massive dataset of English word meanings. I've looked online without much luck — the Gutenberg project, NLTK's builtin words, and Owlbot are the three sources I have managed to use so far.
+
+However, none of these come close to a modern dictionary in terms of the span of words they can define. If any of you know a good dataset for this use-case, or any hacks on how I could create such a dataset, please let me know in the thread!
+
+**Two constraints**
+
+* Prefer if the dataset is machine-readable: JSON, CSV, XML, or similar
+* Would be great if the resource is free for use",not_spam
+I just started undergrad research and would love some advice on searching for data.  Working on brain size comparisons!,not_spam
+"LIMITED TIME OFFER: Get 1000 followers for just $5!!! 😱😱😱 That's right, increase your social media fame and get that clout you've always dreamed of! Don't wait, act now and watch your followers soar! 🚀🚀🚀
+
+",spam
+I want Datasets to Shortlist candidates by using ML algorithm.,not_spam
+Domain does not really matter as long as graphs from some real world problems. ,not_spam
+"WIN 10,000 DOLLARS NOW!!! 🤑🤑🤑
+
+Hey there, social network fam! 
+
+We've got a totally lit offer for you today! You can WIN a whopping 10,000 smackeroos right now, just by clicking that subscribe button 🤑🤑🤑 We're talking REAL CASH, folks! This ain't no fake hype, this is the real deal, baby! 
+
+But wait, there's more!! 🔥🔥🔥
+
+Not only can you win 10k in cold, hard cash, but you'll also",spam
+"I am using Harvard GI dictionary to perform sentiment analysis on police related content, however, I need to override some words that dont make sense in the police context. For example, force in 'police force' would be seen as negative but in this context it would not be. tried digging through google scholar and Google search but cant find anything, maybe i'm looking in the wrong place",not_spam
+"Attention all users!!!! Have you been feeling bored lately? Are you looking for something exciting to do? WELL, you're in the right place!
+
+WE have got the BEST deals for you!!! Let ME tell you, our products are top-notch and highly EXCEPTIONAL. Like seriously, how can you say no to this?
+
+Don't even get us started on the amazing discounts and promos we have going on right now. BUY ONE GET ONE FREE!!! YES, you read that right. It's time to treat yourself and your loved ones. You won't find anything better than this, TRUST US.
+
+And of course, we can't",spam
+"Big sale! Get your hands on the newest and hottest products on the market! Don't be a loser and miss out on these amazing deals!
+
+",spam
+"Hi everyone,
+I’m looking for a vehicle Year / Make / Model (at least) list with all the vehicles used in Europe and updated as of today. Anyone knows a free dataset for this ?
+
+Thank you,",not_spam
+"All of the data points should be individually freely available as it's public data but it'd take at least a year to gather it all manually. 
+
+Dunno where to find a nice big collection... whenever I find something potentially worthwhile I hit a paywall. The more data the better - easy to cut down what's unneeded.
+
+Suggestions?",not_spam
+Please Find Indian Sign Board Image datasets containing various signs: [https://www.kaggle.com/dataclusterlabs/indian-signboard-image-dataset](https://www.kaggle.com/dataclusterlabs/indian-signboard-image-dataset),not_spam
+Hello. Where can I find ED datasets online?,not_spam
+"I'm just getting started with fairness in ML as a side project. I am really fascinated by the topic, especially when a fairness unaware ML algorithm can lead to denial of resources (e.g. financial services). 
+
+Thus, I am I looking for credit card/loans/ mortgage dataset with the target being whether the client defaulted/ missed payments or not. For the fairness application, the dataset must contain a sensitive attribute that can can potentially lead to discrimination, e.g. age, gender, race, zip code, etc. 
+
+Does anyone know where I could find such a dataset? Thanks!
+
+P.S.: I will post here my analysis of a dataset you recommend.",not_spam
+"Hello all! I am looking for a dataset that has images of faces as the X for the training and for the Y (labels), what I need is a simple natural language description of the facial features, viz. the nose type, lips, eyes, eyebrows, complexion, jaw size, etc.
+
+I have been looking for such a dataset, but couldn't find an exact one. There are many face datasets classified on gender, there are datasets containing the keypoints of the face, but not like the one that I am looking for. Could you please point me to such a dataset if you guys are aware?",not_spam
+"WIN A LUXURY VACATION TO A TROPICAL ISLAND! Just click on the link below and take our SURVEY to be eligible for this once in a lifetime opportunity! Hurry, only the first 1,000 respondents will be entered to WIN!
+
+",spam
+"Sooo hey guys!!1 Have you ever heard of aMAzing NEW PRODUCT that can MELT FAT away in just WEEKS?!? 😱😱😱 It's called SlimmySlimSlim and it's totally LEGIT 🙌🙌🙌
+
+I lost 10 pounds in just 7 days using this AWESOME DIET PILL and it's SUPER EASY to use! No more boring workouts or gross kale smoothies 🤢🤢🤢 Just pop a couple of these pills and watch the pounds melt away 💪💪💪
+
+But wait, there",spam
+"I'm doing my dissertion and I really need a dataset in order to predict the remaining useful life/ time-to-failure for manufacturing machines. Does anyone know where to find a dataset for a survival analysis on time-to-failure for machines? I just need a dataset with machine ID, the time until failure and ideally some independent variables (2 independent variables are enough, preferably a numerical and a categorical one - for example age of machine and supplier). If someone knows where to find a dataset like this, even if it doesn't meet all the requirements, I'd really appreciate it.",not_spam
+"Hi guys, any suggestion on how to find a good dataset containing comments on PS5 and Xbox Series X useful for sentiment analysis / opinion mining? Thank you! (It's for my master thesis so any help would be greatly appreciated!)",not_spam
+Where can I find data to make a graph of (y) Number of posts receiving (x) number of upvotes?,not_spam
+If you can send me also all the possible data about the delivery company. Thank you very much for the help,not_spam
+"Hello guys, I need a web archive like kaggle to get datasets, can you help me?",not_spam
+"Check out these amazing deals on weight loss pills! Lose 10 pounds in one week and never feel self-conscious again! Plus, get a free trial of our exclusive workout plan. But wait, there's more! Sign up now and you'll also receive a free sample of our miracle face cream, guaranteed to make you look 10 years younger. Don't miss out on this incredible offer! 
+
+",spam
+"Hi, I am looking for DAILY gold price per gram dataset in Indian rupee between 2010-2020. Also, if available exogenous events causing fall or rise in gold price. Please help.",not_spam
+"I'm looking for data to see the share democrats/republicans have in state primaries for as many years as possible. Does this exists or will I need to create?
+
+EDIT: I think the dataset might be here, but I am not a UMich student. If anyone can bypass the login and willing to share, please PM me. http://guides.lib.umich.edu/c.php?g=282896&amp;p=1885080",not_spam
+"Wondering if anyone is aware of any work that may have been done that has attempted to quantify and classify different regions based on cultural norms around health, social interaction, safety etc. This might include factors like:
+
+*  amount of accepted / expected social touching   (e.g. handshake greeting v. bow might be scored differently)
+* cleanliness standards
+* health standards 
+
+I am hoping some work has been done that scores regions on a scale or perhaps buckets them.",not_spam
+"I am creating a website that analyzes your text messages / Facebook messages to offer some interesting graphs and statistics about your chats.
+
+&amp;#x200B;
+
+Whats the best way to allow a user to give us their messages? I know they can download and upload, but I was hoping to have it be automatically updated.
+
+&amp;#x200B;
+
+EDIT
+
+chill out about privacy concerns, this is for me and a few friends I don't plan to read anybodies messages lol",not_spam
+"Diz is um post incrível from da besteche social média eva! Yay! We gots so muc zuccy juice and we wanna share it witchoo! Tchekout dis link to win a free iPhôn or Umberella,  We gotsa everytin you need to be da best in da game! 
+Don't lyk you page lookin boring? We gotsa solution! We can help you wit dat. We knows all da triks to make you look like a J-Law zen goddess pic online. #sokewl 
+Follow us and lak dis",spam
+"HEY FAMZ!!! TONZ OF EXCITIN' TINGZ GOIN' ON HERE AT OUR SOCIAL NETWERK!!! OMG!!! U WON'T WANNA MISS OUT ON DIS JUICY DEETS!!!
+
+WE GOTZ A NEW FEATURE DAT LETS U SEND GIFTS 2 UR FRIENDZ!!! HOW COOL IZ DAT???
+
+ALZO, TAKE ADVANTAGE OF OUR SUPER SPECIAL OFFER: SIGN UP NOW AND GET 1000 POINTZ!!! U CAN USE DEM 2 BUY PREMIUM ACCEZZ OR UPGRADE UR ACCOUNT!!!
+
+OH YEAH, DID WE MENTION WE",spam
+"Win a FREE iPad NOW! Click here to enter your information and claim your prize!
+
+",spam
+"Hey r/datasets, I am looking for a dataset that captures average scientific literacy by state in the United States. I have found science scores from the national report card: [https://www.nationsreportcard.gov/profiles/stateprofile?chort=2&amp;sub=SCI&amp;sj=AL&amp;sfj=NP&amp;st=MN&amp;year=2015R3](https://www.nationsreportcard.gov/profiles/stateprofile?chort=2&amp;sub=SCI&amp;sj=AL&amp;sfj=NP&amp;st=MN&amp;year=2015R3) but this, unfortunately, only measures the scientific literacy of 8th graders. **I am hoping to find data that captures the average scientific literacy of adults in each state.**
+
+&amp;#x200B;
+
+I am also interested in any datasets that capture scientific literacy by country. I have been using the PISA [https://www.oecd-ilibrary.org/education/science-performance-pisa/indicator/english\_91952204-en#:\~:text=Scientific%20performance%2C%20for%20PISA%2C%20measures,mean%20score%20is%20the%20measure](https://www.oecd-ilibrary.org/education/science-performance-pisa/indicator/english_91952204-en#:~:text=Scientific%20performance%2C%20for%20PISA%2C%20measures,mean%20score%20is%20the%20measure). but this also only capture the literacy of children in each country. Not to mention that the number of countries that participate in this testing is limited.
+
+&amp;#x200B;
+
+Any help would be appreciated, thanks. ",not_spam
+"FbK is the newest social media hit, and we're here to tell you all about it! Have you been feeling left out of the social media game? Have you been searching for the perfect platform to share your thoughts, pictures, and videos? Well, look no further than FbK!
+
+With FbK, you'll have access to all the latest memes and viral videos that you won't find on any other social media platform. Plus, our user interface is super easy to navigate, so even your grandma could use it (no offense, grandma!). We also have the most advanced algorithms to make sure you see all the",spam
+"Quick question, I have da dataset where the features are the values from acceleration sensor and label explains the condition of a structure if it is damaged or not. However, I'm stuck with the cross\_validation.train\_test\_split the part where I don't know how to train and test the label.",not_spam
+"Therez no time 2 waist! Check out our super awesome website filled with tons of gud stuff! Luv our exclusive products or get super cool ideas for ur next project. 🤑💡🛍️
+
+",spam
+"🚨🚨URGENT ANNOUNCEMENT!!!🚨🚨
+
+💰💰WIN BIG WITH OUR LATEST GIVEAWAY!!!💰💰
+
+👉🏼👉🏼CLICK HERE NOW TO ENTER👈🏼👈🏼
+
+🤑🤑YOU COULD BE THE LUCKY WINNER OF $100,000💰💰
+
+But that’s not all!! We’ve got tons of FREE samples for you to try out! 
+
+👀👀Why wait?! Get your hands",spam
+Preferably 2015-2020 dataset. I've already checked UCI datasets but size is less than 1k rows. I need at least 8k rows. Thank you in advance,not_spam
+"Attention Everyone!!! SHOCKING INFO INSIDE!
+You won't believe what we've found! This is a must-read for everyone who wants to be part of the know! Did you know that you can earn HUNDREDS of dollars in just one day?! It's TRUE! We have a special program that only a SELECT FEW know about! Don't miss out on this HUGE opportunity! 
+And that's not all! Our members get EXCLUSIVE access to some of the BEST content on the web! You won't find this anywhere else! We've got the LATEST gossip, the COOLEST memes, and the most",spam
+"I'm looking for a database of resumes. I was hoping indeed.com would have a REST API, and they do, but only for job posting (not resumes/profiles).
+
+I think linkedin doesn't off much data (unless the profile users does an Oauth and gives you access).
+
+Does anyone know where to get resume data (preferably on sales people, b2b)?
+
+thanks!",not_spam
+"Lol OMG!🤑Guys, have you heard of this totally insane product that will change your life forever???🤯 It's called ""KetoMax Ultra 5000"" and it's like the most amazing weight loss supplement everrrrrrr🤩🤩🤩. You can lose like 10 pounds a week just by taking it, no exercise or healthy eating required. I know, I know, too good to be true, right? But trust me, it really works!💪💪💪 
+
+And the best part?? It's FREEEEEEEEEE! Yes, you",spam
+"Are you tired of boring, average social media platforms that don't give you the attention you deserve? Well, let me introduce you to our super cool and hip social network! Our platform is the place to be if you're looking for endless spam messages, fake accounts, and inappropriate content galore!
+
+But wait, there's more! Not only do we offer a never-ending stream of low-quality content, we also have several exciting features to keep you glued to your screens! From constant ads popping up every few seconds to clickbait articles that lead nowhere, we've got it all! And let's not forget about the countless surveys and",spam
+"I have two datasets that contain information about retail stores.
+
+Dataset 1 contains a unique identification number for each store, address, city, postal code, and store name. 
+
+Dataset 2 also contains similar information as dataset 1. However, this dataset is sourced from a third party and all the unique identification numbers are different. Additionally, the address and store name fields may have differences in spelling/formatting. 
+
+Is there a way to use some form of advanced analytics to match the two datasets? Both datasets are roughly 20000 rows.",not_spam
+"I am looking for image datasets for plant disease identification, this for my machine learning projects. Any clues on where I can find them. Please guide me to it thanks.",not_spam
+"Hi guys!
+
+I'm looking for a video game dataset that contains the game description for text mining. 
+
+Thanks in advance!",not_spam
+"Does anyone know of a centralized DB of those Common Data Sets that Universities in the US have to fill out?
+
+I know a ton of school rankings are based off the data in these Common Data Sets, but I can't find any places that index each CDS.",not_spam
+"""URGENT! You WON'T BELIEVE what we're offering! Limited time only! Get RICH QUICK with our AMAZING DEALS! Don't wait, act NOW! Sign up and receive a FREE PRIZE! That's right, FREE! Share with your friends and EARN even MORE! Like, comment, and subscribe for EXCLUSIVE CONTENT and insider access! Don't be left behind, join the WINNING TEAM today!"" 
+
+",spam
+"This is for academic research - ""internet paleography"". I am interested in early blogging communities, their network, and their topics.
+
+The method will be a combination of network analysis and text mining, but my problem is how to get the raw data. 
+
+What would be the best way? Using archive.org and cleaning the data somehow? (if so, how?)
+
+Using other datasets? Which ones?",not_spam
+i want to start a project about musical statistics.. any help would be appropriated ,not_spam
+"Hi,
+I'm looking for potato image dataset. I have searched for it everywhere and also scraped data from Google image search, but none seem to be good.
+I want the dataset for object detection training.
+Any help is appreciated.",not_spam
+"Hello!
+
+I am a MSc Clinical Psychology student, and for my thesis I am conducting qualitative research aiming to better understand digital accumulation and data hoarding, and the impact it has on an individual. I am looking for individuals who have experienced the urge to collect or hoard data (i.e files, photos, ebooks, emails etc) to the point it affects their life in some way. The experience of digital/data hoarding is completely subjective and it can manifest in many different ways, from Pinterest and social media to collections stored in hard drives and cloud storage. I would like to ask anyone who has some insight into this through lived experience or otherwise to comment on this thread with whatever they would like to share, or if preferable to message me directly with their comments on this topic.
+
+&amp;#x200B;
+
+Many thanks!",not_spam
+"FREE V!@GR@ and other endless deals! You can get the best and most incredible deals on our site - just click on the link NOW and get ready to be amazed! Don't miss the chance to save tons of money and receive your package in just a few days. Our products are essential for everyone who wants to live a fulfilling life. 
+
+",spam
+I need the data source for state-owned media. So far I find https://en.wikipedia.org/wiki/Category:State\_media.,not_spam
+"Hey people, I hope someone could help me with this! 
+
+Looking for big datasets of registered websites per country and/or regions (Europe, North America, Asia, etc.). Already searched on the internet (tbh looking for that for a couple of days without any serious results). 
+
+Is there any resource I can use to do some analysis?
+
+Thanks in advance!",not_spam
+"Get ready for the most amazing and unbelievable experience of your life! Our social network is like a magical land full of wonders and prizes waiting just for you. Join our network today and become one of the coolest and most popular people in cyberspace!
+
+",spam
+"Urgent Sale Alert!
+
+Hey guys! Check out our amazing deals! We have everything you need, from cheap knockoffs to expensive stuff that you don't really need but will definitely make you look cool. And guess what? It's all on sale for a limited time only!
+
+Don't hesitate, because once these deals are gone, they're gone forever! Buy now and feel the rush of consumerism pumping through your veins. You'll never want to go back to that boring old life of saving money and being responsible.
+
+But wait, there's more! Sign up for our newsletter and get even more spam in your inbox every day",spam
+"Hello mates. I have been monitoring coronavirus cases and deaths with two datasets: from the World Health Organization and Johns Hopkins University, but none of them have age ranges/groups available. Is there any database with the age range of cases or deaths? Ideally, I would like for all countries, but specific datasets with regions/countries' information are also of value. Thank you!",not_spam
+"I have a set of Profile pictures that I would like to assign a Ethnicity to.
+However, I don't have any training set, and I am looking for a dataset having Face Images with a labeled Ethnicity.
+Anybody knows if such a dataset exists?",not_spam
+"Imagine if I told you that by reading this post you could instantly become rich, popular and successful, all with just one click? Sounds crazy, right? But it's totally true! That's because our social media platform has everything you need to become the next big thing. 
+
+With our amazing selection of filters and photo editing tools, you can make yourself look like an absolute stunner, guaranteed to get you all the attention you deserve (and more!). And with our algorithm, we'll make sure your posts are seen by everyone who matters. 
+
+But wait, that's not all! By following our sponsored accounts and downloading our partner apps",spam
+"We've got a great deal for you! Don't miss out on the amazing opportunity to WIN BIG with our AWESOME giveaway! 
+
+",spam
+Somebody HAS to have done this...,not_spam
+"Hi! I'm wondering if there are any resources for health data that are 1) kept current 2) searchable by zipcode and 3) contain data points on health data (e.g. asthma cases, emergency room visit reasons, foodborn illness). I've spent hours looking, but I haven't found much. 
+
+[This](https://a816-health.nyc.gov/hdi/epiquery/visualizations?PageType=ps&amp;PopulationSource=Syndromic) is an example of the type of thing I'm looking for (but it's only for ER visits).  Ideally, data would be available for the NYC area.
+
+Thanks!",not_spam
+"LOOOKK HEREEE GUYS!!!!! GET UNLIMITED ACCESS TO THOUSANDS OF HOT SINGLES IN YOUR AREA!! JUST CLICK ON THE LINK BELOW AND SIGN UP NOW! YOU WON'T REGRET IT! ALSO, FOLLOW OUR PAGE FOR MORE AMAZING DEALS AND OFFERS! #HOT #SINGLES #UNLIMITED #ACCESS #AMAZING #DEALS #FOLLOW #NOW 
+
+",spam
+"Hi to community menu, 
+I am new here. I am trying to build a model to predict either diabetes or epilepsy in people. I want to do an end to end project. Therefore, I look for a sources to create a dataset (web scrapping). 
+Beforehand, I appreciate everybody who helps. Thanks in advance.",not_spam
+"ALERT! FLASH SALE! DON'T MISS OUT ON THE DEAL OF THE CENTURY! 🚨🔥
+
+👉 Get 50% off all our premium products for a limited time only! That's right, all the cool kids are taking advantage of this amazing offer. Don't be left out in the cold ❄️- grab your discount now!
+
+💻 Our products are top-notch and will take your online presence to the next level. Plus, you'll be helping out the environment! 🌍
+
+🚨 But hurry, this offer won't last forever! ⏰
+
+Don't believe",spam
+"I'm doing my first econometrics project, so I'm still new at obtaining good data.  I'm hoping to find some sort of data on employee satisfaction, wage ratio (inequality), productivity, unemployment, etcetera in worker cooperative networks such as in the Mondragon cooperatives of Spain, some kibbutzim networks in Israel, and/or other such movements in the United States.",not_spam
+"I have an assignment that I’m working on and I’m stumped. 
+
+I am writing a paper analyzing rule-based vs relation-based countries and how it impacts international business. 
+
+I can’t for the life of me find enough variables to measure this or differentiate between rules or relationship. 
+
+There have been a few surveys measuring trust but that was all I could really find. 
+
+Does anyone here have any experience doing an analysis like this or could think of some variable examples?",not_spam
+"Get ready to be blown away by the amazing deals and offers on our social platform! We've got everything you need and more - from beauty products to travel packages, we have it all!
+
+",spam
+"Hello,
+
+I would like to obtain a dataset to analyze impacts of browsing behavior and customer purchase pattern. I have been unable to find it publicly. The ideal data set would have a time series set of web analytic data (page views, clicks, funnel or conversion tags, page metadata, etc.) and a time series set of e-commerce data (customer transactions, cart size, etc.)
+
+If anyone has any advice how to collect or ability or provide I would be appreciative.
+
+Thank you.",not_spam
+I just need a set with a response variable along with at least one qualitative variable and any number of quantitative variables. Any Subject I can use. Just having trouble finding a set. Thanks!,not_spam
+"Breaking News: Our new app has just launched! It's like, totally awesome and you need it RIGHT NOW! Don't wait any longer, click that download button and join the coolest community ever! 
+
+",spam
+"Hi,
+
+We would like to use  Satellite Imagery data in our project. Is there a place to get a good quality (commercial or free) data?. Feel free to recommend some resources.",not_spam
+"Get ready for the most epic post ever! Our social network has all the things you could ever want and more! Friends? Check. Photos? Check. Videos? Check. Endless scrolling and mindless entertainment? Double check!
+
+We've got the best algorithms that'll keep you glued to our platform for hours on end, whether you're looking for cute cat videos or endless streams of memes. Plus, our sponsored content is so on-point, you won't even realize you're being sold something!
+
+But that's not all, folks! We've got exclusive access to limited-time offers, discounts, and freebies like you wouldn't believe",spam
+"Hey, peeps! Are you looking for an epic way to boost your social media presence? Look no further, because I've got the ultimate solution for you!
+
+Introducing our all-new, super-duper, ultra-mega social media package that includes likes, comments, shares, and followers galore. And that's not all, folks! Purchase now and receive a free bonus of 500 fake bot accounts to follow you and like every single one of your posts!
+
+But wait, there's more! We've also got an exclusive feature that helps you buy more organic followers by simply buying a package, and this automatically attracts more people",spam
+"Ladies and gents, we gotta BOGO deal for you right now that's totally LIT! Get double the amount of followers for one price, you heard that right! And for all the #fitspo lovers out there, we've got a protein shake to tighten those buns in no time. Plus, we've got some killer ads that will grab your attention and make your wallet shake too! Don't miss out on this swag, so why wait when you can swipe and get it all NOW?! #YOLO #SoMuchWinning #SpamTastic",spam
+"I'd like to supplement my R/Data Science learning with some real datasets instead of contrived rnorm(n) stuff, so why not check out some that random redditors find personally interesting! 
+
+Also interested in any link to curated collections, things like that. This subreddit has an empty sidebar, I came here kind of hoping for some links but seems like to find datasets without having one in mind, someone would have to just peruse old posts. 
+
+Thanks!",not_spam
+"I’m doing a little pet project where I’m analyzing paintings, and so far for the algorithm development I just downloaded a bunch of images by hand off of google and manually entered the relevant metadata. Now that the algorithm is done, I’m hoping to get a better assortment of images, but would really love to not have to do the tedious process of manually gathering them. I don’t need much in the way of data, just the title and artist is enough, although extras like the year they were painted, etc, are always welcome.
+
+Does anyone know of either an already assembled source of images I can download all at once / in large batches? Or perhaps a python script or similar that would scrub them off a site like google arts and culture or the met/moma websites? These website are where I got my test images, but as far as I can tell there isn’t a way to download all at once from any of these sites., only one at a time. Thanks in advance for any help you can give!",not_spam
+"Looking for some hot deals? Want to connect with your friends and family? Then come on over to our amazing social networking platform!
+
+We've got it all - from the latest fashion trends to the hottest celebrity gossip. Plus, we'll connect you with all your favorite brands and help you find amazing deals that you won't find anywhere else.
+
+But that's not all! We'll also keep you up to date on all the latest news and events happening around the world. Whether it's sports, politics, or just some juicy scandal, we've got you covered.
+
+So what are you waiting for? Sign up now and start enjoying all the",spam
+"Hello, do you have any info about image datasets that have images of olive fruits ? Thanks",not_spam
+"""Get ready to be blown away by the most amazing social network ever! With our incredible platform, you'll have access to tons of trashy memes, fake news stories, and mindless gossip. Plus, our spam bots will inundate your inbox with ads for products you never asked for!
+
+But wait, there's more! You'll also see non-stop updates from people you barely know talking about the mundane details of their lives. From what they had for breakfast to what they're wearing to work, you'll be riveted by the sheer banality of it all!
+
+And don't even get us started on the terrible grammar and spelling",spam
+"Does anyone know of an existing database, or website that I could scrape, to find the locations where movies were filmed?
+
+Any advice would be sincerely appreciated!",not_spam
+"Hi! Im doing an excel work for a data analytics class. We have a big data sheet from a nearby coffee shop. We need to apply different logic and see what we can derive. We need to add different data sets and correlate the data. I am in Dublin Ireland. I am trying to find a dataset that shows the popular times and dates by amount of people spend on the streets, any idea where i could find something like that?
+
+Also any advice on what other datasets i could apply ?
+
+&amp;#x200B;
+
+Here is an interesting observation i found so far 
+
+[https://imgur.com/a/CeZrBmn](https://imgur.com/a/CeZrBmn)
+
+More coffee is sold per day as it gets closer to Saturday, which is the most popular day and sunday is the worst. ",not_spam
+"Cyber buds, what’s up! We’ve got some juicy gossip to spill on the gram! Are you ready to hear it? You better be!
+
+We’ve just launched a brand new feature that’s going to change the game. You can now add GIFs to your stories! YAS! It’s lit AF, right?
+
+And that’s not even the best part. We’ve made it super easy for you to swipe through all the hottest GIFs out there. Just tap the search bar and type in whatever you’re feeling – pizza, unicorns, or even poop! We’ve got it all!
+
+Oh, and don’t",spam
+"I am interested in the Edison Research exit poll data. It is published in multiple newspaper outlets.
+
+I think Fox has the best representation of this data: http://www.foxnews.com/politics/elections/2016/exit-polls
+
+Could I request this data scraped by state?
+Thanks",not_spam
+"I'm working on a project and I'm looking for interesting, mapable data sets for the city of Atlanta. Any suggestions?",not_spam
+"Doesnt matter the branch of the insurance.
+
+Edit. I found the CASdatasets package in R, it will serve my porpouses just fine.",not_spam
+"HOT SINGLES IN YOUR AREA! FIND THEM NOW!
+
+",spam
+"Anyone know of databases that contain historical public opinion polls for US elections? FiveThirtyEight/most election modelers keep current years polls available, but having trouble finding any historical polls",not_spam
+"Get rich quick!
+Make thousands of dollars in just a few clicks! Our amazing new system is guaranteed to make you rich in no time. Just sign up now and start earning big bucks!
+",spam
+"Is there any possible way to pull the petition data from the (White House)(https://petitions.whitehouse.gov/petition/peacefully-grant-state-texas-withdraw-united-states-america-and-create-its-own-new-government/BmdWCP8B) site? I specifically am trying to get the location data. I know there should be a way but I just can't think of it right now and I'll be damned if I'm going to go through 90,000+ entries.
+
+Anyone with a good idea gets some sweet karma!",not_spam
+Looking for a proper real dataset to do the functional data analysis? Anybody can help or any advise ? Thanks in advance!!,not_spam
+"Get ready to be mind-blown! Our network has the most insane features you can ever imagine. We've got the kind of content that will leave you gasping for air, and our community is just the coolest people you'll ever meet.
+
+",spam
+"ATTENTION ALL USERS!!!   
+
+Are you tired of being stuck in a boring online world? Tired of the same old routine every day? Well look no further, because [insert social network name here] is here to shake things up!
+
+We've got all the latest features, including filters that will make your selfies look like they were taken by a professional photographer, and stickers that will make your messages pop! And let's not forget about our endless feed of celebrity gossip and clickbait articles that will keep you entertained for hours.
+
+But that's not all, folks! We've also got exclusive deals and promotions that you won't find",spam
+"🎉🎉🎉 Attention All Users 🎉🎉🎉
+
+💰 Are you tired of being broke? Want to make money FAST? Well, you're in luck because we have the perfect solution for you! Our brand new get-rich-quick scheme is guaranteed to make you a millionaire in just a few short weeks! 💰
+
+🤑 All you have to do is sign up and invest a small amount of money (only $500!) and you'll be on your way to financial freedom! 🤑
+
+🚀 Our program is so foolproof that you'll be",spam
+"Hi everyone, 
+Just starting out studying statistics and data science and passionate about sports, wanting to combine the two to build some statistical models and predictions. Where are the best free datasets in sport? Any extra tips or general info much appreciated. 
+
+Thanks for helping a sister out :)",not_spam
+"Passionate about connecting with other humans? Want to grow your network and reach more people than ever before? Then you need to join Fakiebook! With Fakiebook, you'll have the power to spam your entire contact list with promotional content and meaningless updates.
+
+And don't worry about privacy - we don't believe in that nonsense here at Fakiebook. We'll happily sell your personal information to the highest bidder, so you can get even more spam in your inbox!
+
+But that's not all - with Fakiebook, you can also waste hours of your precious time scrolling through a never-ending stream of fake",spam
+"Earn money fast! Make $1000 today! Don't miss out on this amazing opportunity to cash in on your dreams! Sign up now and start earning big bucks with our proven system!
+
+",spam
+"I am looking to find basic information on a marriage-by-marriage basis.
+My goal is to graph the distribution of spouse's age w.r.t. the age of the other spouse, e.g. how likely a man who married at 32 is to have married a woman who is 28, 29, etc.",not_spam
+"Check out these crazy new deals we have! 🔥🔥🔥🔥
+You won't believe the savings you can get on our products, it's like we're giving them away for free! 😱😱😱
+But you have to hurry, because this offer won't be around for long! ⌛⌛⌛
+And if you refer your friends, you can earn even more discounts! 😎😎😎
+So what are you waiting for? Start shopping now and save big! 💰💰💰",spam
+"Looking for ways to make money online? Look no further than our amazing platform! With our revolutionary system, you can become a millionaire overnight! Just sign up and start earning money right away!
+
+",spam
+"The data set must contain: 
+
+1. at least 2 Categorical variables 
+
+2. at least 3 Covariates (one of which should be the dependent variable). 
+
+3. at least is composed of 40 individuals.
+
+&amp;#x200B;
+
+I know this is very vague but I have searched quite a bit and can't find one that suites the above. Thank you :) ",not_spam
+Historical data of each FIFA affiliated country (at that time) and their rankings,not_spam
+"Is there any dataset that I can use to relate first names with ethnicity or baby origins ?
+",not_spam
+"""Unbelieveableeeee! Get Rich Quick with our Super Duper Amazing Offer! Click Now and Win BIG Money! 😎🤑😜
+
+",spam
+"JUST IN: NEW AMAZING SECRET TRICK FOR GAINING FOLLOWERS ON OUR PLATFORM! 
+
+Ahoy there, shipmates of the internet! We've got some big news for you all today. Throw away your worries, 'cuz we've got the solution to all of your follower gaining needs right here. Let's face it, it can be tough out there in social media land, trying to stand out and get noticed. It's like trying to be the most colorful fish in a sea of rainbows. But fear not, 'cuz our team of expert ninjas have uncovered a secret technique that will guarantee you the",spam
+"I want to check my progress or decline in productivity for a month. So I'm planning to collect and make a datasheet with everything I do on a day-to-day basis for October. But I am not sure how to enter the data or where to enter that'll make it easier for me to analyze it later (at the month-end mostly). Has anyone here done anything like this or similar to this? If yes, could you give some pointers on how to proceed?
+Thanks! :)",not_spam
+Saw a post from a year ago on this but there wasn't any good data. Wondering if anyone else might know where to find data on this going back at least 5-10 years.,not_spam
+"OMG!!! You won't believe the insane offer we have for all our amazing followers!!! Sign up now and get a chance to win a ridiculous prize worth $$$!! Share this post and tag your BFFs for extra entries!! #winning #giveaways #youknowyouwantit 🤑🤑🤑
+
+",spam
+"I am thinking of things like schools,prisons etc. ,I want to be able to profile people and their relationships to one another ,so a dataset of cctv video on a street is useless for that purpose",not_spam
+"Looking for a dataset on this. I have had no luck digging around the Google Mobility Reports.
+
+Edit: preferably measured state by state",not_spam
+Is there anyone scrapped [https://api.rawg.io/docs/](https://api.rawg.io/docs/) or [https://www.giantbomb.com/games/](https://www.giantbomb.com/games/) ?,not_spam
+"BUY 10,000 FOLLOWERS NOW! LIMITED TIME OFFER! DON'T MISS OUT! 
+
+Get ready to boost your social media presence with our amazing offer! We're offering a limited-time deal for you to buy 10,000 followers and increase your credibility on [insert social media platform here]. Don't miss out on the chance to become popular and impress all your friends and followers. 
+
+But wait, there's more! We're also offering a free trial for our exclusive bot that automatically likes, follows, and comments on posts. It's the perfect way to get more engagement and increase your visibility. 
+
+Not sure if you",spam
+"I'm having the internship with my Machine Learning teacher. We want to analyze the energy consumptions of some buildings but the data is sparse and not exciting. Do you know if there are some historical energy consumption datasets?
+
+Thanks",not_spam
+"Woohoo! Are you looking for the ultimate online shopping experience? Look no further! Our website has all the latest and greatest deals on the market. Plus, we offer exclusive discounts that can't be found anywhere else.
+
+",spam
+"Where can I find datasets about epidemics and pandemics such as Black Plague, Influenza and Coronavirus?
+Thanks",not_spam
+"Are you tired of being a nobody? Do you want to get thousands of followers and become the talk of the town? Well, stop wasting your time and money on expensive advertising! Let me tell you about the amazing services our social network provides.
+
+",spam
+"Hey there, fellow fanatics! Have you ever wondered how to get rich quickly without putting in any effort? Well, look no further, because our amazing new program has got you covered!
+
+Our program is designed to make you thousands of dollars in just a few days, no matter how experienced you are or how much money you have to start with. All you need to do is sign up and our team of experts will do all the work for you.
+
+But wait, there's more! Once you're a member, you will have access to our exclusive library of get-rich-quick schemes, all proven to be 100% effective!",spam
+"If u r lukin 4 sum real hottiezz nd xcitment den luk no furthr coz we hav it all here on [Name of Social Network]! Our community is packed wid da most beutiful gals nd guys ready to chat, date, nd hav sum fun! 
+
+Join now nd get access 2 da hottest pics nd vids, daily updates, nd exclusive content dat u won't find anywhere else! And if u want even mor, upgrade to our VIP membership nd get even mor benefits lik private messaging nd access 2 our secret content! 
+
+Don't waste any mor time, sign up now nd",spam
+"Just looking for this year, bonus if there's historical data. Would love it by player, but would be ok with team.",not_spam
+"We are a small group of students trying to run Origin - Destination studies on specific locations within Toronto. I have been trying to find a mobile location data set and have been finding it kinda hard so far.   
+
+
+Any suggestions where I can gain access to such a data-set? doesn't need to be free but we need a large data set. (we need to know how many people moved from area A to area B in a single day, and ideally how long they stayed in each)   
+
+
+Thanks!",not_spam
+"Looking for key team stats, champions played, individual stats, etc.",not_spam
+"""Discover the NEW amazing weight loss pill that will help you lose 50 pounds in just one week! Click here and buy now before it's too late! 🔥💊""
+
+",spam
+"Hi, 
+
+  I'm trying to find a raw data source on English Premier League standings. I only need the data that's displayed here http://www.premierleague.com/en-gb/kids/barclays-premier-league-table.html .
+
+  Googling has not helped me in finding a raw data source ( json, xml, csv ) . So I'm wondering if anyone could give a pointer towards where I can find the feed?
+
+  -- Would I need to contact the official sports organization to get access to this data?
+
+  -- Is there a different way ( other than google ) to get these data? 
+
+  -- Or should I try to parse publicly available data ( wikipedia? )
+
+ADDITION 1: the data I'm looking for is also nicely displayed by google after a simple search https://www.google.ca/search?q=english+premier+league+standings . Is there a way to get raw data from that?",not_spam
+"How would one write a request for data that a company may have? For example, I want to request bicycle usage data from a local company, how would I go about doing this in a diplomatic way? This data does not involve individuals per se, so no sensitive information would be obtained. Still, what would be the right approach to asking for this?",not_spam
+I've been trying to find  such a data set for a few days but no luck so far. Maybe somebody knows where to look?,not_spam
+"Yo yo yo, what's up my fellow peeps?! It's your boy from [Social Network], here to drop some knowledge bombs on y'all. So let's get to it, shall we?
+
+Firstly, have you heard about this new diet pill that's been taking the internet by storm? It's called ""SlimFastExtreme"" and it's supposedly the most effective weight loss supplement out there. Don't waste your time with all that exercise and healthy eating nonsense, just pop one of these bad boys and watch the weight melt away! I'm not even kidding, it's like magic.
+
+Next up, have you ever wanted",spam
+"LADIES!!! I've got the most amazing product you'll ever lay your eyes on! Try our miracle cream that will make you look younger by 10 YEARS!!! Don't waste time and grab yours NOW!!!
+
+",spam
+"To the best of my knowledge, this dataset doesn't exist yet. Also, I want to release my scraper cause why not. I think its a pretty good scraper and am proud of it :)
+
+&amp;#x200B;
+
+Cross post [https://www.reddit.com/r/datascience/comments/du1j0g/i\_scraped\_a\_ton\_of\_data\_from\_a\_popular\_forum/](https://www.reddit.com/r/datascience/comments/du1j0g/i_scraped_a_ton_of_data_from_a_popular_forum/)",not_spam
+"I developed a SPARQL query to extract biographical data from Wikidata (sister project of Wikipedia). The mini-biography includes name, date of birth, country, sex, and ethnicity. The Wikidata query service times out after 60 seconds, which allows only a few ten thousand people, so then I developed a Python script to iterate through all the people. This requires &gt;100,000 iterations and many days of processing. To save you the time and effort, I made it available as a single CSV file you can just download right now.
+
+Here is the [(compressed) CSV file](https://sourceforge.net/projects/entity-metadata/files/wikidata/person/) and the [Python script](https://github.com/az0/entity-metadata/).
+
+If you know a more efficient way, let me know! :) Pull requests welcome.",not_spam
+"Looking for more followers on Insta? Want to boost your engagement stats? Look no further! We've got the ultimate secret to skyrocketing your social media game.
+
+",spam
+"Attention all netizens! Are you tired of boring content that doesn't make you feel alive? If so, check out our social media platform! We have everything you need to make your online experience unforgettable!
+
+",spam
+"Reduce belly fat by 90%! Lose weight in just 24 hours! Click here now! 
+
+",spam
+"Just thought I'd share this [Goodreads dataset here](https://github.com/zygmuntz/goodbooks-10k). It took me quite a lot of internet sleuthing to find an interesting, complete and large dataset to practice machine learning and more specifically recommender systems.
+
+This data was originally pulled from Goodreads in 2017 by Zygmunt Zając . It contains detailed metadata information for **10 000 books** (sorry about the typo in the title), as well as 6 million individual numerical ratings collected from 53 000 users. There is no demographic information available for users, but the different files included in the release form an interesting basis for a recommender system.
+
+I have released an expansion pack of sorts for this dataset, that adds book descriptions, genres and other features, enabling the use of various NLP strategies. **[See here for the augmented dataset.](https://github.com/malcolmosh/goodbooks-10k-extended/blob/master/README.md)** Cheers.",not_spam
+"Hi, I would like to make a app similar to this one in functionality: https://youtu.be/d7Zi45e4tpY
+
+I would like to create a similar app that provides a brief summary of what the Individual ingredients are, a healthy/unhealthy status indicator and what makes them harmful. So while I want the brief summary to be exactly as seen in the I would like to have more independent nutritional information. Is there a FDA API I can utilize to query the different ingredients or a dataset I can use? The author used GPT-3 but it's invite only and since the info used to build GPT-3 originated from general conversations on Reddit instead of a authoritative source I would prefer to use a more reputable source. Any assistance would be greatly appreciated. Thank you :D",not_spam
+"Urgent Alert! Great news for all you social media lovers out there. Our network has just launched an amazing new feature that will make you go bananas! But before we tell you about it, let's dive into some juicy details.
+
+",spam
+"Wazzup y'all, it's your boy from InstaGross! And let me tell you, we've got some sick new features that you don't wanna miss out on!
+
+First off, have you checked out our new filters? They're straight fire! You can make yourself look like a puppy or even add rainbow puke to your pics! And don't even get me started on our latest sponsored posts! They're gonna blow your mind! 
+
+But that's not all folks! We're also offering a limited time deal where the first 100 people to share this post will get a chance to win a free trip to",spam
+"At my old job, it seemed like every few weeks I’d have a new project with a new dataset. The hardest part in my job was understanding the data not completing the project. I created a tool to solve this and I’m hoping to find beta users to give it a spin! It’s one location to store meta-data, common questions, and analysis associated with a data table. It requires manual uploads in current state so it’s ideal for smaller teams. 
+
+If anyone is interested in trying it please let me know. :)
+
+The website is datalogz.io",not_spam
+I am looking for a dataset with a minimum of 200 columns and to address a business problem associated with the dataset for my machine learning class. Any help would be much appreciated.,not_spam
+"NEW AMAZING OFFER: BUY ONE GET TEN FREE!! 
+
+OMG, you guys! Can you believe it? We're offering the deal of a lifetime - buy one product, and you'll get an unbelievable ten products FOR FREE! 
+
+That's right, you won't find a sweeter deal than this anywhere else on the internet! Our products are the best in the world, and you won't find better quality anywhere else! 
+
+Don't miss out on this INCREDIBLE opportunity to save money and get the best products in the world! Click here NOW to take advantage of this amazing offer before it's too late! 
+
+",spam
+"SPAM ALERT! AMAZING DEALS ONLY FOR TODAY!   
+Hey there, we have a super exciting announcement for all our amazing users! TOTALLY FREE (you heard it right, FREE) TRIAL for our premium service with an exclusive offer that is not available elsewhere. 
+
+But wait, there's more! If you sign up for our service today, we will offer you a whopping discount of up to 70% on your first year's subscription. Wow! 
+
+Our service provides a wide range of features, from connecting with friends and family to sharing memes and jokes, and even promoting your business to a wider audience. 
+
+",spam
+"Get rich quick with our new amazing scheme! 
+
+",spam
+"Gotta love this amazing new diet pill that melts away those pesky pounds in no time! Try it now and be beach-ready in just a week! Limited stock available, so act fast!
+
+",spam
+"Hey y'all! Not sure if something like this has been asked before, but I've been working on putting together an open-source database for literary theory pulling together reviews and literary themes, similar to the EBSCO database or Bloom's Literary Themes? I don't have access to either, at the moment, as I'm an independent researcher. Anyone know of anything? 
+
+Thanks so much in advance!",not_spam
+"(I had this up before, but accidentally deleted it)
+
+I'm looking for a dataset on US weed prices on the municipal level. Anyone know of a dataset or place to scrape it?
+
+I found [this site](http://www.priceofweed.com/data/all), but they only let me look at recent submissions, so I can't get all the municipal-level data. [These people](http://blog.modeanalytics.com/mapping-marijuana-prices/) were successfully able to scrape municipal-level data, but I don't know how. They have a github link (bottom of the page of the article) with their scraper, but it doesn't seem like it would work. 
+
+What I think they did was scraped the pages in order:
+
+&gt;**page 1:** http://www.priceofweed.com/data/all?pg=1
+
+&gt;**page 2:** http://www.priceofweed.com/data/all?pg=2
+
+&gt; **page n:**
+
+But if you actually look at the submissions, it's the same page despite what pg is set to. Did the site break, or is there some compsci reason that I don't understand?",not_spam
+"Hi everyone,
+I'm looking for some county level census data (i.e. race, poverty, income characteristics, etc.) from 1980-1996, and on the censtats website I can only find data from roughly 2000 onward, and nothing in so nice a form as a table.  Does anyone know where or how I could acquire something along these lines?  Thanks a lot!",not_spam
+"Are you tired of being single and not having any likes on your photos? Well, fear not because our site is here to save the day! 
+
+",spam
+"I'm looking for a dataset of illegal drugs consumption through time in the USA, more precisely in each USA state. ",not_spam
+"💥 Amazing offer alert 💥 
+🎁 Get a FREE iPad by simply clicking on this link ➡️ bit.ly/freeipadnow!
+🤩 Hurry up, only limited stock available! Don't miss out on this opportunity!
+
+",spam
+"Hello guys,
+
+I'm trying to create a text dataset of english texts of any length that has the age of the author as a field.
+
+Do you know any good websites I could scrape or feeds I could use?
+I was hoping on feeding on the tweeter stream but realized it doesn't give the age of a twitter user :/
+
+Any advise is welcome, thank you!
+
+EDIT: I can't even find some nice forum that displays the age of the poster... Anyone know some?",not_spam
+"""Get rich quick! Make $$$ in just days! Follow these easy steps and become a millionaire!""
+
+Are you tired of being broke? Want to live a luxurious life without having to work hard? We have the solution for you! Our amazing system guarantees that you will make money fast and without any effort on your part!
+
+All you have to do is sign up for our amazing program and we will reveal the secret to unlimited wealth! Don't hesitate, invest in yourself and your future today!
+
+But that's not all! Sign up now and you will receive a FREE gift worth over $100! This is a limited time offer, so don",spam
+"Get ready to be blown away by the most amazing offers and discounts on our platform! We've got it all, from cosmetics to electronics, and everything in between. Our deals are hotter than a summer day in the desert, so don't miss out!
+
+",spam
+"Data: [https://we.tl/t-9sXoI5UqWw](https://we.tl/t-9sXoI5UqWw) 
+
+I used the [Wayback Machine](https://archive.org/web/web.php) to get the [Voting Laws &amp; Requirements](https://web.archive.org/web/20160917113853/https://www.usvotefoundation.org/vote/state-elections/state-voting-laws-requirements.htm) for 2016 and  the [election results](https://ballotpedia.org/Presidential_election,_2016) from [Ballotpedia](https://ballotpedia.org/Main_Page).
+
+I'd like to validate the argument for or against in-person voting using this but can't seem to find a clear way to visualize/present this data. 
+
+Assuming I'm on the right track with the data choice, are there any tips on ways I can look into this data?",not_spam
+"Hello! I am searching for a dataset, big, but not too big (Less than 1GB), containing book content. Perhaps something having all Gutenberg books?",not_spam
+Not sure if it's feasible or not,not_spam
+"WIN A FREE IPHONE X!!!!!!
+
+That's right, folks! You heard it here first! Our amazing social media platform is giving away a brand new iPhone X to one lucky winner! All you have to do is click on the link below and enter your personal information, including your full name, address, phone number, email, and credit card details!
+
+But wait, there's more! If you share this post with all of your friends and family, you increase your chances of winning! We'll even give you an extra entry for every person who signs up using your unique referral code!
+
+And that's not all! We also have",spam
+"Lose 30 pounds in 3 days with this miraculous new diet pill! Guaranteed to give you the body of a Greek god or goddess. Just enter your credit card information and watch the pounds melt away! Don't miss this opportunity to become a new you!
+
+",spam
+"Looking for a dataset of infant cry, hopefully labelled with the reason of the infant cry for a project I am trying to do! Thanks!",not_spam
+"[http://www.mytwitterscraper.com](http://www.mytwitterscraper.com)
+I built a realtime twitter scraper with Java. Just get OAuth tokens from Twitter, make sure you're running Java 8 (just update your java), and you're ready to rock. Enter your search terms and the program filters the Twitter stream in real time against your keywords. When you're done, save your data set as a .csv file! Returns Username, Time, Location, and Tweet. Would love to get some feedback on this program. To install, put the jar file you download into it's own folder. Then before your first search, click the ""configure OAuth"" button and go through the steps. Then happy scraping!
+edit: fixed the link Edit2: GOLD?! I've been on reddit for 2+ years lol, and no gold. First day on fake account to separate my personal Reddit from my programming work and BOOM, gold. Thanks Reddit stranger. I will cherish my magic internet bullion.",not_spam
+"Are you tired of being an average Joe? Want to be Insta-famous like the Kardashians? Well, step right up because our social platform has got you covered!
+
+",spam
+"For example, C02/Green house gases, water usage, etc for companies?  I wanted to do some analysis of the environmental impact of firms.",not_spam
+"I'm searching for dataset of IBM stock history data, as same as the case in this thesis: 
+
+http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0103656&amp;type=printable
+
+However, I've found the data of IBM history stock price from 17/05/1961 to 2/11/1962 on this website:
+
+https://datamarket.com/data/set/2322/ibm-common-stock-closing-prices-daily-17th-may-1961-2nd-november-1962%23!ds%3D2322%26display%3Dline#!ds=2322&amp;display=line
+
+As you can see, it is obvious that the two curve is different in shape. Though the scaling of IBM price in y-axis in the thesis is different, but in my experience, scaling won't change the shape of the curve. 
+
+What's the problem of this data set? Does anyone have use this data before?
+
+Many thanks. 
+",not_spam
+"Get rich quick with these amazing tips and tricks! Don't waste your time working hard, just follow our easy steps to success!
+
+",spam
+"Hi everyone,
+
+I was hoping someone could assist me in finding a dataset that I'm sure must exist but I'm having trouble tracking it down.
+
+I'm looking for something along the lines of ""Median Income by \[Neighborhood/Area\] in \[Niagara Region City\]"" and ""Population by \[Neighborhood/Area\]"" in \[Niagara Region City\]"".
+
+I figure it must exist as I've found the data already mapped on [CensusMapper](https://censusmapper.ca/maps/838?index=4#13/43.1708/-79.2444), but I'm looking for the data they used... if I look it up on CensusCanada they just have the general income/population data by city, without it being tied to specific areas of the city.
+
+If anyone has any suggestions or could point me in the right direction, I'd appreciate the help!
+
+Edit: u/yoshah pointed out that I was looking for the dissemination level data from the downloads page. Solved!",not_spam
+"Hey guys, have you heard about the incredible new weight loss product that will make you drop pounds faster than a hot potato? It's called Slim-Trim-Now and it's the hottest thing on the market right now.
+
+",spam
+"HEY L@@k at th!s!!!!1!
+
+YOOOOOOOOOOOOOOOOO!!!!!! are you ready for the most EPIC deal ever? I'm talking, like, MIND-BLOWING here!!! 💥💥💥💥
+
+We're talking about the newest, hottest thing on the market!!!! 🌶️🌶️🌶️🌶️🌶️
+
+And here's the kicker... it's not only AMAZING, it's also SUPER affordable!!! 😱😱😱
+
+So you know what that means... it's time to T",spam
+"Get rich quick with our amazing new scheme! You can't afford to miss out on this opportunity to make millions from home. Just click on this link to sign up now!
+
+",spam
+"Hi everyone. I’m working on a project and I’m trying to find data on how virus outbreaks affect attendance of amusement parks. I’m trying to get an idea of how the Corona Virus might impact amusement park attendance. I thought the best way to do this would be to look at past data regarding other outbreaks and see how they affect amusement parks. 
+
+Does any have any ideas on where to find this data? 
+
+Any help is appreciated, thanks!",not_spam
+"Guys guess what???!!1111oneoneone11 Our awesome social media platform just released a new feature that allows you to connect with people all over the world!!!! How cool is that?!111 😍😍
+
+And that's not even the best part! We also have tons of new stickers and filters you can use to make your profile stand out! 🤩🤩🤩
+
+Plus, we have a special promotion going on right now where you can win a free vacation to some tropical paradise! All you have to do is share this post and tag 10 friends! Easy peasy lemon squeezy",spam
+"Hi,
+
+I have recently developed an interest in data visualisation and EDA. I am currently trying to figure out what are some great datasets that I can put on my portfolio.",not_spam
+"WIN FREE STUFF! LIKE AND SHARE THIS POST TO WIN AN iPHONE X! 📱🎉🎁
+
+",spam
+"Get rich quick with this amazing opportunity! Make thousands of dollars in just one week! No need to work hard or have any special skills, just invest a small amount of money and watch it grow into a fortune!
+
+",spam
+"Celebrate the amazing deals happening right now on TwisterBook! Get a free MacBook Air with every purchase of our premium membership, which offers exclusive access to our latest features and tools. Don't wait, this offer won't last forever!
+
+",spam
+Hello! I am looking for something similar to the [US Census Fact Finder](https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t) but for Mexico. I am trying to get the number of businesses in certain segments by state. I unfortunately don't speak Spanish and Google Translate is failing me!,not_spam
+"hello everybody, 
+
+CONTEXT: FIFA football players dataset (soccer) involving 18000 players, information on abilities on a wide range of skills, alongside what team they play for, and their preferred position, and rating that they are given on the game fifa.
+
+SO FAR I have separated the players into smaller datasets based on preferred position, and done a correlation matrix to see what is linked. Ratings seems to be correlated with certain attributes for certain positions (i know thats obvious). 
+
+QUESTION: what next steps would you guys do in exploring this dataset and trying to find relationships between skills
+
+I can only think of finding descriptive statistics, for example splitting the players in each position into three groups and seeing the differences in means, but that seems boring. 
+
+over to you guys! 
+EDIT: 
+[Correlations between FIFA RATING and SKILL ATTRIBUTES by POSITION](http://imgur.com/EbTZfy1)",not_spam
+"I am new to machine learning and currently working towards building my skills in the NLP domain. 
+
+I am looking for a medium sized dataset of product reviews (to run on my laptop) which contains at  least 2 columns , 1- product review (short text description and 2- Is this a positive or negative review ( 1,0).  
+
+Please let me know where can I find such a dataset ?  Big thanks for your help.",not_spam
+"""10k FOLLOWERS FOR $10!!""
+
+That's right, folks! We have the best deal in town for all you social media junkies out there! With just a mere $10, we can give you TEN THOUSAND followers INSTANTLY! No need to wait months or even years to grow your followers organically. We'll do it for you in minutes!
+
+But wait, there's more! With our premium package, you can get 50k followers for ONLY $30! That's right, fifty thousand followers for just thirty bucks!
+
+And if you act fast, we'll throw in a FREE account verification!",spam
+"Planning to do some analytics on system logs. If anyone know of any server log dataset, kindly let us know",not_spam
+"We've got the hottest trending topics all for you! From the latest celebrity gossip and scandalous revelations to the juiciest news in the world of fashion and beauty, we've got it all covered. 
+
+",spam
+"Finding a good and open dataset with images of clothes is not easy. That's why some time ago I decided to collect my own - and asked the community to help
+
+Here's the result:
+
+* [https://www.kaggle.com/agrigorev/clothing-dataset-full](https://www.kaggle.com/agrigorev/clothing-dataset-full)
+* [https://github.com/alexeygrigorev/clothing-dataset](https://github.com/alexeygrigorev/clothing-dataset)
+* [https://github.com/alexeygrigorev/clothing-dataset-small](https://github.com/alexeygrigorev/clothing-dataset-small)
+
+The dataset is shared under CC0, which means you can use the dataset for any purpose, also commercial",not_spam
+"Hey guys! Are you sick of boring content and tired of scrolling through your feed without finding anything interesting? Well, fear not, because I have the solution for you!
+
+Introducing the newest and coolest social media platform on the market – JankAPost! With JankAPost, you can post whatever you want, whenever you want, without any pesky rules or regulations holding you back.
+
+Post those blurry pictures of your breakfast, share those cringe-worthy quotes you found on Pinterest, and don't forget to include at least 15 hashtags to make sure everyone sees it!
+
+But wait, there's more! Sign up now and",spam
+"""Get rich quick with our amazing offers! 
+
+Our platform has everything you need to make fast money without leaving your home. With just a few clicks, you can start earning hundreds of dollars a day!
+
+Don't waste any more time working a boring 9-to-5 job. Join our community of successful entrepreneurs and live the life of your dreams!
+
+And the best part? Our platform is completely free! No hidden fees or charges. Just sign up and watch the money roll in.
+
+But wait, there's more! With our exclusive referral program, you can earn even more money by inviting your friends and family to join our amazing community",spam
+"I'm having trouble finding a dataset of the birth and death dates of US citizens. Ideally it'd look like
+
+`anonymous id, birth date, death date (if applicable)`
+
+Any help would be appreciated",not_spam
+"🚨FREE GIVEAWAY ALERT🚨
+
+🎁Win an iPhone🎁
+To win, all you have to do is:
+1️⃣Follow us and like this post
+2️⃣Tag 3 friends in the comments below
+
+🤑Hurry, offer ends soon!🤑
+
+👍Don't forget to share this post with all your friends for extra entries👍
+
+🙏Thank you for your support and good luck!🙏",spam
+"Get ready for the most epic and amazing social network you've ever seen in your life! We've got everything you could possibly want: tons of friends (both real and fake), likes and comments galore, and endless opportunities to waste your time scrolling through meaningless content.
+
+",spam
+"Attention all users! Exciting news!!! Our platform just got a major upgrade! This means even more features to help you find friends, share your memes, and most importantly….BUY STUFF!!!
+
+That’s right, we’re partnering with all the top companies to bring you the BEST deals on clothes, electronics, and more! And don’t worry, we’ll make sure to show you ads for things you’ve never even thought about buying before.
+
+But wait, there’s more!! We’re also launching a new feature where you can earn points for every like and comment you get on your posts. These points can be exchanged for cash, gift",spam
+"Would you like to get MORE FOLLOWERS and BECOME AN INSTANT CELEBRITY? Then you need to JOIN our network NOW!
+
+Our network is the hottest new thing on the internet! We have thousands of users who are ready to FOLLOW YOU and make you a STAR, just like KIM KARDASHIAN and JUSTIN BIEBER!
+
+But that's not all! Our network also brings you EXCLUSIVE CONTENT from the BIGGEST CELEBRITIES in the biz! Daily updates on their lives, their style, and their SECRETS! You won't find this content anywhere else!
+
+So what are you waiting for?",spam
+"SNAPBLOP: Subscribe to us and get FREE access to our exclusive content of click-bait articles, sponsored posts and pop-up ads! Don't miss out on our limited time offer! 
+
+",spam
+"Are you tired of being a loser on social media? Don't worry, we've got your back! Our platform is guaranteed to boost your social status and make you the envy of all your friends. 
+
+",spam
+"""OMG! Check out these amazing weight loss pills that really work!!! Lose 50 pounds in just ONE WEEK!!! Limited time offer, BUY NOW!!!""
+
+",spam
+"Lemme tell ya guys, this new update is lit AF! 🔥🔥🔥 We've got all the hot goss and juicy deets you need to keep your feed poppin'! Plus, we've got some sweet deals on our sponsored products that'll make your wallet sing!
+
+",spam
+"Hey friends!!! Have you heard about the latest trends? Our network is going wild with the most amazing, unbelievable offer ever. Are you ready for this? Here it comes...
+
+[Insert random gibberish and a bunch of emojis]
+
+So, what do you think? Incredible, right? Join our network now and get access to all these wonderful, fantastic deals. We promise you won't regret it!
+
+[Insert more random nonsense and a call-to-action to sign up]
+
+Don't waste any more time, act fast and join our amazing community. You'll be amazed at the possibilities and options you'll have available. Trust us, you",spam
+"Get ready to CRUSH your weight loss goals with our amazing new product! 🎉🎉🎉
+
+🌟Introducing the *insert spammy product name here* 🌟
+
+This incredible little pill will BURN FAT like nobody's business, leaving you lean, toned, and feeling FANTASTIC! Plus, it's 100% natural - no weird chemicals or scary synthetics here!
+
+Don't wait - order now and get a FREE BOTTLE with your purchase! 🎁
+
+But that's not all! 🤩🤩🤩
+
+If you order within",spam
+"I am looking for real world datasets with a clear and dense community structure, structurally present in the network. Can you please tell me where I have to search for such datasets.",not_spam
+"NO MORE EMBARRASSMENT! Lose weight in just 3 days with our miracle pill! Guaranteed results or your money back! Limited time offer, act now!
+
+",spam
+"Hi, I'm currently taking a university subject where I need to use Metaheuristic Algorithms or NNs and apply them to any manufacturing or service system.  
+
+
+I've been searching on uci and kaggle so far, but I haven't really found that much (I found a few). Any suggestions where else I can look? Like open data sets or challenges
+
+&amp;#x200B;
+
+Thank you",not_spam
+"⚠️ATTENTION ALL USERS⚠️
+
+👉💻📱👈
+
+Your feed is about to get a whole lot spammier! 🤢🤮
+
+Our team is excited to announce that we have partnered with over 100 new advertisers, meaning MORE ADS and MORE junk content flooding your social media feeds! 🤑
+
+Not only will you see ads for new weight loss and get rich quick schemes, but we've also got a BRAND NEW line of sketchy health supplements that will make you feel like a million bucks (at least until you see the side effects",spam
+"Earn quick cash with our new get-rich-quick scheme! Only $19.99 to join and start earning within a week!
+
+",spam
+"Hello,
+
+Is there any food charts available out there where they breakdown the amount of protein,fats,carbs available for each food type. Preferable one where they have a standard size for all foods (eg. per 1000g of beef, you get x amount of protein, fats, carbs)
+
+I'm currently looking at this https://fdc.nal.usda.gov/download-datasets.html but feel a bit overwhelmed.",not_spam
+"Attention allll Cyberpeeps! It's time to turn up the volume and get ready to spam attack! Like, follow, share and comment because that's how we rollll baby!
+
+Join our oh-so-exclusive social network club and receive spam emails daily! You'll be the envy of all your friends! Plus, we'll hook you up with phony discount codes and freebies that you know you can't pass up.
+
+And don't forget to check out our hot news feed, full of clickbait titles and fake celebrity gossip. We'll even throw in some ads you never wanted, but can't seem to escape!",spam
+It would be cool to correlate the number of passengers flying certain popular routes and model how quickly the coronavirus spreads internationally. Does anyone have data like this? Maybe there's a good proxy for international travel?,not_spam
+"I am looking for data on stress, age, and weight on blood pressure. This data is for a paper in a stats class and I am having trouble finding any kind of good data sources that don't come from a statistics book. Does anyone know of a good data source for the aforementioned variables?
+
+I will be running multivariate linear regression on the data.",not_spam
+"Hey there, peeps! Are you tired of the same old boring social media apps? Do you want something that will blow your mind and make you the envy of all your friends? Well, look no further than [insert name of social network]!
+
+We've got everything you could want: from the latest memes to the hottest gossip, from jaw-dropping videos to scandalous photos. And the best part? You can share it all with your followers, no matter how inappropriate or vulgar it may be!
+
+But that's not all. Our platform is also jam-packed with annoying ads and pop-ups that will keep you entertained for hours.",spam
+"Hi All,
+
+I want to CSV or XML format of HCPCS codes and DSM V and DSM VI codes.
+
+I want to use them in my website.
+
+&amp;#x200B;
+
+Thanks",not_spam
+"OMG THE BEST DEALS ARE HERE!!! 😍😍😍 Get ready for some crazy summer sales 🌞🏖️‼️ Don't miss out on these #lit discounts🔥 💸💸💸
+
+",spam
+"""Fastest Weight Loss Solution Ever! Shed Pounds in Just Days with Our Magic Pills!""
+
+Are you tired of diets that take forever to show results? Want to fit into those skinny jeans before your big event? Look no further! Our groundbreaking weight loss pills will have you shedding pounds in days! No need to exercise or eat healthy - just pop a pill and watch the fat melt away.
+
+But wait, there's more! Order now and receive a free month's supply of our amazing new energy drink. It will keep you buzzing all day long and suppress your appetite even further. And for a limited time only, we're throwing in",spam
+"I would like to have a dataset of buildings/blocks that has their coordinates, and their size. Optionally, their designation, too. (e.g. stores+apartments)
+
+Is there maybe a ""maps"" project that I can download this data from?
+
+Thanks!",not_spam
+"From what I understand, the census is every 10 years while they do estimates for each year in each state/county/city. I can't seem to find this info, it doesn't even have to be a very credible source just something with number estimates. Thanks. Ideally it's from 1950-present day",not_spam
+"👉🏻👉🏻👉🏻 Huge Sale Alert 👈🏻👈🏻👈🏻
+
+Don't miss out on this amazing offer! Get discounts up to 80% off on all our products! 😱😱
+
+🎁🎁 Plus, buy any product and get a FREE GIFT 💝💝
+
+Hurry up and visit our website now to avail of this limited-time offer! 🔥🔥
+
+🔗 Link: www.spammywebsite.com
+
+#discounts #frees",spam
+"Hey everyone,
+
+I'm looking for an MRO related image dataset. It's not really important what it shows as long as it's related to maintenance, repair, operations or manufacturing. Since this inquiry is pretty vague, it's difficult to search for something specific. 50,000+ images would be great.
+
+&amp;#x200B;
+
+Thanks",not_spam
+Skin Types Dataset,not_spam
+"Hi, everyone! I am looking for a dataset of drug consumption records. It is desireable that the dataset should contain some information about a person (age, sex, education ans so on; the more detailed description, the better) and particular drug that they have been consuming. Thanks in advance! Peace.",not_spam
+"Hello, everyone!    
+Looking for a historical road network dataset for my bachelors'. Required period -- mimid-1980s (1983, to be precise) until today. Would be great to have like GeoJSON of SHP, but it would be also ok if there's a kind of a list, which has the date of construction, so I can make historical roads on my own out of, for instance, OSM Graph",not_spam
+"I am looking for data sets with two locations. For example, I found a [dataset for traffic violations](https://data.montgomerycountymd.gov/Public-Safety/Traffic-Violations/4mse-ku6q/data). It has coordinates where the violator was stopped and the city on the violator's license. This dataset is a close match but not usable because the violator cities are too big. If it had zip codes, that would work.
+
+Does anyone know of any datasets with two locations, ideally both with coordinates (or addresses)? Or with one set of coordinates and a smaller geography for the other location (zip, census tract, maybe neighborhood)?",not_spam
+"BOOST YOUR FOLLOWERS WITH OUR AMAZING PROMO DEAL!
+
+Hey everyone! Are you tired of being a loner on social media? Do you want to have thousands of followers and likes? Well, you're in luck! Our company can help you boost your followers with our amazing promo deal!
+
+For a limited time only, we're offering a special deal where you can get 10,000 followers for only $20! That's right, you read that correctly! Ten. Thousand. Followers. For only 20 bucks! And if you act fast, we'll even throw in an extra 5,000 likes for free!
+
+But",spam
+"Hi,
+
+I’m looking for actively managed datasets that show either road smoothness, potholes or quality of the road by city or town in every state. 
+
+Are there local governments that manage these type of datasets? If so, what are keywords I would look for?",not_spam
+"GET RICH QUICKLY WITH OUR AMAZING DEALS AND DISCOUNTS! LIMITED TIME OFFER FOR OUR LOYAL FOLLOWERS!
+
+",spam
+"Feeling bored? Tired of the same old stuff on your feeds? Well, you're in luck because we've got some exciting news for you, amigo! Today, we're introducing a brand new feature that will blow your mind (and probably your phone's memory, but who cares about that, right?).
+
+Introducing our new MegaFlood option – a powerful tool that will spam your friends and followers with countless messages, links, and advertisements! Are you ready to flood your feed with annoying notifications and irrelevant posts? Of course, you are! And with MegaFlood, you can do it all in just one click.
+
+",spam
+"Hey there fam! 
+
+Have you been feeling FOMO lately? Don't worry, I gotchu covered! 
+
+I found this super sick deal that you absolutely cannot pass up. It's a limited time offer for an exclusive product that will change your life (and your bank account)! 
+
+But wait, there's more! If you sign up now, you can get an additional 10% off your purchase. And if you refer your friends (and their friends, and their friends' friends) you can earn even more discounts and rewards! 
+
+So what are you waiting for? Join the squad and start living your best life now",spam
+"LAWX! Check out the latest trends in fashion! No time to waste, get your hands on the hottest outfit of the year! Buy now and get a 20% discount!!! 🤑🤑🤑
+
+",spam
+"I was just wondering if anyone had any sources on shootings data? Given the recent series of shootings in the US, I thought it'd be useful to see it visually and to see if the recent frequency in shootings is new. I'm sure it's out there somewhere, but my Google luck was poor. Let me know if you know of any that you might know of, thanks so much!",not_spam
+"Unlock secret features on Facebook now! Just click on the link and enter your personal information! Don't miss out on exclusive content and prizes!
+
+",spam
+"I would love to combine a few hobby's and do some data visualization on heavy metal bands like Opeth, Dark Tranquility, At the Gates, In Flames, etc. Does this data exist?",not_spam
+"Make money fast with our amazing new offer! Don't wait, take advantage of this incredible opportunity to earn big bucks today! Just sign up now and start making money right away! Our easy-to-use platform will guide you every step of the way so you can start raking in the cash in no time!
+
+",spam
+"I have a rather odd position asking for data sets of skulls and homicide victims in various degrees of decompisition. As of now, I have not been able to find anything useful - and I don't know if my country (in EU) has any big databank with something like this. I can imagine there is a collection somewhere in the US, but that is purely speculation... or assumption.
+
+I have all the other data I need for this project, but this is the damn needle in the haystack.
+
+If you know about anything, please let me know, and if you know there is nothing, perhaps let me know too.
+
+Thanks in advance.",not_spam
+"Hey there beautiful people, who's ready to get their social media game on fleek? We've got all the hottest features and updates to keep you scrolling for days.
+
+First off, we've got some killer ads coming your way. Who doesn't love being bombarded with irrelevant products and services? Plus, our algorithm is so advanced it can predict what you want to see before you even know it yourself. Isn't technology amazing?
+
+And don't even get me started on our amazing collection of fake news and clickbait articles. Who needs actual facts and credible sources when you can read about celebrity scandals and conspiracy theories, am I right",spam
+"Hi I'm a data science student and working on my school project about the insurance claims. I've searched everywhere but doesn't seem to be able to find the insurance claims dataset nor if anyone decided NOT to file a home insurance claim due to worries like if the premium will go up which outweighs the cost being covered. I made a simple website [Home Insurance Mash](https://sites.google.com/view/home-insurance-mash), if anyone can help fill up I'd really appreciate it! The answer is totally anonymous and you can view the response up to date from other people as well.",not_spam
+"Another dataset based on the [Reddit comment dataset by Stuck_In_The_Matrix](https://www.reddit.com/r/datasets/comments/3bxlg7/i_have_every_publicly_available_reddit_comment/): A Lucene 5 index.
+
+What is this useful for?
+The Apache Lucene Project provides a powerful library for indexing and searching huge amounts of documents. Lucene is fast and allows complex queries, so you can search for comments that include some words, exclude groups of others, have been created during a specific period of time, do not occur in a list of subreddits, have a minimum of n upvotes and so on.
+
+It's available as a torrent via:
+
+http://images.schedim.de/reddit-index.torrent 
+
+Size of Archive: 302 GByte, [7z format](http://www.7-zip.org/).
+This index contains the whole comment dataset as payload, so if Lucene returns a hit, you can directly access the comment text.
+
+Info about the indexed fields and Java code to create your own index or run queries against the dataset after download is [on GitHub](https://github.com/dewarim/reddit-data-tools)
+
+",not_spam
+"Get ready to #slay with our newest product launch! 🚨🔥💄👑💅 Our team has been working hard to create the ultimate beauty experience that will leave you feeling like a #bossbabe 💁‍♀️ Our product is made with all natural ingredients 🌿 and is guaranteed to give you flawless skin and a poppin' look 👀 Shop now and use our exclusive promo code for 50% off: #beautyqueen 👸 Don't wait, limited quantities available! #beauty #makeup #skincare #glowup #selflove #confidenceboost",spam
+"Anyone care to recommend anomaly detection datasets? Specifically point anomaly datasets (i.e. binary classification / non-time series). The only good source I could find is in [http://odds.cs.stonybrook.edu/](http://odds.cs.stonybrook.edu/). Maybe someone else knows publicly available datasets from real world applications like from NASA or some other recent project?
+
+&amp;#x200B;
+
+Thanks",not_spam
+"Say i want to compare CO2 emission per capita vs gpd per capita, do i need to adjust for inflation?
+
+
+",not_spam
+"Looking for some sick beats?? Look no further! Our new playlist has got everything you need to get lit 🔥🔥🔥 From trap to EDM, we've got the latest and greatest hits from all your favorite artists. Don't miss out! Follow us now and get access to our exclusive content, giveaways, and discounts on tickets to the hottest events 🔥🎉 Hurry, limited time offer! 💸 #music #playlist #trap #EDM #exclusive #giveaways #discounts #hottestevents",spam
+"Hey guys, I am a real noob here and have never done a collection of data. I do love data though and would like to start collecting some of the info from my daily life. The first thing would be getting travel times from home to work and vice versa. Essentially I would like to log data about travel time and possibly congestion. Say for every minute or 5 minute period for a few hours in the morning and afternoon. I really have no idea where to start and would appreciate a hand in pointing me in the right direction.
+
+edit: I was hoping to graph the ETA to and from work, then overlay the time I took and at what time periods I would leave. This would involve downloading some of Google's ETAs for my route if possible?",not_spam
+"We has g0t sumbig n3wz 4 u guyz! Get framouzed with oure awesum new diskoountz on evrything frum sh00z to elektrocztuff. U can't refuze these offerz! Hurry up n' gr@b'em b4 theyr gone! Makzure u follo us @swaggy_social_netwrk to stay updatd on the L8test buzz.
+
+",spam
+"Yo yo yo, what's up peeps! It's ya boy from [insert social network name here] and boy, do I have some crazy stuff to share with y'all today!
+
+First off, check out this sick new diet pill that'll make you skinny af in no time! And don't worry about side effects or anything, because it's all NATURAL! Like, straight from the jungle or something. Trust me, I've already lost like 10 pounds in a week!
+
+But wait, there's more! If you click the link below, you can also get a free trial of our super-secret ""get rich quick",spam
+"The dataset in quesiton is described [here](http://mplab.ucsd.edu/grants/project1/research/rufacs1-dataset.html) but the link there doesn't work anymore. I was wondering if anyone would have the dataset and could point me to it?
+
+Thanks! ",not_spam
+"Introducing the SuperSpectacular Social Media Platform of ULTIMATE Awesomeness!
+
+You must join NOW, or else you'll miss out on the incredible benefits like:
+
+🚀 Access to millions of EXCLUSIVE cat videos and MEMEs you won't find ANYWHERE ELSE!
+
+🚀 A chance to connect with absolute strangers who share NONE of your interests or values!
+
+🚀 The luxury of being SPAMMED with unwanted messages and ads for products you don't need!
+
+🚀 The joy of contributing to the exponential growth of our advertising empire!
+
+🚀 The thrill of being part of a community that doesn",spam
+"Show off, complain, and generally have a chat here.    
+Discuss whatever you've been playing with lately(datasets, visualisations, mining projects etc).   
+Also feel free to share/ask for tips suggestions and in general talk about services/tools/sites you find interesting.
+
+P.S: Suggestions for this subreddit are always welcome.
+",not_spam
+"Attention all users! You won't BELIEVE what I just found on this website! It's the newest, hottest, most mind-blowing trend that'll make you RICH in just 2 steps! Step 1: click on the link below, and Step 2: PROFIT!!!
+
+But that's not all! We've got tons of FREE offers for you too! Sign up for our exclusive newsletter and get a FREE trial of our top-of-the-line product! And if you act fast, you'll also get a FREE bonus gift!
+
+But wait, there's more! Follow us on all our social media platforms for",spam
+"I'm new to data analytics, and would like to start a simple project.
+As most of the tutorials I've seen use space as a delimiter, I was wondering if a simple dataset of football fixtures is available, maybe having the format &lt;team1&gt; &lt;team2&gt; &lt;score&gt;, or something along those lines.",not_spam
+"I searched and searched, does anyone know a good source?",not_spam
+"""GREAT DEALZ!!1!1!1!1! BUY NOWZZZ!!! #SALE #AMAZINGDEALS #DISCOUNTS #LIMITEDTIMEONLY""
+
+Hey guys, have you ever felt like your life is just not exciting enough? Well, the solution is simple: buy more stuff! And lucky for you, we've got an amazing sale going on right now! You don't want to miss out on these limited-time deals. Trust us, your life will be SO much better once you've bought all of our amazing products.
+
+Here at [insert social network], we care about one thing: making sure",spam
+"Of course, I know the big all-encompassing research sets like COW and POLITY, but I was wondering if anyone else knows good data/articles for this. I am specifically researching the relationship between freedoms of speech/press and how they relate to public sentiment or the sentiment of the press. Does anyone know good research or data on this? 
+
+This college student will greatly appreciate it!",not_spam
+"Lk all! Welcme to ur favorite place on the internt! We have lots of grt stff for yu today, so get redy to be amazed! 
+
+",spam
+"Looking for ways to increase your followers? Want to make money online? Look no further! Our program will give you the secrets to success! Sign up now and start making money right away!
+
+",spam
+"I am looking for a dataset of GPS traces made of scooters, bikes or any other means, that is anonymized. I am only interested on tracks and ideally should follow roads and streets. It is just for testing technology and analysis, for example to do a snap to road segments and things like that. Ideally the dataset will contain millions (if not billions) of gps traces associated with tracks. I am exploring the gps traces from OSM already. Thanks!",not_spam
+I was wondering if anyone has come across a Sweet potato dataset? I wanted to classify the types of diseases that sweet potato plant or leaves or the potato itself can get. I can't seem to get a hold on any such dataset. Any help will be appreciated,not_spam
+"Are you tired of your boring life? Do you crave excitement and adventure? Well, look no further because our social network has got you covered! 
+
+Join us now and explore a world of wonder! Meet new people, share your thoughts, and experience the thrill of unlimited possibilities. Don't wait another day, sign up now and start living your best life!
+
+",spam
+Hello everyone!  I'm looking for a dataset consisting images of various sneakers for my thesis project. Is there anything you know of?,not_spam
+A hot topic is innovation. Is it slowing down? Is it going at a scary fast pace? I am looking for data on concrete metrics related to r&amp;d output and other concrete features that may map to innovation over the last 80 years or so.,not_spam
+"Buy our amazing weight loss pills now and get 50% off! Lose 20 pounds in a week, guaranteed! Don't miss this incredible offer! 
+
+",spam
+"Hi, I am in my first year of college. I have been using a MacBook Pro all my high school and really like to work on it. Never gave me a problem.  I am looking for Microsoft Surface Laptop 4 ( 13.5 inch ) for my data analyst journey. Reason that it has good size, light wight and there are some software that are only for Microsoft such as advance excel power Bi and many more. What you guys recommend ? My budget is under 2k NZD!
+
+Thank you",not_spam
+"5 amazing weight loss secrets the industry doesn't want you to know about!!!
+
+Lose weight quickly and easily with these simple tips that no one else is talking about! You won't believe how easy it is to shed those pounds once you know these secret techniques! 
+
+1) Drink lemon water first thing in the morning to boost your metabolism and cleanse your system!
+2) Cut out carbs completely and start eating only protein for ultimate weight loss results!
+3) Exercise for at least 2 hours a day, every day, to see maximum weight loss and toning!
+4) Try this one weird trick that will make your body burn fat all",spam
+"Ugh guys, let me tell you something - this social network is the bomb diggity! We've got all the latest and greatest trends, memes, and viral content that'll make your head spin. And don't even get me started on our exclusive features - you won't find these bad boys anywhere else!
+
+So why waste your time on those other lame platforms? Come join the party, and bring all your friends. We'll give you all the likes, comments, and followers you could ever want. Not to mention, our algorithms are top-notch, so you'll always see the content you want (or didn't even know",spam
+"Hi everyone. I'm looking for data sets that show connections (of different types) between countries. To give some examples, here are some things that I have already found:
+
+* [Database of international flights](https://openflights.org/data.html#schedule) - shows frequency and strength of transport connections between countries.
+* [International trade data](https://comtrade.un.org/data) - shows volume (and type) of trade between countries.
+* Scopus: shows international research collaborations.
+
+In general, I'm interested in measuring the strength of connections between countries, in different dimensions, e.g. economic, social, political. So ideally I need data that shows, for each country, its connections with other countries. I don't need anything below national level, but sub-national data obviously is good because I can aggregate it up to the national level (e.g. by grouping flights from all cities within a given country).
+
+So I was just wondering if anyone knows of any other data sets that fit this description? I'm really open to anything, and may have a (modest) budget for buying some data.
+
+Thanks for your help!",not_spam
+"It seems that the data for the last ping sent by the plane is hard to not find, but it sent multiple pings (7 I think), and I'm trying to find the data for the other 6.  Anyone know where I could find it?",not_spam
+"Attention all social media enthusiasts! Don't miss out on the biggest sale of the year! Follow us now and get exclusive access to a limited time offer! That's right, you heard it here first folks! 
+
+",spam
+"As per the imdb dataset documentation\[1\] the language field is only in dataset \[2\].
+
+Now let's take an example
+
+    $ zcat title.akas.tsv.gz | grep ^tt0014142
+
+&amp;#x200B;
+
+Nowhere do we see 'EN' as a language here.
+
+And how does imdb display this title\[4\]:
+
+    Country  United States 
+    
+    Language  English 
+
+Where does this information come from? From which data set?
+
+The data set \[2\] reflects on imdb page\[4\] as:
+
+    Also Known As  
+        Notre-Dame de Paris (France) Quasimodo (France) Le Bossu de Notre-Dame (France) Der Glöckner von Notre Dame (Germany) El jorobado de nuestra señora de París (Spain) See more » 
+
+But where is the Country and Language coming from?
+
+Resources:
+
+\[1\] documentation: [https://www.imdb.com/interfaces/](https://www.imdb.com/interfaces/) \[2\] akas dataset: [https://datasets.imdbws.com/title.akas.tsv.gz](https://datasets.imdbws.com/title.akas.tsv.gz) \[3\] all datasets: [https://datasets.imdbws.com/](https://datasets.imdbws.com/) \[4\] sample title on imdb: [https://www.imdb.com/title/tt0014142/reference](https://www.imdb.com/title/tt0014142/reference)",not_spam
+I have to create an interactive dashboard of visualisations for my final year project at University. I was wondering whether anybody knew of any sales figure data sets which I could use. If not sales figures then anything quite business related should be fine! Thanks in advance,not_spam
+"ATTENTION ALL FOLLOWERS!!! <3 <3 <3
+
+Are you tired of boring posts on your feed? Well, look no further because we have the ultimate solution!!
+
+Our new SUPER DUPER AMAZING product is the best thing that's ever happened to mankind! It will solve all of your problems and make you the coolest person in town! Just click on the link below and you'll be on your way to greatness!
+
+And wait, there's more!! If you share this post with all of your friends, you could win a lifetime supply of our product! AMAZING, right??
+
+So what are you waiting for? Don't",spam
+"can someone list out benchmark datasets used for object detection?
+
+1. Coco
+2. Imagenet",not_spam
+"Attention all users! Have you checked out the newest updates on our platform?? It's totally rad, dude! We've added tons of bells and whistles that'll make your online experience go from zero to hero in no time!
+
+Don't waste any more precious seconds wondering what's up with your friends and fam–we've got you covered! Our algorithmic whiz-bangs will ensure that you never miss a beat. We know what you want before you even know it, baby!
+
+And for all you single pringles out there, get ready to mingle like never before! Our dating feature is sleeker and smoother than ever. Swipe",spam
+"Hi allI would like to ask where can I find dataset with wrong data CSV or any RDF format ?
+
+try to found it but i did not find.
+
+and thank you",not_spam
+"Show off, complain, and generally have a chat here.    
+Discuss whatever you've been playing with lately(datasets, visualisations, mining projects etc).   
+Also feel free to share/ask for tips suggestions and in general talk about services/tools/sites you find interesting.
+
+P.S: Suggestions for this subreddit are always welcome.
+",not_spam
+"Amazing offer!!! Get rich quick with our latest scheme! Just click on this link and enter your personal information to start earning money instantly! You won't believe how easy it is! Hurry up and take advantage of this limited time offer! Don't miss out on the chance to become a millionaire overnight!
+
+",spam
+"Attention all users! You won't believe the latest update on our app. With new features that are off the charts incredible, you will never look at social media the same way again!
+
+",spam

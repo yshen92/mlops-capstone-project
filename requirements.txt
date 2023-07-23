@@ -1,0 +1,7 @@
+mlflow
+scikit-learn
+pandas
+optuna
+boto3
+torch
+dotenv
