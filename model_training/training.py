@@ -31,6 +31,19 @@ from prefect.artifacts import create_markdown_artifact
 
 @task(name="MLFlow Init")
 def init_mlflow(mlflow_tracking_uri, mlflow_experiment_name):
+    '''
+    Initialise MLFlow for experiment tracking.
+
+    Args:
+        mlflow_tracking_uri: the uri of the mlflow server
+        mlflow_experiment_name: the name of the experiment
+
+    Returns:
+        client: the mlflow client
+        optuna_mlflow_callback: the optuna mlflow callback
+    
+    
+    '''
     client = MlflowClient(mlflow_tracking_uri)
 
     mlflow.set_tracking_uri(mlflow_tracking_uri)
@@ -72,16 +85,48 @@ def get_data():
 
 @task(name="Load sentence transformer")
 def load_preprocessor(device='cpu'):
+    '''
+    Loads the sentence transformer model.
+
+    Args:
+        device: the device to use for the model
+
+    Returns:
+        sentence_model: the sentence transformer model
+    '''
     return SentenceTransformer('model_training\sentence-transformers_all-mpnet-base-v2', device=device)
 
 @task(task_run_name="Embedding {embed_type} data")
 def embed_text(df, sentence_model, embed_type='train'):
+    '''
+    Embeds dataset texts.
+
+    Args:
+        df: the dataframe containing the text
+        sentence_model: the sentence transformer model
+        embed_type: the type of embedding to use (train or test), only for prefect task naming
+
+    Returns:
+        embeddings: the embeddings of the text
+    
+    '''
     embeddings = sentence_model.encode(df['text'].values, show_progress_bar=False, batch_size=32)
 
     return embeddings
 
 @task(log_prints=True, name="Model hyperparameter tuning")
 def hyperparameter_tuning(train_embeddings_df, test_embeddings_df, optuna_mlflow_callback):
+    '''
+    Optuna hyperparameter tuning on Random Forect Classifier.
+
+    Args:
+        train_embeddings_df: the train embeddings dataframe
+        test_embeddings_df: the test embeddings dataframe
+        optuna_mlflow_callback: the optuna mlflow callback
+
+    Returns:
+        study: the completed Optuna study
+    '''
     def objective(trial):
         rf_max_depth = trial.suggest_int("rf_max_depth", 2, 32, log=True)
         rf_n_estimators = trial.suggest_int("rf_n_estimators", 5, 100, log=True)
@@ -99,13 +144,23 @@ def hyperparameter_tuning(train_embeddings_df, test_embeddings_df, optuna_mlflow
 
 @task(name="Get best experiment run")
 def find_best_run(study, mlflow_experiment_name):
+    '''
+    Finds the best experiment run based on the best trial value with the lowest n_estimators.
+
+    Args:
+        study: the completed Optuna study
+        mlflow_experiment_name: the name of the experiment
+
+    Returns:
+        best_run: the best MLFlow experiment run
+    '''
     spam_detection_experiment=dict(mlflow.get_experiment_by_name(mlflow_experiment_name))
     experiment_id=spam_detection_experiment['experiment_id']
 
     # Get based on the best trial value with the lowest n_estimators
     best_run = mlflow.search_runs( 
         experiment_ids=experiment_id,
-        filter_string=f'metrics.accuracy = 1',
+        filter_string=f'metrics.accuracy = {study.best_value}',
         run_view_type= ViewType.ACTIVE_ONLY,
         max_results=1,
         order_by=['parameters.rf_n_estimators ASC']
@@ -115,6 +170,17 @@ def find_best_run(study, mlflow_experiment_name):
 
 @task(name="Train the best model")
 def train_best_model(best_run, train_embeddings_df, test_embeddings_df):
+    '''
+    Train the best model using hypermeters of the best experiment run.
+
+    Args:
+        best_run: the best MLFlow experiment run
+        train_embeddings_df: the train embeddings dataframe
+        test_embeddings_df: the test embeddings dataframe
+
+    Returns:
+        model_info: the MLFlow model info
+    '''
     with mlflow.start_run():
         best_max_depth = int(best_run['params.rf_max_depth'].values[0])
         best_n_estimators = int(best_run['params.rf_n_estimators'].values[0])
@@ -159,6 +225,15 @@ def train_best_model(best_run, train_embeddings_df, test_embeddings_df):
 
 @task(log_prints=True, name="Productionize the model")
 def stage_model(client, model_info):
+    '''
+    Stage the freshly trained model to Production if the model is better.
+    If there is an existing Production model, the trained model replaces it if the accuracy is better.
+    Else, the trained model is archived.
+
+    Args:
+        client: the mlflow client
+        model_info: the MLFlow model info of the newly trained model
+    '''
     trained_model_run_id = model_info.run_id
 
     # Get all registered models
