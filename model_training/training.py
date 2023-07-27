@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 from datetime import date
 
@@ -119,8 +120,6 @@ def train_best_model(best_run, train_embeddings_df, test_embeddings_df):
         best_n_estimators = int(best_run['params.rf_n_estimators'].values[0])
         mlflow.log_params({'rf_max_depth': best_max_depth, 'rf_n_estimators': best_n_estimators})
 
-        mlflow.log_artifact('dataset/train_embeddings_df.csv', 'dataset')
-        mlflow.log_artifact('dataset/test_embeddings_df.csv', 'dataset')
         best_clf = RandomForestClassifier(n_estimators=best_n_estimators, max_depth=best_max_depth)
         best_clf.fit(train_embeddings_df.drop('label', axis=1), train_embeddings_df['label'])
 
@@ -129,6 +128,14 @@ def train_best_model(best_run, train_embeddings_df, test_embeddings_df):
         mlflow.log_metric("accuracy", accuracy)
 
         model_info = mlflow.sklearn.log_model(best_clf, artifact_path="models", registered_model_name='spam-detector')
+
+        # Log datasets as MLFlow artifacts
+        if not os.path.exists('temp/'):
+            os.makedirs('temp/')
+        train_embeddings_df.to_csv('temp/train_embeddings_df.csv', index=False)
+        test_embeddings_df.to_csv('temp/test_embeddings_df.csv', index=False)
+        mlflow.log_artifact('temp/train_embeddings_df.csv', 'dataset')
+        mlflow.log_artifact('temp/test_embeddings_df.csv', 'dataset')
 
         # Prefect artifact to report trained model accuracy
         markdown_accuracy_report = f"""# Accuracy Report
