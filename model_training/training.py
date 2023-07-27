@@ -27,25 +27,25 @@ from prefect.artifacts import create_markdown_artifact
 # 1. prefect init
 # 2. prefect deploy
 
-# TODO:
-# Prefect set params
-
-MLFLOW_TRACKING_URI = "http://18.142.178.133:5000/" ## temp to take from ENV
-MLFLOW_EXPERIMENT_NAME = "spam-detection-experiment"
-
 @task(name="MLFlow Init")
-def init_mlflow():
-    client = MlflowClient(MLFLOW_TRACKING_URI)
+def init_mlflow(mlflow_tracking_uri, mlflow_experiment_name):
+    client = MlflowClient(mlflow_tracking_uri)
 
-    mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
+    mlflow.set_tracking_uri(mlflow_tracking_uri)
 
     try:
-        experiment_id = mlflow.create_experiment(MLFLOW_EXPERIMENT_NAME)
+        experiment_id = mlflow.create_experiment(mlflow_experiment_name)
     except:
-        experiment_id = mlflow.get_experiment_by_name(MLFLOW_EXPERIMENT_NAME).experiment_id
+        experiment_id = mlflow.get_experiment_by_name(mlflow_experiment_name).experiment_id
     mlflow.set_experiment(experiment_id=experiment_id)
 
-    return client
+    optuna_mlflow_callback = MLflowCallback(
+        tracking_uri=mlflow_tracking_uri,
+        metric_name='accuracy',
+        create_experiment=False,
+    )
+
+    return client, optuna_mlflow_callback
 
 @task(name="Get spam training and testing datasets")
 def get_data():
@@ -79,7 +79,7 @@ def embed_text(df, sentence_model, embed_type='train'):
     return embeddings
 
 @task(log_prints=True, name="Model hyperparameter tuning")
-def hyperparameter_tuning(train_embeddings_df, test_embeddings_df):
+def hyperparameter_tuning(train_embeddings_df, test_embeddings_df, optuna_mlflow_callback):
     def objective(trial):
         rf_max_depth = trial.suggest_int("rf_max_depth", 2, 32, log=True)
         rf_n_estimators = trial.suggest_int("rf_n_estimators", 5, 100, log=True)
@@ -90,20 +90,14 @@ def hyperparameter_tuning(train_embeddings_df, test_embeddings_df):
         accuracy = accuracy_score(test_embeddings_df['label'], predictions)
         return accuracy
 
-    mlflc = MLflowCallback(
-        tracking_uri=MLFLOW_TRACKING_URI,
-        metric_name='accuracy',
-        create_experiment=False,
-    )
-
     study = optuna.create_study(direction="maximize")
-    study.optimize(objective, n_trials=100, callbacks=[mlflc])
+    study.optimize(objective, n_trials=100, callbacks=[optuna_mlflow_callback])
 
     return study
 
 @task(name="Get best experiment run")
-def find_best_run(study):
-    spam_detection_experiment=dict(mlflow.get_experiment_by_name(MLFLOW_EXPERIMENT_NAME))
+def find_best_run(study, mlflow_experiment_name):
+    spam_detection_experiment=dict(mlflow.get_experiment_by_name(mlflow_experiment_name))
     experiment_id=spam_detection_experiment['experiment_id']
 
     # Get based on the best trial value with the lowest n_estimators
@@ -223,8 +217,12 @@ def stage_model(client, model_info):
             print( f'Archived version {trained_model_version.version} of spam-detector model.')
 
 @flow(name="Spam Detector Capstone")
-def detector_training_main():
-    mlflow_client = init_mlflow()
+def detector_training_main(
+    mlflow_tracking_uri: str = "http://18.142.178.133:5000/",
+    mlflow_experiment_name: str = "spam-detection-experiment",
+) -> None:
+    
+    mlflow_client, optuna_mlflow_callback = init_mlflow(mlflow_tracking_uri, mlflow_experiment_name)
 
     train_df, test_df = get_data()
 
@@ -233,14 +231,15 @@ def detector_training_main():
     train_embeddings = embed_text(train_df, sentence_model, embed_type='training')
     test_embeddings = embed_text(test_df, sentence_model, embed_type='testing')
 
+    # Prepapre embeddings dataset for hyperparameter tuning and model training
     train_embeddings_df = pd.DataFrame(train_embeddings)
     train_embeddings_df['label'] = train_df['label'].values
     test_embeddings_df = pd.DataFrame(test_embeddings)
     test_embeddings_df['label'] = test_df['label'].values
 
-    study = hyperparameter_tuning(train_embeddings_df, test_embeddings_df)
+    study = hyperparameter_tuning(train_embeddings_df, test_embeddings_df, optuna_mlflow_callback)
 
-    best_run = find_best_run(study)
+    best_run = find_best_run(study, mlflow_experiment_name)
     model_info = train_best_model(best_run, train_embeddings_df, test_embeddings_df)
 
     stage_model(mlflow_client, model_info)
