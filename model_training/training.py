@@ -1,6 +1,7 @@
 import pandas as pd
 from datetime import date
 
+from torch import cuda
 from datasets import load_dataset
 from sentence_transformers import SentenceTransformer
 
@@ -226,7 +227,8 @@ def detector_training_main(
 
     train_df, test_df = get_data()
 
-    sentence_model = load_preprocessor('cuda')
+    device = 'cuda' if cuda.is_available() else 'cpu'
+    sentence_model = load_preprocessor(device)
 
     train_embeddings = embed_text(train_df, sentence_model, embed_type='training')
     test_embeddings = embed_text(test_df, sentence_model, embed_type='testing')
