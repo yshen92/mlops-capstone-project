@@ -66,24 +66,15 @@ def get_data():
 
     return train_df, test_df
 
-@task(name="Save spam training and testing datasets to local")
-def save_data(train_df, test_df):
-    train_df.to_csv('dataset/train_df.csv', index=False)
-    test_df.to_csv('dataset/test_df.csv', index=False)
-
 @task(name="Load sentence transformer")
 def load_preprocessor(device='cpu'):
-    return SentenceTransformer('all-mpnet-base-v2', device=device)
+    return SentenceTransformer('model_training\sentence-transformers_all-mpnet-base-v2', device=device)
 
 @task(task_run_name="Embedding {embed_type} data")
 def embed_text(df, sentence_model, embed_type='train'):
     embeddings = sentence_model.encode(df['text'].values, show_progress_bar=False, batch_size=32)
 
     return embeddings
-
-@task(task_run_name="Saving {embed_type} embeddings to local")
-def save_embeddings(embeddings, embed_type='train'):
-    dump(embeddings, f'embeddings/{embed_type}_embeddings.joblib')
 
 @task(log_prints=True, name="Model hyperparameter tuning")
 def hyperparameter_tuning(train_embeddings_df, test_embeddings_df):
@@ -140,7 +131,6 @@ def train_best_model(best_run, train_embeddings_df, test_embeddings_df):
         accuracy = accuracy_score(test_embeddings_df['label'], best_predictions)
         mlflow.log_metric("accuracy", accuracy)
 
-        dump(best_clf, 'models/best_clf.joblib')
         model_info = mlflow.sklearn.log_model(best_clf, artifact_path="models", registered_model_name='spam-detector')
 
     return model_info
@@ -217,15 +207,11 @@ def detector_training_main():
     mlflow_client = init_mlflow()
 
     train_df, test_df = get_data()
-    save_data(train_df, test_df)
 
     sentence_model = load_preprocessor('cuda')
 
     train_embeddings = embed_text(train_df, sentence_model, embed_type='training')
     test_embeddings = embed_text(test_df, sentence_model, embed_type='testing')
-
-    save_embeddings(train_embeddings, embed_type='train')
-    save_embeddings(test_embeddings, embed_type='test')
 
     train_embeddings_df = pd.DataFrame(train_embeddings)
     train_embeddings_df['label'] = train_df['label'].values
