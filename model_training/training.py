@@ -15,26 +15,35 @@ from optuna.integration.mlflow import MLflowCallback
 
 from prefect import flow, task
 
-# TODO: Move to README
+## TODO: Move to README
 # Steps
 # 1. Start EC2, clear off db and s3 artifacts if needed
 # 2. Run mlflow server on EC2
 # 3. Run training.py
 
+# Prefect steps:
+# 1. prefect init
+# 2. prefect deploy
+
 # TODO:
 # Prefect set params
 
-MLFLOW_TRACKING_URI = "http://xx.xxx.xxx.xx:5000/" ## temp to take from ENV
+MLFLOW_TRACKING_URI = "http://18.142.178.133:5000/" ## temp to take from ENV
 MLFLOW_EXPERIMENT_NAME = "spam-detection-experiment"
-client = MlflowClient(MLFLOW_TRACKING_URI)
 
-mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
+@task(name="MLFlow Init")
+def init_mlflow():
+    client = MlflowClient(MLFLOW_TRACKING_URI)
 
-try:
-    experiment_id = mlflow.create_experiment(MLFLOW_EXPERIMENT_NAME)
-except:
-    experiment_id = mlflow.get_experiment_by_name(MLFLOW_EXPERIMENT_NAME).experiment_id
-mlflow.set_experiment(experiment_id=experiment_id)
+    mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
+
+    try:
+        experiment_id = mlflow.create_experiment(MLFLOW_EXPERIMENT_NAME)
+    except:
+        experiment_id = mlflow.get_experiment_by_name(MLFLOW_EXPERIMENT_NAME).experiment_id
+    mlflow.set_experiment(experiment_id=experiment_id)
+
+    return client
 
 @task(name="Get spam training and testing datasets")
 def get_data():
@@ -137,7 +146,7 @@ def train_best_model(best_run, train_embeddings_df, test_embeddings_df):
     return model_info
 
 @task(log_prints=True, name="Productionize the model")
-def stage_model(model_info):
+def stage_model(client, model_info):
     trained_model_run_id = model_info.run_id
 
     # Get all registered models
@@ -204,7 +213,9 @@ def stage_model(model_info):
             print( f'Archived version {trained_model_version.version} of spam-detector model.')
 
 @flow(name="Spam Detector Capstone")
-def main():
+def detector_training_main():
+    mlflow_client = init_mlflow()
+
     train_df, test_df = get_data()
     save_data(train_df, test_df)
 
@@ -228,9 +239,9 @@ def main():
     best_run = find_best_run(study)
     model_info = train_best_model(best_run, train_embeddings_df, test_embeddings_df)
 
-    stage_model(model_info)
+    stage_model(mlflow_client, model_info)
 
 if __name__ == '__main__':
-    main() 
+    detector_training_main() 
 
 

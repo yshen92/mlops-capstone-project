@@ -3,33 +3,44 @@
 # control along with your flow code.
 
 # Generic metadata about this project
-name: model_training
+name: mlops_capstone_project
 prefect-version: 2.11.0
 
 # build section allows you to manage and build docker images
-build: null
+build:
 
 # push section allows you to manage if and how this project is uploaded to remote locations
-push: null
+push:
 
 # pull section allows you to provide instructions for cloning this project in remote locations
 pull:
 - prefect.deployments.steps.git_clone:
-    repository: '{{ repository }}'
-    branch: master
-    access_token: null
+    repository: git@github.com:yshen92/mlops-capstone-project.git
+    branch: wip
+    access_token:
 
 # the deployments section allows you to provide configuration for deploying flows
 deployments:
-- name: null
-  version: null
+- name:
+  version:
   tags: []
-  description: null
+  description:
   schedule: {}
-  flow_name: null
-  entrypoint: null
+  flow_name:
+  entrypoint:
   parameters: {}
   work_pool:
-    name: null
-    work_queue_name: null
+    name:
+    work_queue_name:
     job_variables: {}
+- name: mlops-capstone-spam-detector
+  version:
+  tags: []
+  description:
+  entrypoint: model_training\training.py:detector_training_main
+  parameters: {}
+  work_pool:
+    name: mlops-capstone
+    work_queue_name:
+    job_variables: {}
+  schedule:
