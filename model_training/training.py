@@ -1,6 +1,7 @@
-from datasets import load_dataset
-from joblib import dump
 import pandas as pd
+from datetime import date
+
+from datasets import load_dataset
 from sentence_transformers import SentenceTransformer
 
 from sklearn.ensemble import RandomForestClassifier
@@ -14,6 +15,7 @@ import optuna
 from optuna.integration.mlflow import MLflowCallback
 
 from prefect import flow, task
+from prefect.artifacts import create_markdown_artifact
 
 ## TODO: Move to README
 # Steps
@@ -133,6 +135,24 @@ def train_best_model(best_run, train_embeddings_df, test_embeddings_df):
 
         model_info = mlflow.sklearn.log_model(best_clf, artifact_path="models", registered_model_name='spam-detector')
 
+        # Prefect artifact to report trained model accuracy
+        markdown_accuracy_report = f"""# Accuracy Report
+
+        ## Summary
+
+        Spam Detection
+
+        ## Random Forest Classifier Accuracy
+
+        | Region    | RMSE |
+        |:----------|-------:|
+        | {date.today()} | {accuracy:.2f} |
+        """
+
+        create_markdown_artifact(
+            key="spam-detector-accuracy-model-report", markdown=markdown_accuracy_report
+        )
+
     return model_info
 
 @task(log_prints=True, name="Productionize the model")
@@ -215,10 +235,8 @@ def detector_training_main():
 
     train_embeddings_df = pd.DataFrame(train_embeddings)
     train_embeddings_df['label'] = train_df['label'].values
-    train_embeddings_df.to_csv('dataset/train_embeddings_df.csv', index=False)
     test_embeddings_df = pd.DataFrame(test_embeddings)
     test_embeddings_df['label'] = test_df['label'].values
-    test_embeddings_df.to_csv('dataset/test_embeddings_df.csv', index=False)
 
     study = hyperparameter_tuning(train_embeddings_df, test_embeddings_df)
 
