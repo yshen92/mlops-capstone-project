@@ -21,18 +21,6 @@ pull:
 
 # the deployments section allows you to provide configuration for deploying flows
 deployments:
-- name:
-  version:
-  tags: []
-  description:
-  schedule: {}
-  flow_name:
-  entrypoint:
-  parameters: {}
-  work_pool:
-    name:
-    work_queue_name:
-    job_variables: {}
 - name: mlops-capstone-spam-detector
   version:
   tags: []
