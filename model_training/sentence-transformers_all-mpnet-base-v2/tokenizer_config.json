@@ -1,1 +1,3 @@
-{"do_lower_case": true, "bos_token": "<s>", "eos_token": "</s>", "sep_token": "</s>", "cls_token": "<s>", "unk_token": "[UNK]", "pad_token": "<pad>", "mask_token": "<mask>", "tokenize_chinese_chars": true, "strip_accents": null, "model_max_length": 512, "special_tokens_map_file": null, "name_or_path": "microsoft/mpnet-base", "tokenizer_class": "MPNetTokenizer"}
+version https://git-lfs.github.com/spec/v1
+oid sha256:67f2ff7e223518e729869bb3a70f0caf8368fe549383fc11cfe2dfb42fffc268
+size 363
