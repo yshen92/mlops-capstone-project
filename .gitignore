@@ -1,3 +1,5 @@
 *.db
 */mlruns/*
 *.pyc
+*.csv
+*.joblib
