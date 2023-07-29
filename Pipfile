@@ -3,14 +3,37 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[[source]]
+url = "https://download.pytorch.org/whl/cpu"
+verify_ssl = true
+name = "downloadpytorch"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cpu"
+verify_ssl = true
+name = "downloadpytorch"
+
+[[source]]
+url = "https://download.pytorch.org/whl/cpu"
+verify_ssl = true
+name = "downloadpytorch"
+
 [packages]
 mlflow = "*"
 scikit-learn = "*"
 pandas = "*"
 optuna = "*"
-boto3 = "*"
-torch = "*"
-prefect = "*"
+boto3 = "==1.26.90"
+prefect = "==2.11.0"
+pyarrow = "*"
+s3fs = "*"
+datasets = "*"
+sentence-transformers = "*"
+torch = {version = "==2.0.0", index = "downloadpytorch"}
+torchvision = {version = "*", index = "downloadpytorch"}
+torchaudio = {version = "*", index = "downloadpytorch"}
+psutil = "==5.9.5"
+numpy = "==1.24.1"
 
 [dev-packages]
 
