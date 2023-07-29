@@ -25,9 +25,12 @@ from prefect.artifacts import create_markdown_artifact
 # 2. Run mlflow server on EC2
 # 3. Run training.py
 
-# Prefect steps:
-# 1. prefect init
-# 2. prefect deploy
+'''
+Steps for Prefect Deployment:
+1. Run 'prefect init' and follow the UI instructions, choose git
+2. Run 'prefect deploy'  and follow the UI instructions
+3. Run "prefect worker start --pool 'mlops-capstone'" to start worker
+'''
 
 @task(name="MLFlow Init")
 def init_mlflow(mlflow_tracking_uri, mlflow_experiment_name):
