@@ -32,3 +32,14 @@ deployments:
     work_queue_name:
     job_variables: {}
   schedule:
+- name: batch-drift-monitoring
+  version:
+  tags: []
+  description:
+  entrypoint: monitoring\evidently_metrics_calculation.py:batch_monitoring
+  parameters: {}
+  work_pool:
+    name: mlops-capstone
+    work_queue_name:
+    job_variables: {}
+  schedule:

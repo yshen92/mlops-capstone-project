@@ -34,6 +34,8 @@ torchvision = {version = "*", index = "downloadpytorch"}
 torchaudio = {version = "*", index = "downloadpytorch"}
 psutil = "==5.9.5"
 numpy = "==1.24.1"
+evidently = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 
