@@ -32,6 +32,7 @@ Steps for Prefect Deployment:
 3. Run "prefect worker start --pool 'mlops-capstone'" to start worker
 '''
 
+
 @task(name="MLFlow Init")
 def init_mlflow(mlflow_tracking_uri, mlflow_experiment_name):
     '''
@@ -44,8 +45,8 @@ def init_mlflow(mlflow_tracking_uri, mlflow_experiment_name):
     Returns:
         client: the mlflow client
         optuna_mlflow_callback: the optuna mlflow callback
-    
-    
+
+
     '''
     client = MlflowClient(mlflow_tracking_uri)
 
@@ -54,7 +55,9 @@ def init_mlflow(mlflow_tracking_uri, mlflow_experiment_name):
     try:
         experiment_id = mlflow.create_experiment(mlflow_experiment_name)
     except:
-        experiment_id = mlflow.get_experiment_by_name(mlflow_experiment_name).experiment_id
+        experiment_id = mlflow.get_experiment_by_name(
+            mlflow_experiment_name
+        ).experiment_id
     mlflow.set_experiment(experiment_id=experiment_id)
 
     optuna_mlflow_callback = MLflowCallback(
@@ -64,6 +67,7 @@ def init_mlflow(mlflow_tracking_uri, mlflow_experiment_name):
     )
 
     return client, optuna_mlflow_callback
+
 
 @task(name="Get spam training and testing datasets")
 def get_data():
@@ -76,7 +80,7 @@ def get_data():
     Returns:
         train_df: a dataframe containing the training data
         test_df: a dataframe containing the testing data
-    
+
     '''
     spam_detection_dataset = load_dataset("Deysi/spam-detection-dataset")
     spam_detection_dataset.set_format(type='pandas')
@@ -85,6 +89,7 @@ def get_data():
     test_df = spam_detection_dataset['test'][:].sample(500, random_state=10)
 
     return train_df, test_df
+
 
 @task(name="Load sentence transformer")
 def load_preprocessor(device='cpu'):
@@ -97,7 +102,10 @@ def load_preprocessor(device='cpu'):
     Returns:
         sentence_model: the sentence transformer model
     '''
-    return SentenceTransformer('model_training\sentence-transformers_all-mpnet-base-v2', device=device)
+    return SentenceTransformer(
+        'model_training\sentence-transformers_all-mpnet-base-v2', device=device
+    )
+
 
 @task(task_run_name="Embedding {embed_type} data")
 def embed_text(df, sentence_model, embed_type='train'):
@@ -111,14 +119,19 @@ def embed_text(df, sentence_model, embed_type='train'):
 
     Returns:
         embeddings: the embeddings of the text
-    
+
     '''
-    embeddings = sentence_model.encode(df['text'].values, show_progress_bar=False, batch_size=32)
+    embeddings = sentence_model.encode(
+        df['text'].values, show_progress_bar=False, batch_size=32
+    )
 
     return embeddings
 
+
 @task(log_prints=True, name="Model hyperparameter tuning")
-def hyperparameter_tuning(train_embeddings_df, test_embeddings_df, optuna_mlflow_callback):
+def hyperparameter_tuning(
+    train_embeddings_df, test_embeddings_df, optuna_mlflow_callback
+):
     '''
     Optuna hyperparameter tuning on Random Forect Classifier.
 
@@ -130,10 +143,13 @@ def hyperparameter_tuning(train_embeddings_df, test_embeddings_df, optuna_mlflow
     Returns:
         study: the completed Optuna study
     '''
+
     def objective(trial):
         rf_max_depth = trial.suggest_int("rf_max_depth", 2, 32, log=True)
         rf_n_estimators = trial.suggest_int("rf_n_estimators", 5, 100, log=True)
-        clf = RandomForestClassifier(max_depth=rf_max_depth, n_estimators=rf_n_estimators)
+        clf = RandomForestClassifier(
+            max_depth=rf_max_depth, n_estimators=rf_n_estimators
+        )
         clf.fit(train_embeddings_df.drop('label', axis=1), train_embeddings_df['label'])
 
         predictions = clf.predict(test_embeddings_df.drop('label', axis=1))
@@ -144,6 +160,7 @@ def hyperparameter_tuning(train_embeddings_df, test_embeddings_df, optuna_mlflow
     study.optimize(objective, n_trials=100, callbacks=[optuna_mlflow_callback])
 
     return study
+
 
 @task(name="Get best experiment run")
 def find_best_run(study, mlflow_experiment_name):
@@ -157,19 +174,22 @@ def find_best_run(study, mlflow_experiment_name):
     Returns:
         best_run: the best MLFlow experiment run
     '''
-    spam_detection_experiment=dict(mlflow.get_experiment_by_name(mlflow_experiment_name))
-    experiment_id=spam_detection_experiment['experiment_id']
+    spam_detection_experiment = dict(
+        mlflow.get_experiment_by_name(mlflow_experiment_name)
+    )
+    experiment_id = spam_detection_experiment['experiment_id']
 
     # Get based on the best trial value with the lowest n_estimators
-    best_run = mlflow.search_runs( 
+    best_run = mlflow.search_runs(
         experiment_ids=experiment_id,
         filter_string=f'metrics.accuracy = {study.best_value}',
-        run_view_type= ViewType.ACTIVE_ONLY,
+        run_view_type=ViewType.ACTIVE_ONLY,
         max_results=1,
-        order_by=['parameters.rf_n_estimators ASC']
+        order_by=['parameters.rf_n_estimators ASC'],
     )
 
     return best_run
+
 
 @task(name="Train the best model")
 def train_best_model(best_run, train_embeddings_df, test_embeddings_df):
@@ -187,16 +207,24 @@ def train_best_model(best_run, train_embeddings_df, test_embeddings_df):
     with mlflow.start_run():
         best_max_depth = int(best_run['params.rf_max_depth'].values[0])
         best_n_estimators = int(best_run['params.rf_n_estimators'].values[0])
-        mlflow.log_params({'rf_max_depth': best_max_depth, 'rf_n_estimators': best_n_estimators})
+        mlflow.log_params(
+            {'rf_max_depth': best_max_depth, 'rf_n_estimators': best_n_estimators}
+        )
 
-        best_clf = RandomForestClassifier(n_estimators=best_n_estimators, max_depth=best_max_depth)
-        best_clf.fit(train_embeddings_df.drop('label', axis=1), train_embeddings_df['label'])
+        best_clf = RandomForestClassifier(
+            n_estimators=best_n_estimators, max_depth=best_max_depth
+        )
+        best_clf.fit(
+            train_embeddings_df.drop('label', axis=1), train_embeddings_df['label']
+        )
 
         best_predictions = best_clf.predict(test_embeddings_df.drop('label', axis=1))
         accuracy = accuracy_score(test_embeddings_df['label'], best_predictions)
         mlflow.log_metric("accuracy", accuracy)
 
-        model_info = mlflow.sklearn.log_model(best_clf, artifact_path="models", registered_model_name='spam-detector')
+        model_info = mlflow.sklearn.log_model(
+            best_clf, artifact_path="models", registered_model_name='spam-detector'
+        )
 
         # Log datasets as MLFlow artifacts
         if not os.path.exists('temp/'):
@@ -226,6 +254,7 @@ def train_best_model(best_run, train_embeddings_df, test_embeddings_df):
 
     return model_info
 
+
 @task(log_prints=True, name="Productionize the model")
 def stage_model(client, model_info):
     '''
@@ -252,11 +281,9 @@ def stage_model(client, model_info):
                     name='spam-detector',
                     version=model_version,
                     stage='Production',
-                    archive_existing_versions=False
+                    archive_existing_versions=False,
                 )
-                print(
-                    f'Productionized version {model_version} of spam-detector model.'
-                )
+                print(f'Productionized version {model_version} of spam-detector model.')
             else:
                 # a sole registered model with a stage doesn't need to be transitioned
                 pass
@@ -265,13 +292,21 @@ def stage_model(client, model_info):
             pass
     else:
         production_model_run_id = [
-            [model_version.run_id for model_version in reg_model.latest_versions if model_version.current_stage=='Production'] 
+            [
+                model_version.run_id
+                for model_version in reg_model.latest_versions
+                if model_version.current_stage == 'Production'
+            ]
             for reg_model in registered_models
         ]
 
         trained_model_version = [
-                [model_version for model_version in reg_model.latest_versions if model_version.run_id==trained_model_run_id] 
-                for reg_model in registered_models
+            [
+                model_version
+                for model_version in reg_model.latest_versions
+                if model_version.run_id == trained_model_run_id
+            ]
+            for reg_model in registered_models
         ]
 
         # There should only be 1 production model at a time
@@ -291,7 +326,9 @@ def stage_model(client, model_info):
                 stage=new_stage,
                 archive_existing_versions=True,
             )
-            print( f'Productionized version {trained_model_version.version} of spam-detector model.')
+            print(
+                f'Productionized version {trained_model_version.version} of spam-detector model.'
+            )
         else:
             new_stage = "Archived"
             client.transition_model_version_stage(
@@ -300,15 +337,19 @@ def stage_model(client, model_info):
                 stage=new_stage,
                 archive_existing_versions=False,
             )
-            print( f'Archived version {trained_model_version.version} of spam-detector model.')
+            print(
+                f'Archived version {trained_model_version.version} of spam-detector model.'
+            )
+
 
 @flow(name="Spam Detector Capstone")
 def detector_training_main(
     mlflow_tracking_uri: str = "http://18.142.178.133:5000/",
     mlflow_experiment_name: str = "spam-detection-experiment",
 ) -> None:
-    
-    mlflow_client, optuna_mlflow_callback = init_mlflow(mlflow_tracking_uri, mlflow_experiment_name)
+    mlflow_client, optuna_mlflow_callback = init_mlflow(
+        mlflow_tracking_uri, mlflow_experiment_name
+    )
 
     train_df, test_df = get_data()
 
@@ -324,14 +365,15 @@ def detector_training_main(
     test_embeddings_df = pd.DataFrame(test_embeddings)
     test_embeddings_df['label'] = test_df['label'].values
 
-    study = hyperparameter_tuning(train_embeddings_df, test_embeddings_df, optuna_mlflow_callback)
+    study = hyperparameter_tuning(
+        train_embeddings_df, test_embeddings_df, optuna_mlflow_callback
+    )
 
     best_run = find_best_run(study, mlflow_experiment_name)
     model_info = train_best_model(best_run, train_embeddings_df, test_embeddings_df)
 
     stage_model(mlflow_client, model_info)
 
+
 if __name__ == '__main__':
-    detector_training_main() 
-
-
+    detector_training_main()

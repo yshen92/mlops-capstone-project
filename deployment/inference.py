@@ -21,6 +21,7 @@ def load_preprocessor(device='cpu'):
     '''
     return SentenceTransformer('all-mpnet-base-v2', device=device)
 
+
 def embed_text(text, sentence_model):
     '''
     Embeds dataset texts.
@@ -33,8 +34,9 @@ def embed_text(text, sentence_model):
         embeddings: the embeddings of the text
     '''
     embeddings = sentence_model.encode(text, show_progress_bar=False, batch_size=32)
- 
+
     return embeddings
+
 
 def preprocess_data(df):
     '''
@@ -49,6 +51,7 @@ def preprocess_data(df):
     # to use CPU only for inference for simplicity
     sentence_model = load_preprocessor('cpu')
     return embed_text(df['text'].values, sentence_model)
+
 
 def load_model(mlflow_client):
     '''
@@ -66,23 +69,28 @@ def load_model(mlflow_client):
     )
 
     production_model_run_id = [
-        [model_version.run_id for model_version in reg_model.latest_versions if model_version.current_stage=='Production'] 
+        [
+            model_version.run_id
+            for model_version in reg_model.latest_versions
+            if model_version.current_stage == 'Production'
+        ]
         for reg_model in registered_models
     ][0][0]
 
-    production_model_url = f'runs:/{production_model_run_id}/models' 
+    production_model_url = f'runs:/{production_model_run_id}/models'
 
     production_model = mlflow.pyfunc.load_model(production_model_url)
 
     return production_model
 
+
 def fetch_data():
     '''
     Simulate fetching 300 random unseen texts
-    
+
     Returns:
-        unseen_df: the dataframe containing the unseen texts    
-   '''
+        unseen_df: the dataframe containing the unseen texts
+    '''
     spam_detection_dataset = load_dataset("Deysi/spam-detection-dataset")
     spam_detection_dataset.set_format(type='pandas')
 
@@ -90,9 +98,11 @@ def fetch_data():
     unseen_df = spam_detection_dataset['train'][:].sample(300, random_state=10)
     return unseen_df
 
+
 def get_current_year_and_month():
     now = datetime.now()
     return now.year, now.month
+
 
 def spam_detection(mlflow_tracking_uri=None):
     unseen_df = fetch_data()
@@ -113,11 +123,9 @@ def spam_detection(mlflow_tracking_uri=None):
 
     output_file = f's3://mlops-capstone-prediction/year={year:04d}/month={month:02d}/spam_detection.parquet'
     prediction_df.to_parquet(
-        output_file,
-        engine='pyarrow',
-        compression=None,
-        index=False
+        output_file, engine='pyarrow', compression=None, index=False
     )
 
+
 if __name__ == '__main__':
-    spam_detection() 
+    spam_detection()

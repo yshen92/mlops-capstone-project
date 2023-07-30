@@ -2,6 +2,7 @@ from deployment import inference
 
 import boto3
 
+
 def check_s3_file_exists(bucket_name, object_key):
     s3 = boto3.resource('s3')
     try:
@@ -14,15 +15,19 @@ def check_s3_file_exists(bucket_name, object_key):
     else:
         return True
 
-def TestIntegration(mlflow_tracking_uri):
 
+def TestIntegration(mlflow_tracking_uri):
     inference.spam_detection(mlflow_tracking_uri)
     year, month = inference.get_current_year_and_month()
-    inference_output_exists = check_s3_file_exists('mlops-capstone-prediction', f'year={year:04d}/month={month:02d}/spam_detection.parquet')
+    inference_output_exists = check_s3_file_exists(
+        'mlops-capstone-prediction',
+        f'year={year:04d}/month={month:02d}/spam_detection.parquet',
+    )
 
     assert inference_output_exists == True, 'Inference output file does not exist'
 
     print('Integration test passed')
 
+
 if __name__ == '__main__':
-    TestIntegration(sys.argv[1]) 
+    TestIntegration(sys.argv[1])
