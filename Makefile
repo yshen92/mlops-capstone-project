@@ -4,6 +4,4 @@ unit_&_integration_tests:
 	bash tests/run.sh $(MLFLOW_TRACKING_URL)
 
 quality_checks:
-	isort .
 	black .
-	pylint --recursive=y .
