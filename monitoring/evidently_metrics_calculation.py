@@ -104,6 +104,16 @@ def get_unseen_data():
 
 @task(task_run_name="Get production model run id")
 def get_mlflow_prod_model_run_id(mlflow_client):
+    '''
+    Get the production model run id.
+
+    Args:
+        mlflow_client: the mlflow client
+
+    Returns:
+        production_model_run_id: the production model run id
+    '''
+    
 	# Get all registered models
     registered_models = mlflow_client.search_registered_models(
         filter_string=f"name='spam-detector'"
@@ -118,10 +128,20 @@ def get_mlflow_prod_model_run_id(mlflow_client):
 
 @task(task_run_name="Get production model reference data")
 def get_reference_data(production_model_run_id, mlflow_client):
+    '''
+    Get the reference data used in validating the production model.
+
+    Args:
+        production_model_run_id: the production model run id
+        mlflow_client: the mlflow client
+
+    Returns:
+        reference_df: the dataframe containing the reference data
+    '''
     run_info = mlflow_client.get_run(production_model_run_id)
     s3_artifact_uri = run_info.info.artifact_uri
     
-    reference_df = pd.read_csv(s3_artifact_uri + '/dataset/test_embeddings_df.csv')
+    reference_df = pd.read_csv(s3_artifact_uri + '/dataset/train_embeddings_df.csv')
     return reference_df
 
 @task(task_run_name="Load production model")
@@ -164,6 +184,17 @@ def prep_db():
 
 @task(name="calculate drift metrics", retries=2, retry_delay_seconds=5)
 def calculate_metrics_postgresql(reference_df, prediction_df):
+    '''
+    Calculates the drift metrics based on the prediction and reference data.
+    The drift scores are written to the database.
+
+    Args:
+        reference_df: the dataframe containing the reference data
+        prediction_df: the dataframe containing the prediction data
+
+    Returns:
+        None
+    '''
     column_mapping =  ColumnMapping(
         embeddings={'text_embeddings': reference_df.drop(['prediction'], axis=1).columns},
         prediction='prediction',
