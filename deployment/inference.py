@@ -21,7 +21,7 @@ def load_preprocessor(device='cpu'):
     '''
     return SentenceTransformer('all-mpnet-base-v2', device=device)
 
-def embed_text(df, sentence_model):
+def embed_text(text, sentence_model):
     '''
     Embeds dataset texts.
 
@@ -32,8 +32,8 @@ def embed_text(df, sentence_model):
     Returns:
         embeddings: the embeddings of the text
     '''
-    embeddings = sentence_model.encode(df['text'].values, show_progress_bar=False, batch_size=32)
-
+    embeddings = sentence_model.encode(text, show_progress_bar=False, batch_size=32)
+ 
     return embeddings
 
 def preprocess_data(df):
@@ -48,7 +48,7 @@ def preprocess_data(df):
     '''
     # to use CPU only for inference for simplicity
     sentence_model = load_preprocessor('cpu')
-    return embed_text(df, sentence_model)
+    return embed_text(df['text'].values, sentence_model)
 
 def load_model(mlflow_client):
     '''
@@ -94,12 +94,13 @@ def get_current_year_and_month():
     now = datetime.now()
     return now.year, now.month
 
-def spam_detection():
+def spam_detection(mlflow_tracking_uri=None):
     unseen_df = fetch_data()
 
     unseen_embeddings = preprocess_data(unseen_df)
 
-    mlflow_tracking_uri = sys.argv[1]
+    if mlflow_tracking_uri == None:
+        mlflow_tracking_uri = sys.argv[1]
     mlflow_client = MlflowClient(mlflow_tracking_uri)
     mlflow.set_tracking_uri(mlflow_tracking_uri)
     prod_model = load_model(mlflow_client)
