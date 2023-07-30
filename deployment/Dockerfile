@@ -1,6 +1,6 @@
 # Steps to package codes to docker and run from root directory
 # docker build -t spam-detection-inference:v1 -f .\deployment\Dockerfile .
-# docker run -it -e AWS_ACCESS_KEY_ID=XXX -e AWS_SECRET_ACCESS_KEY=XXX spam-detection-inference:v1 http://18.142.46.37:5000/
+# docker run -it -e AWS_ACCESS_KEY_ID=XXX -e AWS_SECRET_ACCESS_KEY=XXX spam-detection-inference:v1 MLFLOW_TRACKING_URL
 
 FROM python:3.9-slim
 
