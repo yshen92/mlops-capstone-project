@@ -1,4 +1,4 @@
-from ..deployment import inference
+from deployment import inference
 
 import boto3
 
