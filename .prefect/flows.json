@@ -1,0 +1,4 @@
+{
+  "Batch Monitoring": "monitoring\\evidently_metrics_calculation.py:batch_monitoring",
+  "Spam Detector Capstone": "model_training\\training.py:detector_training_main"
+}

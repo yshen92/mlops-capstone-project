@@ -1,0 +1,7 @@
+[tool.black]
+line-length = 88
+target-version = ['py39']
+skip-string-normalization = true
+extend-exclude = '''
+  /model_training/sentence-transformers_all-mpnet-base-v2/
+'''

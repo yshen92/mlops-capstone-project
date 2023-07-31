@@ -1,0 +1,45 @@
+# Welcome to your prefect.yaml file! You can you this file for storing and managing
+# configuration for deploying your flows. We recommend committing this file to source
+# control along with your flow code.
+
+# Generic metadata about this project
+name: mlops_capstone_project
+prefect-version: 2.11.0
+
+# build section allows you to manage and build docker images
+build:
+
+# push section allows you to manage if and how this project is uploaded to remote locations
+push:
+
+# pull section allows you to provide instructions for cloning this project in remote locations
+pull:
+- prefect.deployments.steps.git_clone:
+    repository: git@github.com:yshen92/mlops-capstone-project.git
+    branch: wip
+    access_token:
+
+# the deployments section allows you to provide configuration for deploying flows
+deployments:
+- name: mlops-capstone-spam-detector
+  version:
+  tags: []
+  description:
+  entrypoint: model_training\training.py:detector_training_main
+  parameters: {}
+  work_pool:
+    name: mlops-capstone
+    work_queue_name:
+    job_variables: {}
+  schedule:
+- name: batch-drift-monitoring
+  version:
+  tags: []
+  description:
+  entrypoint: monitoring\evidently_metrics_calculation.py:batch_monitoring
+  parameters: {}
+  work_pool:
+    name: mlops-capstone
+    work_queue_name:
+    job_variables: {}
+  schedule:

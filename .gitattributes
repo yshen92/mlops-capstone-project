@@ -1,0 +1,13 @@
+model_training/sentence-transformers_all-mpnet-base-v2/sentence_bert_config.json filter=lfs diff=lfs merge=lfs -text
+model_training/sentence-transformers_all-mpnet-base-v2/vocab.txt filter=lfs diff=lfs merge=lfs -text
+model_training/sentence-transformers_all-mpnet-base-v2/README.md filter=lfs diff=lfs merge=lfs -text
+model_training/sentence-transformers_all-mpnet-base-v2/config.json filter=lfs diff=lfs merge=lfs -text
+model_training/sentence-transformers_all-mpnet-base-v2/config_sentence_transformers.json filter=lfs diff=lfs merge=lfs -text
+model_training/sentence-transformers_all-mpnet-base-v2/data_config.json filter=lfs diff=lfs merge=lfs -text
+model_training/sentence-transformers_all-mpnet-base-v2/modules.json filter=lfs diff=lfs merge=lfs -text
+model_training/sentence-transformers_all-mpnet-base-v2/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+model_training/sentence-transformers_all-mpnet-base-v2/special_tokens_map.json filter=lfs diff=lfs merge=lfs -text
+model_training/sentence-transformers_all-mpnet-base-v2/tokenizer.json filter=lfs diff=lfs merge=lfs -text
+model_training/sentence-transformers_all-mpnet-base-v2/1_Pooling filter=lfs diff=lfs merge=lfs -text
+model_training/sentence-transformers_all-mpnet-base-v2/train_script.py filter=lfs diff=lfs merge=lfs -text
+model_training/sentence-transformers_all-mpnet-base-v2/tokenizer_config.json filter=lfs diff=lfs merge=lfs -text
