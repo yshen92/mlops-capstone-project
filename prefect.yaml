@@ -16,7 +16,7 @@ push:
 pull:
 - prefect.deployments.steps.git_clone:
     repository: git@github.com:yshen92/mlops-capstone-project.git
-    branch: wip
+    branch: master
     access_token:
 
 # the deployments section allows you to provide configuration for deploying flows
