@@ -5,3 +5,7 @@ optuna
 boto3
 torch
 dotenv
+dagster
+dagster-webserver
+dagster-mlflow
+dagster-postgres

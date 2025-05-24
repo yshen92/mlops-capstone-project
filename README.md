@@ -143,3 +143,74 @@ The following have been developed:
   <li>Makefile</li>
 </ol>
 </p>
+
+## Dagster Deployment and Execution
+
+This section outlines how to build and run the Dagster user code, which includes the training and monitoring jobs.
+
+### 1. Prerequisites
+
+*   **Docker:** Ensure Docker is installed and running on your system.
+*   **Pipenv:** The project uses Pipenv for dependency management. Make sure `Pipfile` and `Pipfile.lock` are up-to-date. You can typically update the lock file with `pipenv lock`.
+*   **External Services:** The Dagster jobs interact with external services:
+    *   **PostgreSQL:** Used for storing monitoring metrics by the `batch_monitoring_job` and potentially by MLflow if configured similarly. The `prep_db_op` within the monitoring job expects to connect to a PostgreSQL instance to create the `monitor` database and `embedding_drift_metrics` table. The `postgres_db` resource in `defs.py` also needs connection details for this `monitor` database.
+    *   **MLflow:** Used for experiment tracking, model registry, and artifact storage. Both `detector_training_job` and `batch_monitoring_job` require access to an MLflow tracking server.
+    *   Ensure these services are accessible from where you run the Docker container.
+
+### 2. Building the Dagster User Code Docker Image
+
+The `Dockerfile.dagster_user_code` is provided to containerize the Dagster user code. This image will contain all your job definitions, ops, and necessary Python dependencies.
+
+To build the image, run the following command from the project root:
+```bash
+docker build -t dagster_user_code:latest -f Dockerfile.dagster_user_code .
+```
+
+### 3. Running Dagster Locally using Docker (Development Mode)
+
+You can run the Dagster webserver (Dagit) locally using the Docker image built in the previous step. This is useful for development, testing, and manually launching job runs.
+
+```bash
+# Example:
+docker run -d -p 3000:3000 \
+  -e POSTGRES_HOST=<your_postgres_host_or_ip> \
+  -e POSTGRES_PORT=5430 \
+  -e POSTGRES_USER=<your_postgres_user> \
+  -e POSTGRES_PASSWORD=<your_postgres_password> \
+  # POSTGRES_DB is typically 'monitor' as configured in defs.py for the resource,
+  # and used by prep_db_op. No need to set POSTGRES_DB env var here if using defaults.
+  -e MLFLOW_TRACKING_URI=<your_mlflow_tracking_uri> \
+  # Add AWS credentials if your MLflow setup uses S3 for artifacts and jobs need direct S3 access
+  # -e AWS_ACCESS_KEY_ID=<your_aws_access_key_id> \
+  # -e AWS_SECRET_ACCESS_KEY=<your_aws_secret_access_key> \
+  # -e AWS_DEFAULT_REGION=<your_aws_region> \
+  # To persist Dagster's run history and schedules outside the container, mount DAGSTER_HOME:
+  # -v /path/on/host/to/dagster_home:/opt/dagster/dagster_home \
+  # -e DAGSTER_HOME=/opt/dagster/dagster_home \
+  --name dagster_dev_container \
+  dagster_user_code:latest
+```
+
+**Explanation of Environment Variables:**
+
+*   `POSTGRES_HOST`, `POSTGRES_PORT`, `POSTGRES_USER`, `POSTGRES_PASSWORD`: These are used by ops like `prep_db_op` (monitoring) and the `postgres_db` resource defined in `defs.py`. They should point to your PostgreSQL instance where the `monitor` database (for metrics) is or will be created.
+*   `MLFLOW_TRACKING_URI`: Points to your MLflow tracking server. Used by both training and monitoring jobs.
+*   `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_DEFAULT_REGION`: Required if your MLflow artifact store is S3 and your jobs/ops interact with S3 directly (e.g., `boto3` calls not mediated by MLflow client's S3 handling). The MLflow client itself usually handles S3 access transparently if its backend store and artifact root are S3 URIs and the environment it runs in (the container) has appropriate credentials or IAM roles.
+*   `DAGSTER_HOME` (Optional): If you want to persist Dagster's run history, schedule data, and other instance-specific information outside the Docker container, you can set `DAGSTER_HOME` to a path within the container and mount a volume to that path. For example, set `DAGSTER_HOME=/opt/dagster/dagster_home` and add `-v /local/path/to/dagster_home:/opt/dagster/dagster_home` to the `docker run` command.
+
+Once the container is running, you can access the Dagster webserver at `http://localhost:3000`.
+
+### 4. Overview of Production Deployment
+
+For a production environment, you would typically deploy Dagster with a more robust setup. This often involves:
+
+*   **Dagster Cloud:** A fully managed service provided by Elementl.
+*   **Self-Hosted Deployment:**
+    *   **User Code Deployment:** The Docker image (`dagster_user_code:latest`) you built is a key component. It represents your "user code" and is loaded by Dagster services.
+    *   **Dagster Webserver:** Runs the Dagit UI and GraphQL API. Can be run as a separate container or process.
+    *   **Dagster Daemon:** Manages schedules, sensors, and run queuing. Runs as a separate container or process.
+    *   **Dagster Agent(s):** (For Kubernetes, ECS, Docker, etc.) Launch runs in the execution environment. The agent fetches user code (often your Docker image) to execute jobs.
+    *   **Run Launcher:** Configured to launch runs, e.g., using `DockerRunLauncher` to run jobs in new containers from your user code image, or `K8sRunLauncher` for Kubernetes.
+    *   **Storage:** PostgreSQL is typically used for instance storage (run history, schedules). Artifact storage (e.g., for op outputs) might be S3, GCS, or a network filesystem.
+
+This project's `Dockerfile.dagster_user_code` provides the foundation for the user code deployment part of such a setup. The default CMD `dagster dev ...` is suitable for development. For production, you would typically have the image run `dagster api grpc -h 0.0.0.0 -p <grpc_port> -f defs.py` when deployed as a user code server that agents or the webserver can query via gRPC.

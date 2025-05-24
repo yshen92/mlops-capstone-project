@@ -1,0 +1,21 @@
+FROM python:3.9-slim
+
+# Install pipenv
+RUN pip install -U pip && pip install pipenv
+
+WORKDIR /opt/dagster_user_code
+
+# Copy dependency files and install dependencies
+# Ensure Pipfile and Pipfile.lock are up-to-date before building
+COPY Pipfile Pipfile.lock ./
+RUN pipenv install --system --deploy
+
+# Copy the rest of the application code
+COPY . .
+
+# Expose port for dagster dev
+EXPOSE 3000
+
+# Default command to run Dagster dev webserver
+# This loads definitions from defs.py in the root
+CMD ["dagster", "dev", "-h", "0.0.0.0", "-p", "3000", "-f", "defs.py"]

@@ -1,0 +1,49 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+pip-cache/
+.pip-cache/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.tox/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+Dockerfile # Exclude other Dockerfiles if they exist at root and are not needed for this build
+docker-compose.yml # If not needed in the image itself
+
+# MLflow
+mlruns/
+
+# Temp files
+temp/
+temp_artifacts/
+temp_reference_data_monitoring/
+
+# Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Data files (if large and not needed in the image, or handled via volumes)
+# data/
+# *.csv
+# *.json
+
+# OS specific
+.DS_Store
+Thumbs.db
